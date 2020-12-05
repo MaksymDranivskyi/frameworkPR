@@ -1,5 +1,22 @@
 ﻿using OpenQA.Selenium;
 using Serilog;
+using System.Collections.Generic;
+
+using System;
+using System.IO;
+using System.Threading;
+using System.Configuration;
+using NUnit.Framework;
+
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Interactions;
+using OpenQA.Selenium.Support.UI;
+using OpenQA.Selenium.Support.PageObjects;
+using Serilog.Events;
+using TestMaxFramework.pages;
+using TestMaxFramework.utils;
+using NSelene;
+using static NSelene.Selene;
 
 namespace TestMaxFramework.pages
 {
@@ -12,52 +29,61 @@ namespace TestMaxFramework.pages
         public MainPagePR()
         {
             pageURL = "";
-            pageTitle = "My Store";
+            pageTitle = "diplom";
         }
 
-        By saveAddress = By.Name("save_address");
-        By firstName = By.Name("billing_first_name");
-        By lastName = By.Name("billing_last_name");
-        By email = By.Name("billing_email");
-        By country = By.Id("select2-billing_country-container");
-        By street = By.Name("billing_address_1");
-        By city = By.Name("billing_city");
-        By state = By.Name("billing_state");
-        By postcode = By.Name("billing_postcode");
+
+        // FOOTER SECTION
+       
+        By priceDrop = By.PartialLinkText("Prices drop");
+        By newProducts = By.PartialLinkText("New products");
+        By bestSales = By.PartialLinkText("Best sales");
+        By delivery = By.PartialLinkText("Delivery");
+        By legalNotice = By.PartialLinkText("Legal Notice");
+        By termsConditions = By.PartialLinkText("Terms and conditions of use");
+        By aboutUs = By.PartialLinkText("About us");
+        By securePayment = By.PartialLinkText("Secure payment");
+        By contactUs = By.PartialLinkText("Contact us");
+        By sitemap = By.PartialLinkText("Sitemap");
+        By stores = By.PartialLinkText("Stores");
+        By personalInfo = By.PartialLinkText("Personal info");
+        By orders = By.PartialLinkText("Orders");
+        By creditSlips = By.PartialLinkText("Credit slips");
+        By addresses = By.PartialLinkText("Addresses");
+        
+      
+        // SEARCH
+
+        By search = By.Name("s");
+
+
+        //  /html/body/main/section/div/div/section/section/section/div/article[1]/div/div[1]/h3/a
+        //By lastName = By.Name("billing_last_name");
+        //By email = By.Name("billing_email");
+        //By country = By.Id("select2-billing_country-container");
+        //By street = By.Name("billing_address_1");
+        //By city = By.Name("billing_city");
+        //By state = By.Name("billing_state");
+        //By postcode = By.Name("billing_postcode");
 
 
 
 
-        public void SetBillingData()
+        public void Search( string text)
         {
-
-            Log.Information("Start updating user profile...");
-            findElement(firstName).Clear();
-            findElement(lastName).Clear();
-            findElement(email).Clear();
-            // findElement(country).Clear();
-            findElement(street).Clear();
-            findElement(city).Clear();
-            findElement(state).Clear();
-            findElement(postcode).Clear();
-            Log.Debug("Previous data was cleaned");
-            findElement(firstName).SendKeys(chkout.FirstName);
-            findElement(lastName).SendKeys(chkout.LastName);
-            findElement(email).SendKeys(chkout.Email);
-            //findElement(country).SendKeys(chkout.Country);
-            findElement(street).SendKeys(chkout.Street);
-            findElement(city).SendKeys(chkout.City);
-            findElement(state).SendKeys(chkout.State);
-            findElement(postcode).SendKeys(chkout.Postcode);
-            //Log.Information($"User {msg.Name} created massage '{msg.Massage}'");
-
+            findElement(search).SendKeys(text).PressEnter();
+           Log.Information($"Searching '{text}' in the store");
+        
         }
 
-        public void SaveAddress()
+        public void VerifyFooter()
         {
-            scrollToView(saveAddress);
-            sleepFor(1000);
-            clickOnElementIgnoreException(saveAddress);
+            List<By> footerElements = new List<By> { priceDrop, newProducts, bestSales, delivery, legalNotice, termsConditions, aboutUs, securePayment, contactUs, sitemap, stores, personalInfo, orders, creditSlips, addresses };
+            foreach (By element in footerElements)
+            {
+                clickOnElement(element);
+                GetWebDriver().Navigate().Back();
+            }
         }
 
     }

@@ -1,0 +1,29 @@
+[2020-11-13 03:30:18.587 +03:00] [INF] One Time Setup finished
+[2020-11-13 03:30:18.612 +03:00] [INF] Konfiguracja zakończona
+[2020-11-13 03:30:18.613 +03:00] [DBG] Gets the timeout
+[2020-11-13 03:30:18.614 +03:00] [DBG] Gets the short timeout
+[2020-11-13 03:30:18.614 +03:00] [DBG] Gets the static timeout
+[2020-11-13 03:30:18.614 +03:00] [DBG] Open this instance http://dragon-shop.epizy.com/presta/?controller=authentication&back=my-account
+[2020-11-13 03:30:23.125 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-13 03:30:23.125 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-13 03:30:23.140 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-13 03:30:23.440 +03:00] [DBG] Wyszukiwanie elementu By.Name: passwd
+[2020-11-13 03:30:23.440 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-13 03:30:23.445 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-13 03:30:23.642 +03:00] [DBG] Kliknąć element By.Name: SubmitLogin
+[2020-11-13 03:30:25.253 +03:00] [INF] User By.Name: email logined
+[2020-11-13 03:30:25.282 +03:00] [INF] Test set up
+[2020-11-13 03:30:25.295 +03:00] [INF] Profile update test starting...
+[2020-11-13 03:30:25.295 +03:00] [DBG] Open this instance http://dragon-shop.epizy.com/presta/3-women
+[2020-11-13 03:30:30.410 +03:00] [INF] Test set up
+[2020-11-13 03:30:30.615 +03:00] [INF] Profile update test starting...
+[2020-11-13 03:30:30.615 +03:00] [DBG] Open this instance http://dragon-shop.epizy.com/presta/3-women
+[2020-11-13 03:30:30.619 +03:00] [INF] Test set up
+[2020-11-13 03:30:30.627 +03:00] [INF] Profile update test starting...
+[2020-11-13 03:30:30.627 +03:00] [DBG] Open this instance http://dragon-shop.epizy.com/presta/my-account
+[2020-11-13 03:30:30.632 +03:00] [INF] Test set up
+[2020-11-13 03:30:30.633 +03:00] [INF] Profile update test starting...
+[2020-11-13 03:30:30.633 +03:00] [DBG] Open this instance http://dragon-shop.epizy.com/presta/3-women
+[2020-11-13 03:30:30.638 +03:00] [INF] Test set up
+[2020-11-13 03:30:30.676 +03:00] [INF] Profile update test starting...
+[2020-11-13 03:30:30.676 +03:00] [DBG] Open this instance http://dragon-shop.epizy.com/presta/identity

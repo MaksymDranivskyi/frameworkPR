@@ -1,0 +1,12 @@
+[2020-11-13 03:36:41.308 +03:00] [INF] One Time Setup finished
+[2020-11-13 03:36:41.361 +03:00] [INF] Konfiguracja zakończona
+[2020-11-13 03:36:41.374 +03:00] [DBG] Gets the timeout
+[2020-11-13 03:36:41.379 +03:00] [DBG] Gets the short timeout
+[2020-11-13 03:36:41.379 +03:00] [DBG] Gets the static timeout
+[2020-11-13 03:36:41.381 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-13 03:36:44.900 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-13 03:36:44.901 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-13 03:36:44.917 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-13 03:36:45.192 +03:00] [DBG] Wyszukiwanie elementu By.Name: passwd
+[2020-11-13 03:36:45.193 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-13 03:36:45.197 +03:00] [DBG] Oczekiwanie na wczytanie strony

@@ -1,0 +1,33 @@
+[2020-11-16 22:56:12.514 +03:00] [INF] One Time Setup finished
+[2020-11-16 22:56:12.628 +03:00] [INF] Konfiguracja zakończona
+[2020-11-16 22:56:12.640 +03:00] [DBG] Gets the timeout
+[2020-11-16 22:56:12.640 +03:00] [DBG] Gets the short timeout
+[2020-11-16 22:56:12.641 +03:00] [DBG] Gets the static timeout
+[2020-11-16 22:56:12.645 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-16 22:56:14.881 +03:00] [DBG] Check that the page is loaded
+[2020-11-16 22:56:14.901 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 22:56:14.920 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-16 22:56:14.926 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 22:56:14.931 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 22:56:15.207 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-16 22:56:15.208 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 22:56:15.212 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 22:56:15.398 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-16 22:56:18.721 +03:00] [INF] User By.Name: email logined
+[2020-11-16 22:56:18.721 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-11-16 22:56:20.632 +03:00] [DBG] Check that the page is loaded
+[2020-11-16 22:56:20.644 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-16 22:56:20.644 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 22:56:20.649 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 22:56:20.837 +03:00] [DBG] Wyszukiwanie elementu By.Name: passwd
+[2020-11-16 22:56:20.837 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 22:56:20.841 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 22:56:21.013 +03:00] [DBG] Kliknąć element By.Id: submit_login
+[2020-11-16 22:56:21.146 +03:00] [INF] User By.Name: email logined
+[2020-11-16 22:56:21.178 +03:00] [INF] Test set up
+[2020-11-16 22:56:21.637 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-11-16 22:56:28.807 +03:00] [DBG] Check that the page is loaded
+[2020-11-16 22:56:29.058 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/a
+[2020-11-16 22:56:32.907 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/ul/li[1]/a
+[2020-11-16 22:56:35.609 +03:00] [DBG] Kliknąć element By.Id: bulk_action_menu_order
+[2020-11-16 22:57:06.158 +03:00] [INF] Test tear down

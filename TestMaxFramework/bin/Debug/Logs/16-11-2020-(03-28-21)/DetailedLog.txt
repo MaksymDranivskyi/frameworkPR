@@ -1,0 +1,64 @@
+[2020-11-16 03:28:26.979 +03:00] [INF] One Time Setup finished
+[2020-11-16 03:28:27.052 +03:00] [INF] Konfiguracja zakończona
+[2020-11-16 03:28:27.067 +03:00] [DBG] Gets the timeout
+[2020-11-16 03:28:27.067 +03:00] [DBG] Gets the short timeout
+[2020-11-16 03:28:27.087 +03:00] [DBG] Gets the static timeout
+[2020-11-16 03:28:27.095 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-16 03:28:31.495 +03:00] [DBG] Check that the page is loaded
+[2020-11-16 03:28:31.508 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:28:31.522 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-16 03:28:31.556 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:28:31.559 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:28:31.815 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-16 03:28:31.815 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:28:31.822 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:28:32.007 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-16 03:28:34.833 +03:00] [INF] User By.Name: email logined
+[2020-11-16 03:28:34.833 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-11-16 03:28:36.910 +03:00] [DBG] Check that the page is loaded
+[2020-11-16 03:28:36.924 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-16 03:28:36.925 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:28:36.929 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:28:37.157 +03:00] [DBG] Wyszukiwanie elementu By.Name: passwd
+[2020-11-16 03:28:37.157 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:28:37.162 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:28:37.358 +03:00] [DBG] Kliknąć element By.Id: submit_login
+[2020-11-16 03:28:37.508 +03:00] [INF] User By.Name: email logined
+[2020-11-16 03:28:37.539 +03:00] [INF] Test set up
+[2020-11-16 03:28:38.012 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-11-16 03:28:43.257 +03:00] [DBG] Check that the page is loaded
+[2020-11-16 03:28:43.539 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/a
+[2020-11-16 03:28:48.301 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/ul/li[1]/a
+[2020-11-16 03:28:51.587 +03:00] [DBG] Kliknąć element By.Id: page-header-desc-configuration-add
+[2020-11-16 03:29:12.864 +03:00] [DBG] Wyszukiwanie elementu By.Name: form[step1][name][1]
+[2020-11-16 03:29:12.864 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:12.869 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:13.049 +03:00] [DBG] Wyszukiwanie elementu By.Name: form[step1][qty_0_shortcut]
+[2020-11-16 03:29:13.049 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:13.052 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:13.234 +03:00] [DBG] Wyszukiwanie elementu By.Name: form[step6][reference]
+[2020-11-16 03:29:13.234 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:13.238 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:13.385 +03:00] [DBG] Wyszukiwanie elementu By.Name: form[step1][price_shortcut]
+[2020-11-16 03:29:13.386 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:13.390 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:13.547 +03:00] [DBG] Wyszukiwanie elementu By.Name: form[step1][name][1]
+[2020-11-16 03:29:13.547 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:13.552 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:15.136 +03:00] [DBG] Wyszukiwanie elementu By.Name: form[step1][qty_0_shortcut]
+[2020-11-16 03:29:15.136 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:15.146 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:15.518 +03:00] [DBG] Wyszukiwanie elementu By.Name: form[step6][reference]
+[2020-11-16 03:29:15.518 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:15.529 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:16.116 +03:00] [DBG] Wyszukiwanie elementu By.Name: form[step1][price_shortcut]
+[2020-11-16 03:29:16.117 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:16.123 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:16.441 +03:00] [DBG] Kliknąć element By.CssSelector: #mce_31 > div
+[2020-11-16 03:29:16.644 +03:00] [DBG] Wyszukiwanie elementu By.Id: tinymce
+[2020-11-16 03:29:16.644 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:16.651 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 03:29:20.170 +03:00] [DBG] Thread sleep 1000
+[2020-11-16 03:29:21.172 +03:00] [DBG] Kliknąć element By.XPath: /html/body/div[1]/div/div[2]/div/form/div[4]/div[2]/div[2]/button[1]
+[2020-11-16 03:29:52.914 +03:00] [INF] Test tear down
+[2020-11-16 03:30:15.856 +03:00] [INF] One Time Tear Down

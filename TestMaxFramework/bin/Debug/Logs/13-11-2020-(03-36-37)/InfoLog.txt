@@ -1,0 +1,2 @@
+[2020-11-13 03:36:41.308 +03:00] [INF] One Time Setup finished
+[2020-11-13 03:36:41.361 +03:00] [INF] Konfiguracja zakończona

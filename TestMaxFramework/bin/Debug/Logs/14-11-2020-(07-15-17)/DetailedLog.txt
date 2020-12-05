@@ -1,0 +1,36 @@
+[2020-11-14 19:15:20.465 +03:00] [INF] One Time Setup finished
+[2020-11-14 19:15:20.497 +03:00] [INF] Konfiguracja zakończona
+[2020-11-14 19:15:20.500 +03:00] [DBG] Gets the timeout
+[2020-11-14 19:15:20.500 +03:00] [DBG] Gets the short timeout
+[2020-11-14 19:15:20.501 +03:00] [DBG] Gets the static timeout
+[2020-11-14 19:15:20.502 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-14 19:15:22.727 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-14 19:15:22.728 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:15:22.742 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:15:23.055 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-14 19:15:23.056 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:15:23.061 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:15:23.246 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-14 19:15:25.908 +03:00] [INF] User By.Name: email logined
+[2020-11-14 19:15:25.938 +03:00] [INF] Test set up
+[2020-11-14 19:15:26.194 +03:00] [INF] Profile update test starting...
+[2020-11-14 19:15:26.194 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/3-clothes
+[2020-11-14 19:15:27.169 +03:00] [DBG] Przewija do widoku elementu By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a
+[2020-11-14 19:15:27.172 +03:00] [DBG] Przewija do widoku elementu By.Selene: (NSelene.SeleneDriver).Find(By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a)
+[2020-11-14 19:15:27.275 +03:00] [DBG] Przewija do pozycji XY (0,705)
+[2020-11-14 19:15:27.289 +03:00] [DBG] Najechać myszą na element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/a i kliknąć element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[2]/a
+[2020-11-14 19:15:27.655 +03:00] [DBG] Thread sleep 1000
+[2020-11-14 19:15:28.765 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:15:29.653 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button
+[2020-11-14 19:15:29.851 +03:00] [DBG] Thread sleep 300
+[2020-11-14 19:15:30.152 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/cart?action=show
+[2020-11-14 19:15:31.476 +03:00] [DBG] Thread sleep 300
+[2020-11-14 19:15:31.777 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='main']/div/div[2]/div[1]/div[2]/div/a
+[2020-11-14 19:15:32.756 +03:00] [DBG] Kliknąć element By.Name: confirm-addresses
+[2020-11-14 19:15:34.385 +03:00] [DBG] Kliknąć element By.Name: confirmDeliveryOption
+[2020-11-14 19:15:35.897 +03:00] [DBG] Thread sleep 2000
+[2020-11-14 19:15:37.898 +03:00] [DBG] Wyszukiwanie elementu By.Id: payment-option-2
+[2020-11-14 19:15:37.898 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:15:37.902 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:15:53.567 +03:00] [INF] Test tear down
+[2020-11-14 19:16:01.849 +03:00] [INF] One Time Tear Down

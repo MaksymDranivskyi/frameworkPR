@@ -1,0 +1,20 @@
+[2020-11-15 18:50:07.313 +03:00] [INF] One Time Setup finished
+[2020-11-15 18:50:07.389 +03:00] [INF] Konfiguracja zakończona
+[2020-11-15 18:50:07.406 +03:00] [DBG] Gets the timeout
+[2020-11-15 18:50:07.406 +03:00] [DBG] Gets the short timeout
+[2020-11-15 18:50:07.410 +03:00] [DBG] Gets the static timeout
+[2020-11-15 18:50:07.411 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-15 18:50:10.922 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-15 18:50:10.922 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 18:50:10.940 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 18:50:11.201 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-15 18:50:11.201 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 18:50:11.205 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 18:50:11.397 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-15 18:50:13.538 +03:00] [INF] User By.Name: email logined
+[2020-11-15 18:50:13.573 +03:00] [INF] Test set up
+[2020-11-15 18:50:13.940 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/
+[2020-11-15 18:50:14.922 +03:00] [DBG] Przewija do widoku elementu By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a
+[2020-11-15 18:50:14.923 +03:00] [DBG] Przewija do widoku elementu By.Selene: (NSelene.SeleneDriver).Find(By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a)
+[2020-11-15 18:50:45.497 +03:00] [INF] Test tear down
+[2020-11-15 18:50:54.394 +03:00] [INF] One Time Tear Down

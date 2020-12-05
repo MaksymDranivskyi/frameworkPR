@@ -1,0 +1,11 @@
+[2020-12-05 17:23:14.355 +03:00] [INF] One Time Setup finished
+[2020-12-05 17:23:14.382 +03:00] [INF] Konfiguracja zakończona
+[2020-12-05 17:23:19.826 +03:00] [INF] User By.Name: email logined
+[2020-12-05 17:23:22.139 +03:00] [INF] User By.Name: email logined
+[2020-12-05 17:23:22.192 +03:00] [INF] Test set up
+[2020-12-05 17:23:30.620 +03:00] [INF] Profile update test starting...
+[2020-12-05 17:23:34.353 +03:00] [INF] Start updating user profile...
+[2020-12-05 17:23:35.270 +03:00] [INF] User Gracie created massage 'Product Fantastic Fresh Mouse Cross-group'
+[2020-12-05 17:23:36.417 +03:00] [INF] Profile update test finished
+[2020-12-05 17:23:36.422 +03:00] [INF] Test tear down
+[2020-12-05 17:23:49.942 +03:00] [INF] One Time Tear Down

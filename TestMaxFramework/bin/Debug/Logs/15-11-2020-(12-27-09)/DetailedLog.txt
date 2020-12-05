@@ -1,0 +1,48 @@
+[2020-11-15 00:27:13.432 +03:00] [INF] One Time Setup finished
+[2020-11-15 00:27:13.469 +03:00] [INF] Konfiguracja zakończona
+[2020-11-15 00:27:13.477 +03:00] [DBG] Gets the timeout
+[2020-11-15 00:27:13.477 +03:00] [DBG] Gets the short timeout
+[2020-11-15 00:27:13.478 +03:00] [DBG] Gets the static timeout
+[2020-11-15 00:27:13.478 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-15 00:27:18.351 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-15 00:27:18.351 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 00:27:18.366 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 00:27:18.675 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-15 00:27:18.675 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 00:27:18.681 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 00:27:18.885 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-15 00:27:21.894 +03:00] [INF] User By.Name: email logined
+[2020-11-15 00:27:21.933 +03:00] [INF] Test set up
+[2020-11-15 00:27:22.251 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/
+[2020-11-15 00:27:23.217 +03:00] [DBG] Kliknąć element By.PartialLinkText: Prices drop
+[2020-11-15 00:27:24.390 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:27:25.650 +03:00] [DBG] Kliknąć element By.PartialLinkText: New products
+[2020-11-15 00:27:28.786 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:27:32.144 +03:00] [DBG] Kliknąć element By.PartialLinkText: Best sales
+[2020-11-15 00:27:34.151 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:27:35.556 +03:00] [DBG] Kliknąć element By.PartialLinkText: Delivery
+[2020-11-15 00:27:36.742 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:27:37.980 +03:00] [DBG] Kliknąć element By.PartialLinkText: Legal Notice
+[2020-11-15 00:27:39.013 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:27:40.268 +03:00] [DBG] Kliknąć element By.PartialLinkText: Terms and conditions of use
+[2020-11-15 00:27:41.329 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:27:42.572 +03:00] [DBG] Kliknąć element By.PartialLinkText: About us
+[2020-11-15 00:27:43.664 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:27:44.990 +03:00] [DBG] Kliknąć element By.PartialLinkText: Secure payment
+[2020-11-15 00:27:45.955 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:27:47.180 +03:00] [DBG] Kliknąć element By.PartialLinkText: Contact us
+[2020-11-15 00:27:48.216 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:27:49.443 +03:00] [DBG] Kliknąć element By.PartialLinkText: Sitemap
+[2020-11-15 00:27:50.985 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:27:52.194 +03:00] [DBG] Kliknąć element By.PartialLinkText: Stores
+[2020-11-15 00:27:53.625 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:27:54.889 +03:00] [DBG] Kliknąć element By.PartialLinkText: Personal info
+[2020-11-15 00:27:56.077 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:27:57.255 +03:00] [DBG] Kliknąć element By.PartialLinkText: Orders
+[2020-11-15 00:27:58.279 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:27:59.445 +03:00] [DBG] Kliknąć element By.PartialLinkText: Credit slips
+[2020-11-15 00:28:00.557 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:28:01.733 +03:00] [DBG] Kliknąć element By.PartialLinkText: Addresses
+[2020-11-15 00:28:02.715 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:28:03.916 +03:00] [INF] Test tear down
+[2020-11-15 00:28:12.503 +03:00] [INF] One Time Tear Down

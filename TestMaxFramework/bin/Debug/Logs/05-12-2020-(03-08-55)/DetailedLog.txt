@@ -1,0 +1,52 @@
+[2020-12-05 15:08:59.127 +03:00] [INF] One Time Setup finished
+[2020-12-05 15:08:59.179 +03:00] [INF] Konfiguracja zakończona
+[2020-12-05 15:08:59.182 +03:00] [DBG] Gets the timeout
+[2020-12-05 15:08:59.182 +03:00] [DBG] Gets the short timeout
+[2020-12-05 15:08:59.182 +03:00] [DBG] Gets the static timeout
+[2020-12-05 15:08:59.183 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-12-05 15:09:01.327 +03:00] [DBG] Check that the page is loaded
+[2020-12-05 15:09:01.343 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 15:09:01.361 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-12-05 15:09:01.362 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 15:09:01.366 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 15:09:01.602 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-12-05 15:09:01.602 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 15:09:01.606 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 15:09:01.771 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-12-05 15:09:03.773 +03:00] [INF] User By.Name: email logined
+[2020-12-05 15:09:03.792 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-05 15:09:05.469 +03:00] [DBG] Check that the page is loaded
+[2020-12-05 15:09:05.483 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-12-05 15:09:05.483 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 15:09:05.493 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 15:09:05.654 +03:00] [DBG] Wyszukiwanie elementu By.Name: passwd
+[2020-12-05 15:09:05.654 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 15:09:05.658 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 15:09:05.817 +03:00] [DBG] Kliknąć element By.Id: submit_login
+[2020-12-05 15:09:05.947 +03:00] [INF] User By.Name: email logined
+[2020-12-05 15:09:05.980 +03:00] [INF] Test set up
+[2020-12-05 15:09:06.355 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/addresses
+[2020-12-05 15:09:10.430 +03:00] [DBG] Check that the page is loaded
+[2020-12-05 15:09:10.622 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 15:09:10.882 +03:00] [DBG] Kliknąć element By.PartialLinkText: Create new address
+[2020-12-05 15:09:41.754 +03:00] [INF] Test tear down
+[2020-12-05 15:09:41.759 +03:00] [INF] Test set up
+[2020-12-05 15:09:41.807 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-05 15:09:44.123 +03:00] [DBG] Check that the page is loaded
+[2020-12-05 15:09:44.507 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-05 15:09:44.871 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/ul/li[2]/a
+[2020-12-05 15:09:57.399 +03:00] [DBG] Kliknąć element By.XPath: //div/div[2]/div/form/table/tbody/tr[2]/td[7]/div/div/a[2]
+[2020-12-05 15:09:58.347 +03:00] [DBG] Kliknąć element By.XPath: //div/div[2]/div/form/table/tbody/tr[2]/td[7]/div/div/div/a[2]
+[2020-12-05 15:10:28.827 +03:00] [INF] Test tear down
+[2020-12-05 15:10:28.827 +03:00] [INF] Test set up
+[2020-12-05 15:10:28.948 +03:00] [INF] Profile update test starting...
+[2020-12-05 15:10:28.948 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/8-home-accessories
+[2020-12-05 15:10:29.969 +03:00] [DBG] Check that the page is loaded
+[2020-12-05 15:10:29.979 +03:00] [DBG] Przewija do widoku elementu By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a
+[2020-12-05 15:10:29.995 +03:00] [DBG] Przewija do widoku elementu By.Selene: (NSelene.SeleneDriver).Find(By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a)
+[2020-12-05 15:10:30.096 +03:00] [DBG] Przewija do pozycji XY (0,705)
+[2020-12-05 15:10:30.104 +03:00] [DBG] Najechać myszą na element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/a i kliknąć element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[2]/a
+[2020-12-05 15:10:30.459 +03:00] [DBG] Thread sleep 1000
+[2020-12-05 15:10:32.583 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 15:11:03.059 +03:00] [INF] Test tear down
+[2020-12-05 15:11:14.223 +03:00] [INF] One Time Tear Down

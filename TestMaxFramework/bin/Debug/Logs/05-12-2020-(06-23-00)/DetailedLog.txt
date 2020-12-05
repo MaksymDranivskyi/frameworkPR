@@ -1,0 +1,49 @@
+[2020-12-05 18:23:05.175 +03:00] [INF] One Time Setup finished
+[2020-12-05 18:23:05.238 +03:00] [INF] Konfiguracja zakończona
+[2020-12-05 18:23:05.252 +03:00] [DBG] Gets the timeout
+[2020-12-05 18:23:05.253 +03:00] [DBG] Gets the short timeout
+[2020-12-05 18:23:05.254 +03:00] [DBG] Gets the static timeout
+[2020-12-05 18:23:05.256 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-12-05 18:23:07.172 +03:00] [DBG] Check that the page is loaded
+[2020-12-05 18:23:07.189 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:07.207 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-12-05 18:23:07.291 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:07.296 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:07.568 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-12-05 18:23:07.568 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:07.573 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:07.747 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-12-05 18:23:09.859 +03:00] [INF] User By.Name: email logined
+[2020-12-05 18:23:09.860 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-05 18:23:11.581 +03:00] [DBG] Check that the page is loaded
+[2020-12-05 18:23:11.588 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-12-05 18:23:11.588 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:11.593 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:11.757 +03:00] [DBG] Wyszukiwanie elementu By.Name: passwd
+[2020-12-05 18:23:11.757 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:11.761 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:11.928 +03:00] [DBG] Kliknąć element By.Id: submit_login
+[2020-12-05 18:23:12.109 +03:00] [INF] User By.Name: email logined
+[2020-12-05 18:23:12.137 +03:00] [INF] Test set up
+[2020-12-05 18:23:22.030 +03:00] [INF] Profile update test starting...
+[2020-12-05 18:23:22.030 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/contact-us
+[2020-12-05 18:23:26.024 +03:00] [DBG] Check that the page is loaded
+[2020-12-05 18:23:26.040 +03:00] [INF] Start updating user profile...
+[2020-12-05 18:23:26.040 +03:00] [DBG] Wyszukiwanie elementu By.Name: from
+[2020-12-05 18:23:26.040 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:26.049 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:26.200 +03:00] [DBG] Wyszukiwanie elementu By.Name: message
+[2020-12-05 18:23:26.204 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:26.209 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:26.315 +03:00] [DBG] Previous data was cleaned
+[2020-12-05 18:23:26.434 +03:00] [DBG] Wyszukiwanie elementu By.Name: from
+[2020-12-05 18:23:26.434 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:26.438 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:26.728 +03:00] [DBG] Wyszukiwanie elementu By.Name: message
+[2020-12-05 18:23:26.728 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:26.733 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 18:23:26.911 +03:00] [INF] User Jules created massage 'radical navigate Austria'
+[2020-12-05 18:23:26.912 +03:00] [DBG] Kliknąć element By.Name: submitMessage
+[2020-12-05 18:23:28.135 +03:00] [INF] Profile update test finished
+[2020-12-05 18:23:28.139 +03:00] [INF] Test tear down
+[2020-12-05 18:23:37.813 +03:00] [INF] One Time Tear Down

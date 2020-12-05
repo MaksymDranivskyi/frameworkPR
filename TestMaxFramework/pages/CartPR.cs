@@ -25,43 +25,35 @@ namespace TestMaxFramework.pages
 
         public CartPR()
         {
-            pageURL = "order";
-            pageTitle = "Order – My Store";
+            pageURL = "cart?action=show";
+            pageTitle = "Cart";
         }
 
-        
-        By next = By.XPath("//div[2]/div/div[3]/div/p[2]/a[1]");
-
-        //processCarrier
+        By next = By.XPath("//*[@id='main']/div/div[2]/div[1]/div[2]/div/a");
         By continueShop = By.CssSelector("#center_column > p.cart_navigation.clearfix > a.button-exclusive.btn.btn-default");
 
         // SHOPPING-CART SUMMARY
-        By deleteBtn = By.XPath("/html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[6]/div/a");
-        By plusBtn = By.XPath("/html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[5]/div/a[2]");
-        By minusBtn = By.XPath("/html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[5]/div/a[1]");
-        By qty = By.XPath("/html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[5]/input[2]");
+        By deleteBtn = By.XPath("//div/div[1]/div/div[2]/ul/li[1]/div/div[3]/div/div[3]/div/a/i");
+        By plusBtn = By.XPath("//div/div[1]/div/div[2]/ul/li[1]/div/div[3]/div/div[2]/div/div[1]/div/span[3]/button[1]");
+        By minusBtn = By.XPath("//div/div[1]/div/div[2]/ul/li[1]/div/div[3]/div/div[2]/div/div[1]/div/span[3]/button[2]");
+        By qty = By.XPath("//div/div[1]/div/div[2]/ul/li[1]/div/div[3]/div/div[2]/div/div[1]/div/input");
         // deleteBtn index need
 
         // ADDRESSES
-        By message = By.Name("message");
-        By nextAddress= By.Name("processAddress");
+        By message = By.Name("delivery_message");
+        By nextAddress= By.Name("confirm-addresses");
         // SHIPPING
-        By termsService = By.Id("cgv");
-        By nextCarrier = By.Name("processCarrier");
+        By nextCarrier = By.Name("confirmDeliveryOption");
 
         // PLEASE CHOOSE YOUR PAYMENT METHOD
-        By payByCheck = By.XPath("/html/body/div/div[2]/div/div[3]/div/div/div[3]/div[2]/div/p/a");
-        By payByBank = By.XPath("/html/body/div/div[2]/div/div[3]/div/div/div[3]/div[1]/div/p/a");
+        By payByCheck = By.XPath("//div[@id='payment-option-1-container']/span");
+        By payByBank = By.Id("//div[@id='payment-option-2-container']/span");
+        By termsService = By.Id("conditions_to_approve[terms-and-conditions]");
 
         // ORDER SUMMARY
-        By confirmOrder = By.XPath("//div[2]/div/div[3]/div/form/p/button");
+        By confirmOrder = By.XPath("//*[@id='payment-confirmation']/div[1]/button");
 
-        // /html/body/div/div[2]/div/div[3]/div/div/div[3]/div[1]/div/p/a
-        //By email = By.Id("email");
-        //By orderRefeernce = By.Name("id_order");
-        //By message = By.Name("message");
-        //By sendMessage = By.Name("submitMessage");
-        //By productId = By.Name("id_product");
+
 
 
 
@@ -70,12 +62,15 @@ namespace TestMaxFramework.pages
         public void ConfirmOrder()
         {
             sleepFor(300);
-            S(next).Click();
-            S(nextAddress).Click();
+            clickOnElement(next);
+            clickOnElement(nextAddress);
+            clickOnElement(nextCarrier);
+            // WaitUntilElementClickable(payByCheck, 5000);
+            sleepFor(2000);
+            findElement(payByCheck).Click();
+            sleepFor(2000);
             checkElement(termsService);
-            S(nextCarrier).Click();
-            S(payByCheck).Click();
-            S(confirmOrder).Click();
+            clickOnElement(confirmOrder);
         }
 
 

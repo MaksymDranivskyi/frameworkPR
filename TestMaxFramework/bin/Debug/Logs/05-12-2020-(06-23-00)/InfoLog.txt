@@ -1,0 +1,11 @@
+[2020-12-05 18:23:05.175 +03:00] [INF] One Time Setup finished
+[2020-12-05 18:23:05.238 +03:00] [INF] Konfiguracja zakończona
+[2020-12-05 18:23:09.859 +03:00] [INF] User By.Name: email logined
+[2020-12-05 18:23:12.109 +03:00] [INF] User By.Name: email logined
+[2020-12-05 18:23:12.137 +03:00] [INF] Test set up
+[2020-12-05 18:23:22.030 +03:00] [INF] Profile update test starting...
+[2020-12-05 18:23:26.040 +03:00] [INF] Start updating user profile...
+[2020-12-05 18:23:26.911 +03:00] [INF] User Jules created massage 'radical navigate Austria'
+[2020-12-05 18:23:28.135 +03:00] [INF] Profile update test finished
+[2020-12-05 18:23:28.139 +03:00] [INF] Test tear down
+[2020-12-05 18:23:37.813 +03:00] [INF] One Time Tear Down

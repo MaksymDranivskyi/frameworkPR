@@ -1,0 +1,30 @@
+[2020-11-16 00:36:22.884 +03:00] [INF] One Time Setup finished
+[2020-11-16 00:36:22.951 +03:00] [INF] Konfiguracja zakończona
+[2020-11-16 00:36:22.965 +03:00] [DBG] Gets the timeout
+[2020-11-16 00:36:22.966 +03:00] [DBG] Gets the short timeout
+[2020-11-16 00:36:22.966 +03:00] [DBG] Gets the static timeout
+[2020-11-16 00:36:22.971 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-16 00:36:24.853 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-16 00:36:24.853 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 00:36:24.868 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 00:36:25.161 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-16 00:36:25.161 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 00:36:25.167 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 00:36:25.352 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-16 00:36:27.412 +03:00] [INF] User By.Name: email logined
+[2020-11-16 00:36:27.412 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-11-16 00:36:29.041 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-16 00:36:29.041 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 00:36:29.048 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 00:36:29.217 +03:00] [DBG] Wyszukiwanie elementu By.Name: passwd
+[2020-11-16 00:36:29.217 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 00:36:29.221 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 00:36:29.383 +03:00] [DBG] Kliknąć element By.Id: submit_login
+[2020-11-16 00:36:29.515 +03:00] [INF] User By.Name: email logined
+[2020-11-16 00:36:29.551 +03:00] [INF] Test set up
+[2020-11-16 00:36:29.955 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-11-16 00:36:34.944 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/a
+[2020-11-16 00:36:43.138 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/ul/li[1]/a
+[2020-11-16 00:36:49.835 +03:00] [DBG] Kliknąć element By.XPath: //div/div[2]/div/form/div[2]/div/div/table/tbody/tr[1]/td[1]/div/label/input
+[2020-11-16 00:36:54.263 +03:00] [INF] Test tear down
+[2020-11-16 00:37:03.975 +03:00] [INF] One Time Tear Down

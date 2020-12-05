@@ -1,0 +1,40 @@
+[2020-11-15 00:25:53.411 +03:00] [INF] One Time Setup finished
+[2020-11-15 00:25:53.550 +03:00] [INF] Konfiguracja zakończona
+[2020-11-15 00:25:53.560 +03:00] [DBG] Gets the timeout
+[2020-11-15 00:25:53.562 +03:00] [DBG] Gets the short timeout
+[2020-11-15 00:25:53.563 +03:00] [DBG] Gets the static timeout
+[2020-11-15 00:25:53.575 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-15 00:25:56.375 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-15 00:25:56.375 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 00:25:56.388 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 00:25:56.667 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-15 00:25:56.667 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 00:25:56.674 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 00:25:57.251 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-15 00:25:59.756 +03:00] [INF] User By.Name: email logined
+[2020-11-15 00:25:59.799 +03:00] [INF] Test set up
+[2020-11-15 00:26:00.119 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/
+[2020-11-15 00:26:01.365 +03:00] [DBG] Kliknąć element By.PartialLinkText: Prices drop
+[2020-11-15 00:26:02.691 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:26:03.922 +03:00] [DBG] Kliknąć element By.PartialLinkText: Prices drop
+[2020-11-15 00:26:05.132 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:26:06.327 +03:00] [DBG] Kliknąć element By.PartialLinkText: Prices drop
+[2020-11-15 00:26:07.336 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:26:08.497 +03:00] [DBG] Kliknąć element By.PartialLinkText: Prices drop
+[2020-11-15 00:26:09.461 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:26:10.637 +03:00] [DBG] Kliknąć element By.PartialLinkText: Prices drop
+[2020-11-15 00:26:11.727 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:26:12.928 +03:00] [DBG] Kliknąć element By.PartialLinkText: Prices drop
+[2020-11-15 00:26:13.921 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:26:15.090 +03:00] [DBG] Kliknąć element By.PartialLinkText: Prices drop
+[2020-11-15 00:26:16.359 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:26:17.653 +03:00] [DBG] Kliknąć element By.PartialLinkText: Prices drop
+[2020-11-15 00:26:18.797 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:26:20.010 +03:00] [DBG] Kliknąć element By.PartialLinkText: Prices drop
+[2020-11-15 00:26:21.080 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:26:22.250 +03:00] [DBG] Kliknąć element By.PartialLinkText: Prices drop
+[2020-11-15 00:26:23.294 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:26:24.480 +03:00] [DBG] Kliknąć element By.PartialLinkText: Prices drop
+[2020-11-15 00:26:25.528 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:26:26.782 +03:00] [DBG] Kliknąć element By.PartialLinkText: Prices drop
+[2020-11-15 00:26:27.796 +03:00] [DBG] Thread sleep 500

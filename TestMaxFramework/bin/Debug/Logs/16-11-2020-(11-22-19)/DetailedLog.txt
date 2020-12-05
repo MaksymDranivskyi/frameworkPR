@@ -1,0 +1,64 @@
+[2020-11-16 23:22:22.034 +03:00] [INF] One Time Setup finished
+[2020-11-16 23:22:22.099 +03:00] [INF] Konfiguracja zakończona
+[2020-11-16 23:22:22.116 +03:00] [DBG] Gets the timeout
+[2020-11-16 23:22:22.116 +03:00] [DBG] Gets the short timeout
+[2020-11-16 23:22:22.116 +03:00] [DBG] Gets the static timeout
+[2020-11-16 23:22:22.120 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-16 23:22:24.101 +03:00] [DBG] Check that the page is loaded
+[2020-11-16 23:22:24.123 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 23:22:24.140 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-16 23:22:24.141 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 23:22:24.145 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 23:22:24.410 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-16 23:22:24.410 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 23:22:24.415 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 23:22:24.582 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-16 23:22:26.665 +03:00] [INF] User By.Name: email logined
+[2020-11-16 23:22:26.665 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-11-16 23:22:28.610 +03:00] [DBG] Check that the page is loaded
+[2020-11-16 23:22:28.618 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-16 23:22:28.619 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 23:22:28.624 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 23:22:28.810 +03:00] [DBG] Wyszukiwanie elementu By.Name: passwd
+[2020-11-16 23:22:28.810 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 23:22:28.814 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 23:22:28.994 +03:00] [DBG] Kliknąć element By.Id: submit_login
+[2020-11-16 23:22:29.144 +03:00] [INF] User By.Name: email logined
+[2020-11-16 23:22:29.176 +03:00] [INF] Test set up
+[2020-11-16 23:22:29.632 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-11-16 23:22:33.662 +03:00] [DBG] Check that the page is loaded
+[2020-11-16 23:22:34.014 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[3]/a
+[2020-11-16 23:22:39.431 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[3]/ul/li[1]/a
+[2020-11-16 23:22:41.474 +03:00] [DBG] Kliknąć element By.XPath: //div/div[2]/table/tbody/tr[2]/td[12]/div/a
+[2020-11-16 23:22:45.263 +03:00] [INF] Test tear down
+[2020-11-16 23:22:45.284 +03:00] [INF] Test set up
+[2020-11-16 23:22:45.285 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-11-16 23:22:47.956 +03:00] [DBG] Check that the page is loaded
+[2020-11-16 23:22:48.341 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[3]/a
+[2020-11-16 23:22:49.087 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[3]/ul/li[1]/a
+[2020-11-16 23:22:52.482 +03:00] [DBG] Kliknąć element By.Id: bulk_action_menu_order
+[2020-11-16 23:22:53.559 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='form-order']/div/div[3]/div/div/ul/li[1]/a
+[2020-11-16 23:22:53.887 +03:00] [DBG] Kliknąć element By.Id: bulk_action_menu_order
+[2020-11-16 23:22:54.056 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='form-order']/div/div[3]/div/div/ul/li[4]/a
+[2020-11-16 23:22:56.336 +03:00] [DBG] Wybrać element By.Id: id_order_state według stringu 2
+[2020-11-16 23:22:56.336 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 23:22:57.235 +03:00] [DBG] Kliknąć element By.XPath: //div/div[2]/div/form/div[2]/button[2]
+[2020-11-16 23:23:00.931 +03:00] [INF] Test tear down
+[2020-11-16 23:23:00.932 +03:00] [INF] Test set up
+[2020-11-16 23:23:00.936 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-11-16 23:23:03.057 +03:00] [DBG] Check that the page is loaded
+[2020-11-16 23:23:03.425 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[3]/a
+[2020-11-16 23:23:06.927 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[3]/ul/li[1]/a
+[2020-11-16 23:23:10.105 +03:00] [DBG] Thread sleep 1000
+[2020-11-16 23:23:11.107 +03:00] [DBG] Kliknąć element By.XPath: //div/div[2]/table/tbody/tr[1]/td[1]/input
+[2020-11-16 23:23:11.680 +03:00] [DBG] Thread sleep 1000
+[2020-11-16 23:23:12.681 +03:00] [DBG] Kliknąć element By.XPath: //div/div[2]/table/tbody/tr[2]/td[1]/input
+[2020-11-16 23:23:12.815 +03:00] [DBG] Thread sleep 1000
+[2020-11-16 23:23:13.816 +03:00] [DBG] Kliknąć element By.XPath: //div/div[2]/table/tbody/tr[4]/td[1]/input
+[2020-11-16 23:23:13.947 +03:00] [DBG] Kliknąć element By.Id: bulk_action_menu_order
+[2020-11-16 23:23:14.085 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='form-order']/div/div[3]/div/div/ul/li[4]/a
+[2020-11-16 23:23:15.487 +03:00] [DBG] Wybrać element By.Id: id_order_state według stringu 4
+[2020-11-16 23:23:15.487 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 23:23:16.493 +03:00] [DBG] Kliknąć element By.XPath: //div/div[2]/div/form/div[2]/button[2]
+[2020-11-16 23:23:24.699 +03:00] [INF] Test tear down
+[2020-11-16 23:23:34.235 +03:00] [INF] One Time Tear Down

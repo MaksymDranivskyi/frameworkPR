@@ -1,0 +1,10 @@
+[2020-11-14 19:44:04.231 +03:00] [INF] One Time Setup finished
+[2020-11-14 19:44:04.312 +03:00] [INF] Konfiguracja zakończona
+[2020-11-14 19:44:09.022 +03:00] [INF] User By.Name: email logined
+[2020-11-14 19:44:09.062 +03:00] [INF] Test set up
+[2020-11-14 19:44:09.332 +03:00] [INF] Profile update test starting...
+[2020-11-14 19:44:10.276 +03:00] [INF] Start updating user profile...
+[2020-11-14 19:44:11.272 +03:00] [INF] User Gail created massage 'Plains solid state'
+[2020-11-14 19:44:12.532 +03:00] [INF] Profile update test finished
+[2020-11-14 19:44:12.535 +03:00] [INF] Test tear down
+[2020-11-14 19:44:21.582 +03:00] [INF] One Time Tear Down

@@ -1,0 +1,8 @@
+[2020-11-16 00:53:11.586 +03:00] [INF] One Time Setup finished
+[2020-11-16 00:53:11.677 +03:00] [INF] Konfiguracja zakończona
+[2020-11-16 00:53:11.695 +03:00] [DBG] Gets the timeout
+[2020-11-16 00:53:11.699 +03:00] [DBG] Gets the short timeout
+[2020-11-16 00:53:11.700 +03:00] [DBG] Gets the static timeout
+[2020-11-16 00:53:11.710 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-16 00:53:13.933 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-16 00:53:29.348 +03:00] [INF] One Time Tear Down

@@ -17,47 +17,47 @@ using static NSelene.Selene;
 
 namespace TestMaxFramework.pages
 {
-    class MyAccountPR : BasePagePR
+    class ContactUsPR : BasePagePR
     {
-        private static MyAccountPR instance;
-        public static MyAccountPR Instance = (instance != null) ? instance : new MyAccountPR();
+        private static ContactUsPR instance;
+        public static ContactUsPR Instance = (instance != null) ? instance : new ContactUsPR();
         Contact msg = new Contact().FillIn();
 
-        public MyAccountPR()
+        public ContactUsPR()
         {
-            pageURL = "my-account";
-            pageTitle = "My Account – My Store";
+            pageURL = "contact-us";
+            pageTitle = "Contact us";
         }
 
-        By orderHistory = By.XPath("//div/div[3]/div/div/div/ul/li[1]/a");
-        By myCreditSlips = By.XPath("//div/div[3]/div/div/div/ul/li[2]/a");
-        By myAdresses = By.XPath("//div/div[3]/div/div/div/ul/li[3]/a");
-        By myPersonalInfo = By.XPath("//div/div[3]/div/div/div/ul/li[4]/a");
-        
+        By subjectHeading = By.Name("id_contact");
+        By email = By.Name("from");
+        By orderRefeernce = By.Name("id_order");
+        By message = By.Name("message");
+        By sendMessage = By.Name("submitMessage");
+       
 
 
 
 
-        public void OdredHistory()
+        public void CreateMassage()
         {
 
-            clickOnElement(orderHistory);
-
+            Log.Information("Start updating user profile...");
+            findElement(email).Clear();
+            findElement(message).Clear();
+            Log.Debug("Previous data was cleaned");
+            selectByIndex(subjectHeading, 1, 30);
+            findElement(email).SendKeys(msg.Email);
+            selectByIndex(orderRefeernce, 1, 30);
+            findElement(message).SendKeys(msg.Massage);
+            Log.Information($"User {msg.Name} created massage '{msg.Massage}'");
+           
         }
 
-        public void MyCreditSlips()
+        public void AddMassage()
         {
-            clickOnElement(myCreditSlips);
+            clickOnElement(sendMessage);
         }
 
-        public void MyAddresses()
-        {
-            clickOnElement(myAdresses);
-        }
-
-        public void MyPersonalInfo()
-        {
-            clickOnElement(myPersonalInfo);
-        }
     }
 }

@@ -1,0 +1,20 @@
+[2020-11-14 04:13:55.192 +03:00] [INF] One Time Setup finished
+[2020-11-14 04:13:55.269 +03:00] [INF] Konfiguracja zakończona
+[2020-11-14 04:13:55.282 +03:00] [DBG] Gets the timeout
+[2020-11-14 04:13:55.282 +03:00] [DBG] Gets the short timeout
+[2020-11-14 04:13:55.283 +03:00] [DBG] Gets the static timeout
+[2020-11-14 04:13:55.285 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-14 04:13:58.714 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-14 04:13:58.715 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 04:13:58.731 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 04:13:59.017 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-14 04:13:59.017 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 04:13:59.021 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 04:13:59.204 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-14 04:14:01.355 +03:00] [INF] User By.Name: email logined
+[2020-11-14 04:14:01.384 +03:00] [INF] Test set up
+[2020-11-14 04:14:01.637 +03:00] [INF] Profile update test starting...
+[2020-11-14 04:14:01.637 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/cart?action=show
+[2020-11-14 04:14:02.469 +03:00] [DBG] Thread sleep 300
+[2020-11-14 04:14:33.379 +03:00] [INF] Test tear down
+[2020-11-14 04:14:42.400 +03:00] [INF] One Time Tear Down

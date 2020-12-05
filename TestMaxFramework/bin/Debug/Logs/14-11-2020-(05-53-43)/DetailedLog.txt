@@ -1,0 +1,24 @@
+[2020-11-14 17:53:47.098 +03:00] [INF] One Time Setup finished
+[2020-11-14 17:53:47.199 +03:00] [INF] Konfiguracja zakończona
+[2020-11-14 17:53:47.206 +03:00] [DBG] Gets the timeout
+[2020-11-14 17:53:47.210 +03:00] [DBG] Gets the short timeout
+[2020-11-14 17:53:47.210 +03:00] [DBG] Gets the static timeout
+[2020-11-14 17:53:47.212 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-14 17:53:58.112 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-14 17:54:03.562 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 17:54:04.423 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 17:54:08.195 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-14 17:54:10.871 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 17:54:11.317 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 17:54:12.994 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-14 17:54:20.155 +03:00] [INF] User By.Name: email logined
+[2020-11-14 17:54:26.025 +03:00] [INF] Test set up
+[2020-11-14 17:54:32.182 +03:00] [INF] Profile update test starting...
+[2020-11-14 17:54:35.511 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/3-clothes
+[2020-11-14 17:54:37.945 +03:00] [DBG] Przewija do widoku elementu By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a
+[2020-11-14 17:54:37.947 +03:00] [DBG] Przewija do widoku elementu By.Selene: (NSelene.SeleneDriver).Find(By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a)
+[2020-11-14 17:54:38.049 +03:00] [DBG] Przewija do pozycji XY (0,705)
+[2020-11-14 17:54:38.057 +03:00] [DBG] Najechać myszą na element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/a i kliknąć element By.XPath: //*[@id='js-product-list']/div[1]/article[{element}]/div/div[2]/a
+[2020-11-14 17:54:38.078 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 17:54:38.083 +03:00] [DBG] Thread sleep 3000
+[2020-11-14 17:54:41.084 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button

@@ -33,9 +33,12 @@ namespace TestMaxFramework
                      
             LoginPagePR login = LoginPagePR.Instance;
             login.open();
-            login.loginUserPR("maximdran@gmail.com", "qwerty123");
+            login.LoginUserPR("maximdran@gmail.com", "qwerty123");
 
-
+            AdminLoginPage admlogin = AdminLoginPage.Instance;
+            admlogin.open();
+            admlogin.LoginAdmin("qadragon.testing@gmail.com", "password1");
+            
         }
 
 

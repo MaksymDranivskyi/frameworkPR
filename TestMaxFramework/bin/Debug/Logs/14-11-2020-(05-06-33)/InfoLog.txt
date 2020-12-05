@@ -1,0 +1,5 @@
+[2020-11-14 17:06:37.700 +03:00] [INF] One Time Setup finished
+[2020-11-14 17:06:37.753 +03:00] [INF] Konfiguracja zakończona
+[2020-11-14 17:07:22.344 +03:00] [INF] User By.Name: email logined
+[2020-11-14 17:07:31.452 +03:00] [INF] Test set up
+[2020-11-14 17:07:38.372 +03:00] [INF] Profile update test starting...

@@ -1,0 +1,30 @@
+[2020-11-15 01:40:14.668 +03:00] [INF] One Time Setup finished
+[2020-11-15 01:40:14.712 +03:00] [INF] Konfiguracja zakończona
+[2020-11-15 01:40:14.728 +03:00] [DBG] Gets the timeout
+[2020-11-15 01:40:14.733 +03:00] [DBG] Gets the short timeout
+[2020-11-15 01:40:14.734 +03:00] [DBG] Gets the static timeout
+[2020-11-15 01:40:14.735 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-15 01:40:17.945 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-15 01:40:17.946 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 01:40:17.997 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 01:40:18.442 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-15 01:40:18.442 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 01:40:18.447 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 01:40:18.629 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-15 01:40:20.910 +03:00] [INF] User By.Name: email logined
+[2020-11-15 01:40:20.950 +03:00] [INF] Test set up
+[2020-11-15 01:40:21.208 +03:00] [INF] Profile update test starting...
+[2020-11-15 01:40:21.208 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/my-account
+[2020-11-15 01:40:21.994 +03:00] [DBG] Kliknąć element By.Id: history-link
+[2020-11-15 01:40:23.274 +03:00] [DBG] Thread sleep 500
+[2020-11-15 01:40:24.556 +03:00] [DBG] Kliknąć element By.Id: order-slips-link
+[2020-11-15 01:40:26.068 +03:00] [DBG] Thread sleep 500
+[2020-11-15 01:40:27.308 +03:00] [DBG] Kliknąć element By.Id: addresses-link
+[2020-11-15 01:40:28.373 +03:00] [DBG] Thread sleep 500
+[2020-11-15 01:40:29.586 +03:00] [DBG] Kliknąć element By.Id: identity-link
+[2020-11-15 01:40:30.724 +03:00] [DBG] Thread sleep 500
+[2020-11-15 01:40:31.977 +03:00] [DBG] Kliknąć element By.Id: psgdpr-link
+[2020-11-15 01:40:33.203 +03:00] [DBG] Thread sleep 500
+[2020-11-15 01:40:34.294 +03:00] [INF] Profile update test finished
+[2020-11-15 01:40:34.298 +03:00] [INF] Test tear down
+[2020-11-15 01:40:43.228 +03:00] [INF] One Time Tear Down

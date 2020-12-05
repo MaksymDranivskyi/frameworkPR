@@ -1,0 +1,20 @@
+[2020-11-15 00:21:43.390 +03:00] [INF] One Time Setup finished
+[2020-11-15 00:21:43.477 +03:00] [INF] Konfiguracja zakończona
+[2020-11-15 00:21:43.489 +03:00] [DBG] Gets the timeout
+[2020-11-15 00:21:43.489 +03:00] [DBG] Gets the short timeout
+[2020-11-15 00:21:43.489 +03:00] [DBG] Gets the static timeout
+[2020-11-15 00:21:43.490 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-15 00:21:49.607 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-15 00:21:49.608 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 00:21:49.622 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 00:21:49.909 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-15 00:21:49.909 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 00:21:49.915 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 00:21:50.153 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-15 00:21:52.904 +03:00] [INF] User By.Name: email logined
+[2020-11-15 00:21:52.933 +03:00] [INF] Test set up
+[2020-11-15 00:21:53.615 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/
+[2020-11-15 00:21:55.403 +03:00] [DBG] Kliknąć element By.PartialLinkText: Prices drop
+[2020-11-15 00:21:57.998 +03:00] [DBG] Thread sleep 500
+[2020-11-15 00:22:00.987 +03:00] [INF] Test tear down
+[2020-11-15 00:22:14.794 +03:00] [INF] One Time Tear Down

@@ -523,34 +523,40 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="API\ApiFixture.cs" />
-    <Compile Include="API\ApiTests.cs" />
+    <Compile Include="pages\AdminDashboard.cs" />
+    <Compile Include="pages\AdminNewCustomerPage.cs" />
+    <Compile Include="pages\AdminNewCategoryPage.cs" />
+    <Compile Include="pages\AdminNewProductPage.cs" />
+    <Compile Include="pages\AdminCategoryPage.cs" />
+    <Compile Include="pages\AdminCustomerPage.cs" />
+    <Compile Include="pages\CreateAddressPR.cs" />
+    <Compile Include="pages\AdminLoginPage.cs" />
+    <Compile Include="pages\MyOrdersPR.cs" />
+    <Compile Include="pages\MyAddressesPR.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="utils\DriverProvider.cs" />
     <Compile Include="utils\Pages.cs" />
     <Compile Include="UITests\WPTestSuite.cs" />
-    <Compile Include="utils\BaseTestWP.cs" />
     <Compile Include="utils\Contact.cs" />
-    <Compile Include="pages\ShopPageWP.cs" />
     <Compile Include="utils\Checkout.cs" />
     <Compile Include="utils\Cart.cs" />
     <Compile Include="utils\Billing.cs" />
-    <Compile Include="utils\ProfileWP.cs" />
-    <Compile Include="pages\ProfilePageWP.cs" />
-    <Compile Include="utils\AdminTestWP.cs" />
-    <Compile Include="pages\OrderPageAdmin.cs" />
-    <Compile Include="UITests\WPAdminSuite.cs" />
-    <Compile Include="pages\ProductPageAdmin.cs" />
+    <Compile Include="utils\Category.cs" />
+    <Compile Include="utils\Profile.cs" />
+    <Compile Include="utils\AdminTestPR.cs" />
+    <Compile Include="pages\AdminOrderPage.cs" />
+    <Compile Include="pages\AdminProductPage.cs" />
     <Compile Include="utils\Product.cs" />
     <Compile Include="Reports\Report.cs" />
     <Compile Include="pages\BasePagePR.cs" />
     <Compile Include="pages\MainPagePR.cs" />
     <Compile Include="utils\BaseTestPR.cs" />
     <Compile Include="pages\LoginPagePR.cs" />
-    <Compile Include="pages\ContactUsPR.cs" />
+    <Compile Include="pages\MyAccountPR.cs" />
     <Compile Include="pages\CategoryPR.cs" />
     <Compile Include="pages\CartPR.cs" />
     <Compile Include="pages\ProductPR.cs" />
-    <Compile Include="pages\MyAccountPR.cs" />
+    <Compile Include="pages\ContactUsPR.cs" />
     <Compile Include="pages\PersonalInfoPR.cs" />
   </ItemGroup>
   <ItemGroup>

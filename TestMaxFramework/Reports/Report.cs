@@ -88,8 +88,8 @@ namespace TestMaxFramework.Reports
             {
                 case TestStatus.Failed:
                     logstatus = Status.Fail;
-                    //test.Fail("Screenshot utworzono").AddScreenCaptureFromPath(DriverProvider.TakeScreen(Path.Combine($@"E:\repos\Framework\TestMaxFramework\bin\Debug\Reports\{currentDateTime}", NUnit.Framework.TestContext.CurrentContext.Test.Name.ToString())));
-                    test.Fail("Screenshot utworzono").AddScreenCaptureFromPath(DriverProvider.TakeScreen(Path.Combine($@"Reports/{currentDateTime}", NUnit.Framework.TestContext.CurrentContext.Test.Name.ToString())));
+                    test.Fail("Screenshot utworzono").AddScreenCaptureFromPath(DriverProvider.TakeScreen(Path.Combine($@"c:\repos\Framework\TestMaxFramework\bin\Debug\Reports\{currentDateTime}", NUnit.Framework.TestContext.CurrentContext.Test.Name.ToString())));
+                    //test.Fail("Screenshot utworzono").AddScreenCaptureFromPath(DriverProvider.TakeScreen(Path.Combine($@"Reports/{currentDateTime}", NUnit.Framework.TestContext.CurrentContext.Test.Name.ToString())));
 
                     break;
                 case TestStatus.Inconclusive:
@@ -116,11 +116,11 @@ namespace TestMaxFramework.Reports
         [OneTimeSetUp]
         public void beginReportExecution()
         {
-
-            //htmlReporter = new ExtentHtmlReporter($@"E:\repos\Framework\TestMaxFramework\bin\Debug\Reports\{currentDateTime}\Html\");
-            //loggerReporter = new ExtentLoggerReporter($@"E:\repos\Framework\TestMaxFramework\bin\Debug\Reports\{currentDateTime}\Logger\");
-            htmlReporter = new ExtentHtmlReporter($@"Reports/{currentDateTime}/Html/");
-            loggerReporter = new ExtentLoggerReporter($@"Reports/{currentDateTime}/Logger/");
+          
+            htmlReporter = new ExtentHtmlReporter($@"c:\repos\Framework\TestMaxFramework\bin\Debug\Reports\{currentDateTime}\Html\");
+            loggerReporter = new ExtentLoggerReporter($@"c:\repos\Framework\TestMaxFramework\bin\Debug\Reports\{currentDateTime}\Logger\");
+            //htmlReporter = new ExtentHtmlReporter($@"Reports/{currentDateTime}/Html/");
+            //loggerReporter = new ExtentLoggerReporter($@"Reports/{currentDateTime}/Logger/");
 
             extent = new ExtentReports();
             extent.AttachReporter(htmlReporter);
@@ -149,10 +149,10 @@ namespace TestMaxFramework.Reports
 
 
             extent.Flush();
-            Open($@"file:///Users/apiko-327/Documents/Diplom/Frameworks-Versja11.03.20/TestMaxFramework/bin/Debug/Reports/{currentDateTime}/Html/index.html");
-
+            //Open($@"file:///Users/apiko-327/Documents/Diplom/Frameworks-Versja11.03.20/TestMaxFramework/bin/Debug/Reports/{currentDateTime}/Html/index.html");
+            Open($@"c:\repos\Framework\TestMaxFramework\bin\Debug\Reports\{currentDateTime}\Html\index.html");
             Log.Information("One Time Tear Down");
-            //Open($@"E:\repos\Framework\TestMaxFramework\bin\Debug\Reports\{currentDateTime}\Html\index.html");
+          //  Open($@"c:\repos\Framework\TestMaxFramework\bin\Debug\Reports\{currentDateTime}\Html\index.html");
             
 
 

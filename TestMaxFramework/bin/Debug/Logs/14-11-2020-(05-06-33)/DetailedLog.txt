@@ -1,0 +1,19 @@
+[2020-11-14 17:06:37.700 +03:00] [INF] One Time Setup finished
+[2020-11-14 17:06:37.753 +03:00] [INF] Konfiguracja zakończona
+[2020-11-14 17:06:37.784 +03:00] [DBG] Gets the timeout
+[2020-11-14 17:06:37.791 +03:00] [DBG] Gets the short timeout
+[2020-11-14 17:06:37.792 +03:00] [DBG] Gets the static timeout
+[2020-11-14 17:06:37.799 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-14 17:06:56.082 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-14 17:06:58.899 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 17:06:59.585 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 17:07:02.499 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-14 17:07:05.093 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 17:07:05.541 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 17:07:09.468 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-14 17:07:22.344 +03:00] [INF] User By.Name: email logined
+[2020-11-14 17:07:31.452 +03:00] [INF] Test set up
+[2020-11-14 17:07:38.372 +03:00] [INF] Profile update test starting...
+[2020-11-14 17:07:42.780 +03:00] [DBG] Najechać myszą na element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/a i kliknąć element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[2]/a
+[2020-11-14 17:07:42.849 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 17:07:42.856 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button

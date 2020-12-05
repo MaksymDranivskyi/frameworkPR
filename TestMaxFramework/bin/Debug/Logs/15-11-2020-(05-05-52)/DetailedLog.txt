@@ -1,0 +1,19 @@
+[2020-11-15 17:05:55.279 +03:00] [INF] One Time Setup finished
+[2020-11-15 17:05:55.341 +03:00] [INF] Konfiguracja zakończona
+[2020-11-15 17:05:55.355 +03:00] [DBG] Gets the timeout
+[2020-11-15 17:05:55.358 +03:00] [DBG] Gets the short timeout
+[2020-11-15 17:05:55.359 +03:00] [DBG] Gets the static timeout
+[2020-11-15 17:05:55.366 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-15 17:05:59.025 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-15 17:05:59.025 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 17:05:59.045 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 17:05:59.305 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-15 17:05:59.305 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 17:05:59.309 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 17:05:59.490 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-15 17:06:01.638 +03:00] [INF] User By.Name: email logined
+[2020-11-15 17:06:01.673 +03:00] [INF] Test set up
+[2020-11-15 17:06:02.247 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/addresses
+[2020-11-15 17:06:03.454 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='content']/div[3]/a
+[2020-11-15 17:06:33.922 +03:00] [INF] Test tear down
+[2020-11-15 17:06:42.609 +03:00] [INF] One Time Tear Down

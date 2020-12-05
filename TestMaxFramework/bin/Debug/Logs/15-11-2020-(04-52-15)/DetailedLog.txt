@@ -1,0 +1,25 @@
+[2020-11-15 16:52:19.889 +03:00] [INF] One Time Setup finished
+[2020-11-15 16:52:19.958 +03:00] [INF] Konfiguracja zakończona
+[2020-11-15 16:52:19.972 +03:00] [DBG] Gets the timeout
+[2020-11-15 16:52:19.972 +03:00] [DBG] Gets the short timeout
+[2020-11-15 16:52:19.975 +03:00] [DBG] Gets the static timeout
+[2020-11-15 16:52:19.976 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-15 16:52:22.320 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-15 16:52:22.321 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 16:52:22.337 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 16:52:22.570 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-15 16:52:22.570 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 16:52:22.574 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 16:52:22.742 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-15 16:52:24.881 +03:00] [INF] User By.Name: email logined
+[2020-11-15 16:52:24.919 +03:00] [INF] Test set up
+[2020-11-15 16:52:25.311 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/addresses
+[2020-11-15 16:52:26.021 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='content']/div[3]/a
+[2020-11-15 16:52:26.901 +03:00] [DBG] Wyszukiwanie elementu By.Name: alias
+[2020-11-15 16:52:26.901 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 16:52:26.912 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 16:52:27.044 +03:00] [DBG] Wyszukiwanie elementu By.Name: firstaname
+[2020-11-15 16:52:27.044 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 16:52:27.049 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 16:52:57.494 +03:00] [INF] Test tear down
+[2020-11-15 16:53:07.447 +03:00] [INF] One Time Tear Down

@@ -23,7 +23,7 @@ namespace TestMaxFramework.pages
 {
     public class BasePagePR:Report
     {
-        public string BASE_URL = "http://dragon-shop.epizy.com/presta/";
+        public string BASE_URL = "http://localhost/prestashop_1.7.6.8/";
         public string pageURL = "";
         public string pageTitle = "";
 
@@ -150,6 +150,11 @@ namespace TestMaxFramework.pages
             {
             }
             Open(DriverProvider.baseURL + pageURL);
+            if (!isPageLoaded())
+            {
+                waitForPageToLoad();
+            }
+            
         }
 
         public void search(string text)
@@ -204,9 +209,14 @@ namespace TestMaxFramework.pages
             int timeoutForFindElement = timeout.Length < 1 ? DEFAULT_TIMEOUT : timeout[0];
             try
             {
+                S(toHover).Hover();
+                WaitUntilElementVisible(toClick, 300);
+                sleepFor(1000);
+                S(toClick).Click();
 
-                ((IJavaScriptExecutor)GetWebDriver()).ExecuteScript(mouseOverScript, S(toHover));
-                ((IJavaScriptExecutor)GetWebDriver()).ExecuteScript(clickScript, S(toClick));
+                //((IJavaScriptExecutor)GetWebDriver()).ExecuteScript(mouseOverScript, S(toHover));
+               // WaitUntilElementClickable(toClick,3000);
+                //((IJavaScriptExecutor)GetWebDriver()).ExecuteScript(clickScript, S(toClick));
             }
             catch (Exception)
             {
@@ -272,7 +282,6 @@ namespace TestMaxFramework.pages
             bool pageIsLoaded = ExecuteScript("return document.readyState").Equals("complete");
 
             IWait<IWebDriver> wait = new WebDriverWait(GetWebDriver(), TimeSpan.FromSeconds(DEFAULT_TIMEOUT));
-
         }
 
 
@@ -337,7 +346,7 @@ namespace TestMaxFramework.pages
             {
                 Log.Information("error");
             }
-            waitForPageToLoad();
+
         }
 
 

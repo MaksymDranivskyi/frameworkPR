@@ -1,0 +1,29 @@
+[2020-12-05 17:17:55.793 +03:00] [INF] One Time Setup finished
+[2020-12-05 17:17:55.827 +03:00] [INF] Konfiguracja zakończona
+[2020-12-05 17:17:55.830 +03:00] [DBG] Gets the timeout
+[2020-12-05 17:17:55.830 +03:00] [DBG] Gets the short timeout
+[2020-12-05 17:17:55.831 +03:00] [DBG] Gets the static timeout
+[2020-12-05 17:17:55.838 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-12-05 17:17:57.788 +03:00] [DBG] Check that the page is loaded
+[2020-12-05 17:17:57.809 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 17:17:57.827 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-12-05 17:17:57.827 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 17:17:57.832 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 17:17:58.089 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-12-05 17:17:58.089 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 17:17:58.093 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 17:17:58.264 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-12-05 17:18:00.627 +03:00] [INF] User By.Name: email logined
+[2020-12-05 17:18:00.628 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-05 17:18:02.399 +03:00] [DBG] Check that the page is loaded
+[2020-12-05 17:18:02.408 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-12-05 17:18:02.408 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 17:18:02.411 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 17:18:02.589 +03:00] [DBG] Wyszukiwanie elementu By.Name: passwd
+[2020-12-05 17:18:02.589 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 17:18:02.593 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-05 17:18:02.770 +03:00] [DBG] Kliknąć element By.Id: submit_login
+[2020-12-05 17:18:02.904 +03:00] [INF] User By.Name: email logined
+[2020-12-05 17:18:02.937 +03:00] [INF] Test set up
+[2020-12-05 17:18:06.831 +03:00] [INF] Test tear down
+[2020-12-05 17:18:18.433 +03:00] [INF] One Time Tear Down

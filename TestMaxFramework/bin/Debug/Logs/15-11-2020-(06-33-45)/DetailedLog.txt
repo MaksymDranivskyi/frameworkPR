@@ -1,0 +1,23 @@
+[2020-11-15 18:33:48.471 +03:00] [INF] One Time Setup finished
+[2020-11-15 18:33:48.526 +03:00] [INF] Konfiguracja zakończona
+[2020-11-15 18:33:48.529 +03:00] [DBG] Gets the timeout
+[2020-11-15 18:33:48.530 +03:00] [DBG] Gets the short timeout
+[2020-11-15 18:33:48.530 +03:00] [DBG] Gets the static timeout
+[2020-11-15 18:33:48.531 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-15 18:33:50.794 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-15 18:33:50.796 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 18:33:50.820 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 18:33:51.104 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-15 18:33:51.104 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 18:33:51.109 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 18:33:51.287 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-15 18:33:53.751 +03:00] [INF] User By.Name: email logined
+[2020-11-15 18:33:53.790 +03:00] [INF] Test set up
+[2020-11-15 18:33:53.855 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/order-history
+[2020-11-15 18:33:54.635 +03:00] [DBG] Kliknąć element By.XPath: //div/div/section/section/table/tbody/tr[1]/td[6]/a[2]
+[2020-11-15 18:33:56.700 +03:00] [INF] Test tear down
+[2020-11-15 18:33:56.719 +03:00] [INF] Test set up
+[2020-11-15 18:33:56.720 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/order-history
+[2020-11-15 18:33:57.499 +03:00] [DBG] Kliknąć element By.XPath: //div/div/section/section/table/tbody/tr[1]/td[6]/a[1]
+[2020-11-15 18:33:58.392 +03:00] [INF] Test tear down
+[2020-11-15 18:34:07.234 +03:00] [INF] One Time Tear Down

@@ -1,0 +1,7 @@
+[2020-11-16 03:52:29.956 +03:00] [INF] One Time Setup finished
+[2020-11-16 03:52:30.020 +03:00] [INF] Konfiguracja zakończona
+[2020-11-16 03:52:35.609 +03:00] [INF] User By.Name: email logined
+[2020-11-16 03:52:37.710 +03:00] [INF] User By.Name: email logined
+[2020-11-16 03:52:37.749 +03:00] [INF] Test set up
+[2020-11-16 03:53:17.875 +03:00] [INF] Test tear down
+[2020-11-16 03:53:33.301 +03:00] [INF] One Time Tear Down

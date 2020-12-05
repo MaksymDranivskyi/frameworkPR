@@ -1,0 +1,11 @@
+[2020-12-05 17:43:03.041 +03:00] [INF] One Time Setup finished
+[2020-12-05 17:43:03.105 +03:00] [INF] Konfiguracja zakończona
+[2020-12-05 17:43:07.811 +03:00] [INF] User By.Name: email logined
+[2020-12-05 17:43:10.340 +03:00] [INF] User By.Name: email logined
+[2020-12-05 17:43:10.371 +03:00] [INF] Test set up
+[2020-12-05 17:43:14.821 +03:00] [INF] Profile update test starting...
+[2020-12-05 17:43:20.331 +03:00] [INF] Start updating user profile...
+[2020-12-05 17:43:21.296 +03:00] [INF] User Frank created massage 'best-of-breed'
+[2020-12-05 17:43:22.961 +03:00] [INF] Profile update test finished
+[2020-12-05 17:43:22.965 +03:00] [INF] Test tear down
+[2020-12-05 17:43:33.921 +03:00] [INF] One Time Tear Down

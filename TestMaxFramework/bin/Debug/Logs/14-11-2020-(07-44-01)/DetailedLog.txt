@@ -1,0 +1,36 @@
+[2020-11-14 19:44:04.231 +03:00] [INF] One Time Setup finished
+[2020-11-14 19:44:04.312 +03:00] [INF] Konfiguracja zakończona
+[2020-11-14 19:44:04.326 +03:00] [DBG] Gets the timeout
+[2020-11-14 19:44:04.328 +03:00] [DBG] Gets the short timeout
+[2020-11-14 19:44:04.328 +03:00] [DBG] Gets the static timeout
+[2020-11-14 19:44:04.336 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-14 19:44:06.341 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-14 19:44:06.341 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:44:06.356 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:44:06.663 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-14 19:44:06.664 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:44:06.668 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:44:06.858 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-14 19:44:09.022 +03:00] [INF] User By.Name: email logined
+[2020-11-14 19:44:09.062 +03:00] [INF] Test set up
+[2020-11-14 19:44:09.332 +03:00] [INF] Profile update test starting...
+[2020-11-14 19:44:09.332 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/contact-us
+[2020-11-14 19:44:10.276 +03:00] [INF] Start updating user profile...
+[2020-11-14 19:44:10.276 +03:00] [DBG] Wyszukiwanie elementu By.Name: from
+[2020-11-14 19:44:10.279 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:44:10.286 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:44:10.441 +03:00] [DBG] Wyszukiwanie elementu By.Name: message
+[2020-11-14 19:44:10.441 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:44:10.446 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:44:10.564 +03:00] [DBG] Previous data was cleaned
+[2020-11-14 19:44:10.705 +03:00] [DBG] Wyszukiwanie elementu By.Name: from
+[2020-11-14 19:44:10.705 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:44:10.713 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:44:11.077 +03:00] [DBG] Wyszukiwanie elementu By.Name: message
+[2020-11-14 19:44:11.078 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:44:11.082 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:44:11.272 +03:00] [INF] User Gail created massage 'Plains solid state'
+[2020-11-14 19:44:11.273 +03:00] [DBG] Kliknąć element By.Name: submitMessage
+[2020-11-14 19:44:12.532 +03:00] [INF] Profile update test finished
+[2020-11-14 19:44:12.535 +03:00] [INF] Test tear down
+[2020-11-14 19:44:21.582 +03:00] [INF] One Time Tear Down

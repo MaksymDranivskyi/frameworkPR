@@ -14,51 +14,73 @@ using TestMaxFramework.pages;
 using TestMaxFramework.utils;
 using NSelene;
 using static NSelene.Selene;
+using System.Collections.Generic;
 
 namespace TestMaxFramework.pages
 {
-    class ContactUsPR : BasePagePR
+    class MyAccountPR : BasePagePR
     {
-        private static ContactUsPR instance;
-        public static ContactUsPR Instance = (instance != null) ? instance : new ContactUsPR();
+        private static MyAccountPR instance;
+        public static MyAccountPR Instance = (instance != null) ? instance : new MyAccountPR();
         Contact msg = new Contact().FillIn();
+        
 
-        public ContactUsPR()
+        public MyAccountPR()
         {
-            pageURL = "contact-us";
-            pageTitle = "Contact us – My Store";
+            pageURL = "my-account";
+            pageTitle = "My Account – My Store";
         }
 
-        By subjectHeading = By.Name("id_contact");
-        By email = By.Id("email");
-        By orderRefeernce = By.Name("id_order");
-        By message = By.Name("message");
-        By sendMessage = By.Name("submitMessage");
-        By productId = By.Name("id_product");
+        //By orderHistory = By.XPath("//div/div[3]/div/div/div/ul/li[1]/a");
+        //By myCreditSlips = By.XPath("//div/div[3]/div/div/div/ul/li[2]/a");
+        //By myAdresses = By.XPath("//div/div[3]/div/div/div/ul/li[3]/a");
+        //By myPersonalInfo = By.XPath("//div/div[3]/div/div/div/ul/li[4]/a");
+
+        By orderHistory = By.Id("history-link");
+        By myCreditSlips = By.Id("order-slips-link");
+        By myAdresses = By.Id("addresses-link");
+        By myPersonalInfo = By.Id("identity-link");
+        By gdprPersonalData = By.Id("psgdpr-link");
 
 
 
 
-        public void CreateMassage()
+        public void OdredHistory()
         {
 
-            Log.Information("Start updating user profile...");
-            findElement(email).Clear();
-            findElement(message).Clear();
-            Log.Debug("Previous data was cleaned");
-            selectByIndex(subjectHeading, 1, 30);
-            findElement(email).SendKeys(msg.Email);
-            selectByIndex(orderRefeernce, 1, 30);
-            selectByIndex(productId, 1, 30);
-            findElement(message).SendKeys(msg.Massage);
-            Log.Information($"User {msg.Name} created massage '{msg.Massage}'");
+            clickOnElement(orderHistory);
 
         }
 
-        public void AddMassage()
+        public void MyCreditSlips()
         {
-            clickOnElement(sendMessage);
+            clickOnElement(myCreditSlips);
         }
 
+        public void MyAddresses()
+        {
+            clickOnElement(myAdresses);
+        }
+
+        public void MyPersonalInfo()
+        {
+            clickOnElement(myPersonalInfo);
+        }
+
+        public void GDPR()
+        {
+            clickOnElement(gdprPersonalData);
+        }
+
+        public void VerifyMyAccountElements()
+        {
+            List<By> footerElements = new List<By> { orderHistory, myCreditSlips, myAdresses, myPersonalInfo, gdprPersonalData };
+            foreach (By element in footerElements)
+            {
+                clickOnElement(element);
+                sleepFor(500);
+                GetWebDriver().Navigate().Back();
+            }
+        }
     }
 }

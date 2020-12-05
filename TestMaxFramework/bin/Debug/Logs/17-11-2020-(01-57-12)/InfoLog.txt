@@ -1,0 +1,43 @@
+[2020-11-17 01:57:14.626 +03:00] [INF] One Time Setup finished
+[2020-11-17 01:57:14.679 +03:00] [INF] Konfiguracja zakończona
+[2020-11-17 01:57:20.044 +03:00] [INF] User By.Name: email logined
+[2020-11-17 01:57:22.803 +03:00] [INF] User By.Name: email logined
+[2020-11-17 01:57:22.856 +03:00] [INF] Test set up
+[2020-11-17 01:57:58.798 +03:00] [INF] Test tear down
+[2020-11-17 01:57:58.804 +03:00] [INF] Test set up
+[2020-11-17 01:57:58.835 +03:00] [INF] Profile update test starting...
+[2020-11-17 01:58:30.553 +03:00] [INF] Test tear down
+[2020-11-17 01:58:30.553 +03:00] [INF] Test set up
+[2020-11-17 01:58:30.563 +03:00] [INF] Profile update test starting...
+[2020-11-17 01:58:43.331 +03:00] [INF] Profile update test finished
+[2020-11-17 01:58:43.332 +03:00] [INF] Test tear down
+[2020-11-17 01:58:43.332 +03:00] [INF] Test set up
+[2020-11-17 01:58:43.344 +03:00] [INF] Profile update test starting...
+[2020-11-17 01:58:44.539 +03:00] [INF] Start updating user profile...
+[2020-11-17 01:58:45.450 +03:00] [INF] User Eduardo created massage 'multi-byte solid state alarm'
+[2020-11-17 01:58:46.729 +03:00] [INF] Profile update test finished
+[2020-11-17 01:58:46.730 +03:00] [INF] Test tear down
+[2020-11-17 01:58:46.730 +03:00] [INF] Test set up
+[2020-11-17 01:58:52.844 +03:00] [INF] Test tear down
+[2020-11-17 01:58:52.845 +03:00] [INF] Test set up
+[2020-11-17 01:58:56.153 +03:00] [INF] Test tear down
+[2020-11-17 01:58:56.153 +03:00] [INF] Test set up
+[2020-11-17 01:58:57.934 +03:00] [INF] Test tear down
+[2020-11-17 01:58:57.935 +03:00] [INF] Test set up
+[2020-11-17 01:59:29.365 +03:00] [INF] Test tear down
+[2020-11-17 01:59:29.366 +03:00] [INF] Test set up
+[2020-11-17 01:59:59.836 +03:00] [INF] Test tear down
+[2020-11-17 01:59:59.840 +03:00] [INF] Test set up
+[2020-11-17 02:00:31.219 +03:00] [INF] Test tear down
+[2020-11-17 02:00:31.220 +03:00] [INF] Test set up
+[2020-11-17 02:00:31.233 +03:00] [INF] Profile update test starting...
+[2020-11-17 02:00:32.052 +03:00] [INF] Start updating user profile...
+[2020-11-17 02:00:35.298 +03:00] [INF] Profile update test finished
+[2020-11-17 02:00:35.299 +03:00] [INF] Test tear down
+[2020-11-17 02:00:35.304 +03:00] [INF] Test set up
+[2020-11-17 02:01:06.630 +03:00] [INF] Test tear down
+[2020-11-17 02:01:06.631 +03:00] [INF] Test set up
+[2020-11-17 02:01:38.030 +03:00] [INF] Test tear down
+[2020-11-17 02:01:38.030 +03:00] [INF] Test set up
+[2020-11-17 02:01:40.472 +03:00] [INF] Test tear down
+[2020-11-17 02:01:49.615 +03:00] [INF] One Time Tear Down

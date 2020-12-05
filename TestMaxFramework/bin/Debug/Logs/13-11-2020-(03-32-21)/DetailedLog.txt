@@ -1,0 +1,38 @@
+[2020-11-13 03:32:24.840 +03:00] [INF] One Time Setup finished
+[2020-11-13 03:32:24.912 +03:00] [INF] Konfiguracja zakończona
+[2020-11-13 03:32:24.934 +03:00] [DBG] Gets the timeout
+[2020-11-13 03:32:24.937 +03:00] [DBG] Gets the short timeout
+[2020-11-13 03:32:24.938 +03:00] [DBG] Gets the static timeout
+[2020-11-13 03:32:24.943 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-13 03:32:28.892 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-13 03:32:28.893 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-13 03:32:28.906 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-13 03:32:29.158 +03:00] [DBG] Wyszukiwanie elementu By.Name: passwd
+[2020-11-13 03:32:29.158 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-13 03:32:29.165 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-13 03:32:29.364 +03:00] [DBG] Kliknąć element By.Name: SubmitLogin
+[2020-11-13 03:32:31.570 +03:00] [INF] User By.Name: email logined
+[2020-11-13 03:32:31.606 +03:00] [INF] Test set up
+[2020-11-13 03:32:31.612 +03:00] [INF] Profile update test starting...
+[2020-11-13 03:32:31.612 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/3-women
+[2020-11-13 03:32:38.750 +03:00] [DBG] Kliknąć element By.XPath: //form/div/div[2]/p[1]/a[2]/span
+[2020-11-13 03:32:38.901 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='add_to_cart']/button
+[2020-11-13 03:32:39.028 +03:00] [INF] Profile update test finished
+[2020-11-13 03:32:39.030 +03:00] [INF] Test tear down
+[2020-11-13 03:32:39.036 +03:00] [INF] Test set up
+[2020-11-13 03:32:39.412 +03:00] [INF] Profile update test starting...
+[2020-11-13 03:32:39.412 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/3-women
+[2020-11-13 03:32:40.996 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/order
+[2020-11-13 03:32:42.274 +03:00] [DBG] Thread sleep 300
+[2020-11-13 03:32:44.231 +03:00] [DBG] Wybrać element z listy checkbox
+[2020-11-13 03:32:45.967 +03:00] [INF] Profile update test finished
+[2020-11-13 03:32:45.968 +03:00] [INF] Test tear down
+[2020-11-13 03:32:45.971 +03:00] [INF] Test set up
+[2020-11-13 03:32:46.023 +03:00] [INF] Profile update test starting...
+[2020-11-13 03:32:46.024 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/my-account
+[2020-11-13 03:32:46.115 +03:00] [INF] Test set up
+[2020-11-13 03:32:46.116 +03:00] [INF] Profile update test starting...
+[2020-11-13 03:32:46.116 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/3-women
+[2020-11-13 03:32:46.123 +03:00] [INF] Test set up
+[2020-11-13 03:32:46.136 +03:00] [INF] Profile update test starting...
+[2020-11-13 03:32:46.136 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/identity

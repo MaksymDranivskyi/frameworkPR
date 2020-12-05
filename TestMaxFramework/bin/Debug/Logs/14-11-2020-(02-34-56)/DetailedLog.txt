@@ -1,0 +1,38 @@
+[2020-11-14 02:35:00.979 +03:00] [INF] One Time Setup finished
+[2020-11-14 02:35:01.077 +03:00] [INF] Konfiguracja zakończona
+[2020-11-14 02:35:01.086 +03:00] [DBG] Gets the timeout
+[2020-11-14 02:35:01.087 +03:00] [DBG] Gets the short timeout
+[2020-11-14 02:35:01.089 +03:00] [DBG] Gets the static timeout
+[2020-11-14 02:35:01.093 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-14 02:35:03.911 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-14 02:35:03.912 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 02:35:03.927 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 02:35:04.385 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-14 02:35:04.386 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 02:35:04.401 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 02:35:04.700 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-14 02:35:06.973 +03:00] [INF] User By.Name: email logined
+[2020-11-14 02:35:07.006 +03:00] [INF] Test set up
+[2020-11-14 02:35:07.010 +03:00] [INF] Profile update test starting...
+[2020-11-14 02:35:07.010 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/3-women
+[2020-11-14 02:35:41.704 +03:00] [INF] Test tear down
+[2020-11-14 02:35:41.715 +03:00] [INF] Test set up
+[2020-11-14 02:35:42.000 +03:00] [INF] Profile update test starting...
+[2020-11-14 02:35:42.001 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/3-women
+[2020-11-14 02:36:14.265 +03:00] [INF] Test tear down
+[2020-11-14 02:36:14.265 +03:00] [INF] Test set up
+[2020-11-14 02:36:14.272 +03:00] [INF] Profile update test starting...
+[2020-11-14 02:36:14.272 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/my-account
+[2020-11-14 02:36:15.511 +03:00] [DBG] Kliknąć element By.XPath: //div/div[3]/div/div/div/ul/li[3]/a
+[2020-11-14 02:36:45.916 +03:00] [INF] Test tear down
+[2020-11-14 02:36:45.917 +03:00] [INF] Test set up
+[2020-11-14 02:36:45.918 +03:00] [INF] Profile update test starting...
+[2020-11-14 02:36:45.918 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/3-women
+[2020-11-14 02:37:18.112 +03:00] [INF] Test tear down
+[2020-11-14 02:37:18.112 +03:00] [INF] Test set up
+[2020-11-14 02:37:18.172 +03:00] [INF] Profile update test starting...
+[2020-11-14 02:37:18.172 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/identity
+[2020-11-14 02:37:19.454 +03:00] [INF] Start updating user profile...
+[2020-11-14 02:37:19.767 +03:00] [DBG] Previous data was cleaned
+[2020-11-14 02:37:50.496 +03:00] [INF] Test tear down
+[2020-11-14 02:38:01.304 +03:00] [INF] One Time Tear Down

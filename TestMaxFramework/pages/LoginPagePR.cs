@@ -27,10 +27,10 @@ namespace TestMaxFramework.pages
         }
         
         By email = By.Name("email");
-        By password = By.Name("passwd");
-        By loginBtn = By.Name("SubmitLogin");
+        By password = By.Name("password");
+        By loginBtn = By.Id("submit-login");
 
-        public void loginUserPR(string mail, string pwd)
+        public void LoginUserPR(string mail, string pwd)
         {
             findElement(email).SendKeys(mail);
             findElement(password).SendKeys(pwd);

@@ -27,14 +27,17 @@ namespace TestMaxFramework.pages
 
         public CategoryPR()
         {
-            pageURL = "3-women";
-            pageTitle = "Woman – My Store";
+            pageURL = "8-home-accessories";
+            pageTitle = "Home Accessories";
+
         }
 
-        By listGridBtn = By.XPath("//div[2]/div/div[3]/div[2]/div[3]/div[1]/ul/li[3]/a");
-        By compareProductsBtn = By.XPath("//div[2]/div/div[3]/div[2]/div[3]/div[2]/form/button");
-        By productTitle = By.XPath("//div[3]/div[2]/ul/li[1]/div/div[2]/h5/a");
-        //html/body/div/div[2]/div/div[3]/div[2]/ul/li[1]/div/div[2]/div[2]/a[1]/span
+     
+        By productTitle = By.XPath("//*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a");
+        By imageSection = By.XPath("//*[@id='js-product-list']/div[1]/article[1]/div/a");
+        By quickView = By.XPath("//*[@id='js-product-list']/div[1]/article[1]/div/div[2]/a");
+
+        // //*[@id='add-to-cart-or-refresh']/div[2]/div/div[1]/div/span[3]/button[1]
         ///html/body/div/div[2]/div/div[3]/div[2]/ul/li[1]/div/div[2]/div[2]/a[2]/span
         ///html/body/div/div[2]/div/div[3]/div[2]/ul/li[1]/div/div[3]/div/a
         ////html/body/div/div[2]/div/div[3]/div[2]/ul/li[2]/div/div[3]/div/a
@@ -47,81 +50,28 @@ namespace TestMaxFramework.pages
         //By state = By.Name("billing_state");
         //By postcode = By.Name("billing_postcode");
 
-        public void switchToList()
-        {
-            S(listGridBtn).Click();
 
+        public void OpenProductDetails(int element)
+        {
+           
+                S(By.XPath($"//*[@id='js-product-list']/div[1]/article[{element}]/div/div[1]/h2/a")).Click();
+            
         }
 
-        public void CompareProducts()
+        public void AddProductsToCartById(int[] listId)
         {
-            S(compareProductsBtn).Click();
-
-        }
-
-
-        public void AddProductToCartById(int[] listId)
-        {
+            ProductPR product = ProductPR.Instance;
             foreach (int element in listId)
-                S(By.XPath($"//div/div[3]/div[2]/ul/li[{element}]/div/div/div[3]/div/div[2]/a[1]/span")).Click();
+            {
+                scrollToView(By.XPath($"//*[@id='js-product-list']/div[1]/article[{element}]/div/div[1]/h2/a"));
+                hoverAndClick(By.XPath($"//*[@id='js-product-list']/div[1]/article[{element}]/div/a"), By.XPath($"//*[@id='js-product-list']/div[1]/article[{element}]/div/div[2]/a"), 300);
+                product.AddToCart();
+                sleepFor(300);
+                clickOnElement(By.XPath("//div/div/div[2]/div/div[2]/div/div/button"));
+            }
 
-        }
+           
 
-        public void MoreProductById(int[] listId)
-        {
-            foreach (int element in listId)
-                S(By.XPath($"//div[2]/div/div[3]/div[2]/ul/li[{element}]/div/div/div[3]/div/div[2]/a[2]/span")).Click();
-        }
-
-        public void AddToCompareById(int[] listId)
-        {
-            foreach (int element in listId)
-                S(By.XPath($"//div[3]/div[2]/ul/li[{element}]/div/div/div[3]/div/div[3]/div/a")).Click();
-        }
-
-        public void OpenProductDetails(int[] listId)
-        {
-            foreach (int element in listId)
-                S(By.XPath($"//div[3]/div[2]/ul/li[{element}]/div/div/div[2]/h5/a")).Click();
-        }
-
-        //public void AddProductToCartByName(int listId)
-        //{
-        //    S(By.XPath($"//div[3]/div[2]/ul/li[{listId}]/div/div[2]/div[2]/a[1]/span")).Click();
-        //div[3]/div[2]/ul/li[1]/div/div/div[2]/h5/a
-        //}
-
-
-        public void SetBillingData()
-        {
-
-           // Log.Information("Start updating user profile...");
-           // findElement(firstName).Clear();
-           // findElement(lastName).Clear();
-           // findElement(email).Clear();
-           //// findElement(country).Clear();
-           // findElement(street).Clear();
-           // findElement(city).Clear();
-           // findElement(state).Clear();
-           // findElement(postcode).Clear();
-           // Log.Debug("Previous data was cleaned");
-           // findElement(firstName).SendKeys(chkout.FirstName);
-           // findElement(lastName).SendKeys(chkout.LastName);
-           // findElement(email).SendKeys(chkout.Email);
-           // //findElement(country).SendKeys(chkout.Country);
-           // findElement(street).SendKeys(chkout.Street);
-           // findElement(city).SendKeys(chkout.City);
-           // findElement(state).SendKeys(chkout.State);
-           // findElement(postcode).SendKeys(chkout.Postcode);
-           // //Log.Information($"User {msg.Name} created massage '{msg.Massage}'");
-
-        }
-
-        public void SaveAddress()
-        {
-            //scrollToView(saveAddress);
-            //sleepFor(1000);
-            //clickOnElementIgnoreException(saveAddress);
         }
 
     }

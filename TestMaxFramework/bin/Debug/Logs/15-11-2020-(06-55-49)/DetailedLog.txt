@@ -1,0 +1,36 @@
+[2020-11-15 18:55:52.074 +03:00] [INF] One Time Setup finished
+[2020-11-15 18:55:52.110 +03:00] [INF] Konfiguracja zakończona
+[2020-11-15 18:55:52.113 +03:00] [DBG] Gets the timeout
+[2020-11-15 18:55:52.113 +03:00] [DBG] Gets the short timeout
+[2020-11-15 18:55:52.117 +03:00] [DBG] Gets the static timeout
+[2020-11-15 18:55:52.121 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-15 18:55:54.193 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-15 18:55:54.193 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 18:55:54.208 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 18:55:54.471 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-15 18:55:54.471 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 18:55:54.476 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 18:55:54.646 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-15 18:55:56.994 +03:00] [INF] User By.Name: email logined
+[2020-11-15 18:55:57.030 +03:00] [INF] Test set up
+[2020-11-15 18:55:57.087 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/3-clothes
+[2020-11-15 18:55:58.392 +03:00] [DBG] Przewija do widoku elementu By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a
+[2020-11-15 18:55:58.392 +03:00] [DBG] Przewija do widoku elementu By.Selene: (NSelene.SeleneDriver).Find(By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a)
+[2020-11-15 18:55:58.512 +03:00] [DBG] Przewija do pozycji XY (0,705)
+[2020-11-15 18:55:58.523 +03:00] [DBG] Najechać myszą na element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/a i kliknąć element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[2]/a
+[2020-11-15 18:55:58.896 +03:00] [DBG] Thread sleep 1000
+[2020-11-15 18:56:00.007 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 18:56:00.993 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button
+[2020-11-15 18:56:01.136 +03:00] [DBG] Thread sleep 300
+[2020-11-15 18:56:01.438 +03:00] [DBG] Kliknąć element By.XPath: //div/div/div[2]/div/div[2]/div/div/button
+[2020-11-15 18:56:03.041 +03:00] [DBG] Przewija do widoku elementu By.XPath: //*[@id='js-product-list']/div[1]/article[2]/div/div[1]/h2/a
+[2020-11-15 18:56:03.041 +03:00] [DBG] Przewija do widoku elementu By.Selene: (NSelene.SeleneDriver).Find(By.XPath: //*[@id='js-product-list']/div[1]/article[2]/div/div[1]/h2/a)
+[2020-11-15 18:56:03.161 +03:00] [DBG] Przewija do pozycji XY (0,705)
+[2020-11-15 18:56:03.171 +03:00] [DBG] Najechać myszą na element By.XPath: //*[@id='js-product-list']/div[1]/article[2]/div/a i kliknąć element By.XPath: //*[@id='js-product-list']/div[1]/article[2]/div/div[2]/a
+[2020-11-15 18:56:03.542 +03:00] [DBG] Thread sleep 1000
+[2020-11-15 18:56:04.643 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-15 18:56:05.719 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button
+[2020-11-15 18:56:05.844 +03:00] [DBG] Thread sleep 300
+[2020-11-15 18:56:06.145 +03:00] [DBG] Kliknąć element By.XPath: //div/div/div[2]/div/div[2]/div/div/button
+[2020-11-15 18:56:07.676 +03:00] [INF] Test tear down
+[2020-11-15 18:56:16.331 +03:00] [INF] One Time Tear Down

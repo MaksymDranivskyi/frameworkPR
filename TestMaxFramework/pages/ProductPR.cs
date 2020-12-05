@@ -29,22 +29,10 @@ namespace TestMaxFramework.pages
             //pageTitle = "Order – My Store";
         }
 
-        By plusQty = By.XPath("//form/div/div[2]/p[1]/a[2]/span");
-        By minusQty = By.XPath("//form/div/div[2]/p[1]/a[1]/span");
-        By addToCart = By.XPath("//*[@id='add_to_cart']/button");
-        // //*[@id="add_to_cart"]/button/span
-        //By deleteBtn = By.XPath("/html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[6]/div/a");
-        //By plusBtn = By.XPath("/html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[5]/div/a[2]");
-        //By minusBtn = By.XPath("/html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[5]/div/a[1]");
-        //By qty = By.XPath("/html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[5]/input[2]");
+        By plusQty = By.XPath("//*[@id='add-to-cart-or-refresh']/div[2]/div/div[1]/div/span[3]/button[1]");
+        By minusQty = By.XPath("//*[@id='add-to-cart-or-refresh']/div[2]/div/div[1]/div/span[3]/button[2]");
+        By addToCart = By.XPath("//*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button");
 
-        //// deleteBtn index need
-
-        //By email = By.Id("email");
-        //By orderRefeernce = By.Name("id_order");
-        //By message = By.Name("message");
-        //By sendMessage = By.Name("submitMessage");
-        //By productId = By.Name("id_product");
 
 
 
@@ -61,6 +49,7 @@ namespace TestMaxFramework.pages
 
         public void AddToCart()
         {
+            WaitUntilElementClickable(addToCart, 5000);
             clickOnElement(addToCart);
         }
 

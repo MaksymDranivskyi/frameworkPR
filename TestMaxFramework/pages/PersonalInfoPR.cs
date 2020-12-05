@@ -29,16 +29,16 @@ namespace TestMaxFramework.pages
             pageTitle = "Identity – My Store";
         }
 
-        By male = By.Id("id_gender1");
-        By female = By.Id("id_gender2");
+        By male = By.XPath("//*[@id='customer-form']/section/div[1]/div[1]/label[1]/span");
+        By female = By.XPath("//*[@id='customer-form']/section/div[1]/div[1]/label[2]/span");
         By firstName = By.Name("firstname");
         By lastName = By.Name("lastname");
         By email = By.Name("email");
-        By oldPassword = By.Name("old_passwd");
-        By newPassword = By.Name("passwd");
-        By confirmation = By.Name("confirmation");
-        By save = By.Name("submitIdentity");
-
+        By oldPassword = By.Name("password");
+        By newPassword = By.Name("new_password");
+        By terms = By.XPath("//*[@id='customer-form']/section/div[10]/div[1]/span/label");
+        By save = By.XPath("//*[@id='customer-form']/footer/button");
+        //  //*[@id='customer-form']/section/div[10]/div[1]/span/label/input
 
 
 
@@ -46,17 +46,17 @@ namespace TestMaxFramework.pages
         {
 
             Log.Information("Start updating user profile...");
-            S(email).Clear();
-            S(firstName).Clear();
-            S(lastName).Clear();
+            findElement(email).Clear();
+            findElement(firstName).Clear();
+            findElement(lastName).Clear();
             Log.Debug("Previous data was cleaned");
             //clickOnElement(male);
-            S(email).SendKeys("maximdran@gmail.com");
-            S(firstName).SendKeys(prf.FirstName);
-            S(lastName).SendKeys(prf.LastName);
-            S(oldPassword).SendKeys("qwerty123");
-            S(newPassword).SendKeys("qwerty123");
-            S(confirmation).SendKeys("qwerty123");
+            findElement(email).SendKeys("maximdran@gmail.com");
+            findElement(firstName).SendKeys(prf.FirstName);
+            findElement(lastName).SendKeys(prf.LastName);
+            findElement(oldPassword).SendKeys("qwerty123");
+            findElement(newPassword).SendKeys("qwerty123");
+            clickOnElement(terms);
             //Log.Information($"User {msg.Name} created massage '{msg.Massage}'");
 
         }

@@ -1,0 +1,31 @@
+[2020-11-14 19:34:21.865 +03:00] [INF] One Time Setup finished
+[2020-11-14 19:34:21.928 +03:00] [INF] Konfiguracja zakończona
+[2020-11-14 19:34:21.930 +03:00] [DBG] Gets the timeout
+[2020-11-14 19:34:21.931 +03:00] [DBG] Gets the short timeout
+[2020-11-14 19:34:21.931 +03:00] [DBG] Gets the static timeout
+[2020-11-14 19:34:21.931 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-11-14 19:34:23.969 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-11-14 19:34:23.970 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:34:23.987 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:34:24.263 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-11-14 19:34:24.263 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:34:24.267 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-11-14 19:34:24.454 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-11-14 19:34:27.099 +03:00] [INF] User By.Name: email logined
+[2020-11-14 19:34:27.128 +03:00] [INF] Test set up
+[2020-11-14 19:34:27.413 +03:00] [INF] Profile update test starting...
+[2020-11-14 19:34:27.413 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/my-account
+[2020-11-14 19:34:28.174 +03:00] [DBG] Kliknąć element By.Id: addresses-link
+[2020-11-14 19:34:29.647 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/my-account
+[2020-11-14 19:34:30.450 +03:00] [DBG] Kliknąć element By.Id: order-slips-link
+[2020-11-14 19:34:31.448 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/my-account
+[2020-11-14 19:34:32.330 +03:00] [DBG] Kliknąć element By.Id: identity-link
+[2020-11-14 19:34:33.554 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/my-account
+[2020-11-14 19:34:34.332 +03:00] [DBG] Kliknąć element By.Id: history-link
+[2020-11-14 19:34:35.430 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/my-account
+[2020-11-14 19:34:36.188 +03:00] [DBG] Kliknąć element By.Id: history-link
+[2020-11-14 19:34:37.035 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/my-account
+[2020-11-14 19:34:37.768 +03:00] [DBG] Kliknąć element By.Id: psgdpr-link
+[2020-11-14 19:34:38.809 +03:00] [INF] Profile update test finished
+[2020-11-14 19:34:38.812 +03:00] [INF] Test tear down
+[2020-11-14 19:34:47.476 +03:00] [INF] One Time Tear Down
