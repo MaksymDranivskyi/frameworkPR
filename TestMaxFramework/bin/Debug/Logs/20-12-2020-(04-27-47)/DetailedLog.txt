@@ -1,0 +1,21 @@
+[2020-12-20 04:27:53.318 +03:00] [INF] One Time Setup finished
+[2020-12-20 04:27:53.367 +03:00] [INF] Setup completed successfully
+[2020-12-20 04:27:53.370 +03:00] [DBG] Gets the timeout
+[2020-12-20 04:27:53.370 +03:00] [DBG] Gets the short timeout
+[2020-12-20 04:27:53.370 +03:00] [DBG] Gets the static timeout
+[2020-12-20 04:27:53.373 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-12-20 04:27:56.014 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:27:56.036 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:27:56.055 +03:00] [DBG] Find element By.Name: email
+[2020-12-20 04:27:56.060 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:27:56.065 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:27:56.377 +03:00] [DBG] Find element By.Name: password
+[2020-12-20 04:27:56.378 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:27:56.383 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:27:56.572 +03:00] [DBG] Click on the By.Id: submit-login
+[2020-12-20 04:27:59.147 +03:00] [INF] User By.Name: email logined
+[2020-12-20 04:27:59.147 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:27:59.917 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:27:59.931 +03:00] [DBG] Find element By.Name: email
+[2020-12-20 04:27:59.931 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:27:59.940 +03:00] [DBG] Wait for the page to load

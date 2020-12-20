@@ -58,7 +58,7 @@ namespace TestMaxFramework.pages
 
 
 
-        [Obsolete]
+      //  [Obsolete]
         public void ConfirmOrder()
         {
             sleepFor(300);

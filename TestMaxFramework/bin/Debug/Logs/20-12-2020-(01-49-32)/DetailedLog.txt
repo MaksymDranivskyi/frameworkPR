@@ -1,0 +1,33 @@
+[2020-12-20 01:49:37.783 +03:00] [INF] One Time Setup finished
+[2020-12-20 01:49:37.830 +03:00] [INF] Konfiguracja zakończona
+[2020-12-20 01:49:37.836 +03:00] [DBG] Gets the timeout
+[2020-12-20 01:49:37.836 +03:00] [DBG] Gets the short timeout
+[2020-12-20 01:49:37.838 +03:00] [DBG] Gets the static timeout
+[2020-12-20 01:49:37.842 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-12-20 01:49:40.525 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 01:49:40.543 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 01:49:40.561 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-12-20 01:49:40.561 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 01:49:40.571 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 01:49:41.203 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-12-20 01:49:41.204 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 01:49:41.209 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 01:49:41.448 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-12-20 01:49:42.722 +03:00] [INF] User By.Name: email logined
+[2020-12-20 01:49:42.722 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 01:49:44.756 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 01:49:44.777 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-12-20 01:49:44.777 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 01:49:44.782 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 01:49:44.973 +03:00] [DBG] Wyszukiwanie elementu By.Name: passwd
+[2020-12-20 01:49:44.973 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 01:49:44.977 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 01:49:45.159 +03:00] [DBG] Kliknąć element By.Id: submit_login
+[2020-12-20 01:49:45.314 +03:00] [INF] User By.Name: email logined
+[2020-12-20 01:49:45.346 +03:00] [INF] Test set up
+[2020-12-20 01:50:02.204 +03:00] [INF] Profile update test starting...
+[2020-12-20 01:50:02.249 +03:00] [INF] Test tear down
+[2020-12-20 01:50:02.268 +03:00] [INF] Test set up
+[2020-12-20 01:50:11.129 +03:00] [INF] Profile update test starting...
+[2020-12-20 01:50:11.131 +03:00] [INF] Test tear down
+[2020-12-20 01:50:32.845 +03:00] [INF] One Time Tear Down

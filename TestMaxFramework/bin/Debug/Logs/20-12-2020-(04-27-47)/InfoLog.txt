@@ -1,0 +1,3 @@
+[2020-12-20 04:27:53.318 +03:00] [INF] One Time Setup finished
+[2020-12-20 04:27:53.367 +03:00] [INF] Setup completed successfully
+[2020-12-20 04:27:59.147 +03:00] [INF] User By.Name: email logined

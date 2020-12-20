@@ -51,27 +51,27 @@ namespace TestMaxFramework.pages
 
             foreach (int element in listId)
             {
-                clickOnElement(By.XPath($"//div/div[2]/div/form/table/tbody/tr[{element}]/td[6]/div/i"));
+                clickOnElement(By.XPath($"//div/div[2]/div/form/table/tbody/tr[{element}]/td[5]/div/i"));
             }
 
         }
 
-        public void PreviewCategory(int id)
+        public void PreviewCategory(int element)
         {
-            clickOnElement(By.XPath($"//div/div/div[2]/div/form/table/tbody/tr[{id}]/td[7]/div/div/a[1]"));
+            clickOnElement(By.XPath($"//div/div/div[2]/div/form/table/tbody/tr[{element}]/td[6]/div/div/a[1]"));
         }
 
         public void DeleteCategory(int element)
         {
-            clickOnElement(By.XPath($"//div/div[2]/div/form/table/tbody/tr[{element}]/td[7]/div/div/a[2]"));
-            clickOnElement(By.XPath($"//div/div[2]/div/form/table/tbody/tr[{element}]/td[7]/div/div/div/a[2]"));
+            clickOnElement(By.XPath($"//div/div[2]/div/form/table/tbody/tr[{element}]/td[6]/div/div/a[2]"));
+            clickOnElement(By.XPath($"//div/div[2]/div/form/table/tbody/tr[{element}]/td[6]/div/div/div/a[1]"));
             clickOnElement(deleteNow);
         }
 
         public void EditCategory(int element)
         {
-            clickOnElement(By.XPath($"//div/div[2]/div/form/table/tbody/tr[{element}]/td[7]/div/div/a[2]"));
-            clickOnElement(By.XPath($"//div/div[2]/div/form/table/tbody/tr[{element}]/td[7]/div/div/div/a[1]"));
+            clickOnElement(By.XPath($"//div/div[2]/div/form/table/tbody/tr[{element}]/td[6]/div/div/a[2]"));
+            clickOnElement(By.XPath($"//div/div[2]/div/form/table/tbody/tr[{element}]/td[6]/div/div/div/a[1]"));
         }
 
         public void SelectCategories(int[] listId)
@@ -79,7 +79,7 @@ namespace TestMaxFramework.pages
             foreach (int element in listId)
             {
                 sleepFor(1000);
-                clickOnElement(By.XPath($"//div[2]/div/form/table/tbody/tr[{element}]/td[2]/div"));
+                clickOnElement(By.XPath($"//div[2]/div/form/table/tbody/tr[{element}]/td[1]/div"));
             }
         }
 

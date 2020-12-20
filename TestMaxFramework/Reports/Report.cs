@@ -61,7 +61,7 @@ namespace TestMaxFramework.Reports
                 test.AssignCategory(category);
                 test.AssignDevice(DriverProvider.GetOS());
                 Log.Information("Test set up");
-                test.Log(Status.Info, "Opis przypadku testowego: <pre>" + NUnit.Framework.TestContext.CurrentContext.Test.Properties.Get("Description").ToString() + "</pre>");
+                test.Log(Status.Info, "Test case description: <pre>" + NUnit.Framework.TestContext.CurrentContext.Test.Properties.Get("Description").ToString() + "</pre>");
             }
 
             catch (NullReferenceException)
@@ -88,7 +88,7 @@ namespace TestMaxFramework.Reports
             {
                 case TestStatus.Failed:
                     logstatus = Status.Fail;
-                    test.Fail("Screenshot utworzono").AddScreenCaptureFromPath(DriverProvider.TakeScreen(Path.Combine($@"c:\repos\Framework\TestMaxFramework\bin\Debug\Reports\{currentDateTime}", NUnit.Framework.TestContext.CurrentContext.Test.Name.ToString())));
+                    test.Fail("Screenshot was created").AddScreenCaptureFromPath(DriverProvider.TakeScreen(Path.Combine($@"c:\repos\Framework\TestMaxFramework\bin\Debug\Reports\{currentDateTime}", NUnit.Framework.TestContext.CurrentContext.Test.Name.ToString())));
                     //test.Fail("Screenshot utworzono").AddScreenCaptureFromPath(DriverProvider.TakeScreen(Path.Combine($@"Reports/{currentDateTime}", NUnit.Framework.TestContext.CurrentContext.Test.Name.ToString())));
 
                     break;
@@ -107,7 +107,7 @@ namespace TestMaxFramework.Reports
                     break;
             }
 
-            test.Log(logstatus, "Test zakończony z statusem" + "<pre>" + logstatus + "<br>" + errorMessage + "<br>" + stacktrace + "</pre>");
+            test.Log(logstatus, "The test ended with status" + "<pre>" + logstatus + "<br>" + errorMessage + "<br>" + stacktrace + "</pre>");
 
             Log.Information("Test tear down");
         }
@@ -140,7 +140,7 @@ namespace TestMaxFramework.Reports
                 .WriteTo.File(pathToDetailedLog, Serilog.Events.LogEventLevel.Debug, outputTemplate: template)
                 .CreateLogger();
             Log.Information("One Time Setup finished");
-            Log.Information("Konfiguracja zakończona");
+            Log.Information("Setup completed successfully");
         }
 
         [OneTimeTearDown]

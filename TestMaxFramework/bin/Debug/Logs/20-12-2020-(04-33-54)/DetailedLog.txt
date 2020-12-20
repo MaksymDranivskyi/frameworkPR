@@ -1,0 +1,744 @@
+[2020-12-20 04:34:00.629 +03:00] [INF] One Time Setup finished
+[2020-12-20 04:34:00.680 +03:00] [INF] Setup completed successfully
+[2020-12-20 04:34:00.684 +03:00] [DBG] Gets the timeout
+[2020-12-20 04:34:00.685 +03:00] [DBG] Gets the short timeout
+[2020-12-20 04:34:00.686 +03:00] [DBG] Gets the static timeout
+[2020-12-20 04:34:00.689 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-12-20 04:34:03.931 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:34:03.970 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:03.995 +03:00] [DBG] Find element By.Name: email
+[2020-12-20 04:34:03.995 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:04.001 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:04.381 +03:00] [DBG] Find element By.Name: password
+[2020-12-20 04:34:04.382 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:04.389 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:04.622 +03:00] [DBG] Click on the By.Id: submit-login
+[2020-12-20 04:34:08.282 +03:00] [INF] User By.Name: email logined
+[2020-12-20 04:34:08.282 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:34:11.095 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:34:11.107 +03:00] [DBG] Find element By.Name: email
+[2020-12-20 04:34:11.107 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:11.112 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:11.333 +03:00] [DBG] Find element By.Name: passwd
+[2020-12-20 04:34:11.334 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:11.340 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:11.623 +03:00] [DBG] Click on the By.Id: submit_login
+[2020-12-20 04:34:11.857 +03:00] [INF] User By.Name: email logined
+[2020-12-20 04:34:11.858 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:11.909 +03:00] [DBG] Thread sleep 5000
+[2020-12-20 04:34:17.045 +03:00] [INF] Test set up
+[2020-12-20 04:34:18.192 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/addresses
+[2020-12-20 04:34:22.866 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:34:22.893 +03:00] [DBG] Click on the By.PartialLinkText: Create new address
+[2020-12-20 04:34:24.936 +03:00] [DBG] Find element By.Name: alias
+[2020-12-20 04:34:24.936 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:24.950 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:25.142 +03:00] [DBG] Find element By.Name: firstname
+[2020-12-20 04:34:25.142 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:25.148 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:25.316 +03:00] [DBG] Find element By.Name: lastname
+[2020-12-20 04:34:25.316 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:25.321 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:25.497 +03:00] [DBG] Find element By.Name: company
+[2020-12-20 04:34:25.497 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:25.503 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:25.660 +03:00] [DBG] Find element By.Name: address1
+[2020-12-20 04:34:25.660 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:25.666 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:25.846 +03:00] [DBG] Find element By.Name: address2
+[2020-12-20 04:34:25.846 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:25.851 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:26.057 +03:00] [DBG] Find element By.Name: postcode
+[2020-12-20 04:34:26.057 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:26.063 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:26.234 +03:00] [DBG] Find element By.Name: city
+[2020-12-20 04:34:26.234 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:26.242 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:26.388 +03:00] [DBG] Find element By.Name: phone
+[2020-12-20 04:34:26.388 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:26.393 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:26.548 +03:00] [DBG] Find element By.Name: firstname
+[2020-12-20 04:34:26.548 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:26.553 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:26.760 +03:00] [DBG] Find element By.Name: lastname
+[2020-12-20 04:34:26.760 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:26.765 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:26.952 +03:00] [DBG] Find element By.Name: company
+[2020-12-20 04:34:26.952 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:26.957 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:27.157 +03:00] [DBG] Find element By.Name: address1
+[2020-12-20 04:34:27.157 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:27.163 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:27.354 +03:00] [DBG] Find element By.Name: address2
+[2020-12-20 04:34:27.354 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:27.359 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:27.591 +03:00] [DBG] Find element By.Name: postcode
+[2020-12-20 04:34:27.591 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:27.597 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:27.780 +03:00] [DBG] Find element By.Name: city
+[2020-12-20 04:34:27.780 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:27.786 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:28.067 +03:00] [DBG] Find element By.Name: phone
+[2020-12-20 04:34:28.068 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:28.073 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:28.294 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:34:29.295 +03:00] [DBG] Click on the By.XPath: //*[@id='content']/div/div/form/footer/button
+[2020-12-20 04:34:30.883 +03:00] [INF] Test tear down
+[2020-12-20 04:34:30.891 +03:00] [INF] Test set up
+[2020-12-20 04:34:30.894 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:30.930 +03:00] [INF] Profile update test starting...
+[2020-12-20 04:34:30.930 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/8-home-accessories
+[2020-12-20 04:34:32.174 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:34:32.195 +03:00] [DBG] Scroll to element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a
+[2020-12-20 04:34:32.196 +03:00] [DBG] Scroll to element By.Selene: (NSelene.SeleneDriver).Find(By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a)
+[2020-12-20 04:34:32.311 +03:00] [DBG] Scroll to XY (0,705)
+[2020-12-20 04:34:32.318 +03:00] [DBG] Hover over By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/a and click on the By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[2]/a
+[2020-12-20 04:34:32.680 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:34:33.793 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:34.983 +03:00] [DBG] Click on the By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button
+[2020-12-20 04:34:35.137 +03:00] [DBG] Thread sleep 300
+[2020-12-20 04:34:35.438 +03:00] [DBG] Click on the By.XPath: //div/div/div[2]/div/div[2]/div/div/button
+[2020-12-20 04:34:37.277 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/cart?action=show
+[2020-12-20 04:34:38.623 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:34:38.635 +03:00] [DBG] Thread sleep 300
+[2020-12-20 04:34:38.936 +03:00] [DBG] Click on the By.XPath: //*[@id='main']/div/div[2]/div[1]/div[2]/div/a
+[2020-12-20 04:34:40.308 +03:00] [DBG] Click on the By.Name: confirm-addresses
+[2020-12-20 04:34:42.398 +03:00] [DBG] Click on the By.Name: confirmDeliveryOption
+[2020-12-20 04:34:44.608 +03:00] [DBG] Thread sleep 2000
+[2020-12-20 04:34:46.609 +03:00] [DBG] Find element By.XPath: //div[@id='payment-option-1-container']/span
+[2020-12-20 04:34:46.609 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:46.616 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:34:46.796 +03:00] [DBG] Thread sleep 2000
+[2020-12-20 04:34:48.797 +03:00] [DBG] Mark the element  By.Id: conditions_to_approve[terms-and-conditions]
+[2020-12-20 04:34:48.919 +03:00] [DBG] Click on the By.XPath: //*[@id='payment-confirmation']/div[1]/button
+[2020-12-20 04:34:53.479 +03:00] [INF] Profile update test finished
+[2020-12-20 04:34:53.480 +03:00] [INF] Test tear down
+[2020-12-20 04:34:53.486 +03:00] [INF] Test set up
+[2020-12-20 04:34:59.223 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:35:03.225 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:35:03.673 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[5]/a
+[2020-12-20 04:35:04.446 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[5]/ul/li[1]/a
+[2020-12-20 04:35:21.375 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:35:22.376 +03:00] [DBG] Click on the By.XPath: //div[1]/div[2]/div/div/div[2]/div/form/table/tbody/tr[2]/td[1]/div
+[2020-12-20 04:35:22.955 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:35:23.956 +03:00] [DBG] Click on the By.XPath: //div[1]/div[2]/div/div/div[2]/div/form/table/tbody/tr[3]/td[1]/div
+[2020-12-20 04:35:24.364 +03:00] [DBG] Click on the By.XPath: //*[@id='customer_grid']/div/div[1]/div/div[1]/div/div/button
+[2020-12-20 04:35:25.005 +03:00] [DBG] Click on the By.Id: customer_grid_bulk_action_disable_selection
+[2020-12-20 04:35:30.039 +03:00] [INF] Test tear down
+[2020-12-20 04:35:30.124 +03:00] [INF] Test set up
+[2020-12-20 04:35:37.674 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:35:40.763 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:35:41.119 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-20 04:35:41.979 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/ul/li[2]/a
+[2020-12-20 04:35:51.059 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:35:52.060 +03:00] [DBG] Click on the By.XPath: //div[2]/div/form/table/tbody/tr[2]/td[1]/div
+[2020-12-20 04:35:53.036 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:35:54.037 +03:00] [DBG] Click on the By.XPath: //div[2]/div/form/table/tbody/tr[3]/td[1]/div
+[2020-12-20 04:35:54.288 +03:00] [DBG] Click on the By.XPath: //div[5]/div/div[1]/div[2]/div/div/div[1]/div/div[1]/div/div/button
+[2020-12-20 04:35:54.686 +03:00] [DBG] Click on the By.XPath: //div/div[1]/div[2]/div/div/div[1]/div/div[1]/div/div/div/button[3]
+[2020-12-20 04:35:55.044 +03:00] [DBG] Click on the By.XPath: //div[5]/div/div[2]/div/div/div[3]/button[2]
+[2020-12-20 04:36:12.857 +03:00] [INF] Test tear down
+[2020-12-20 04:36:12.910 +03:00] [INF] Test set up
+[2020-12-20 04:36:19.009 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:36:21.639 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:36:22.083 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-20 04:36:23.121 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/ul/li[1]/a
+[2020-12-20 04:36:29.452 +03:00] [DBG] Click on the By.XPath: //div[2]/div/div/table/tbody/tr[1]/td[11]/div/div/button
+[2020-12-20 04:36:30.352 +03:00] [DBG] Click on the By.XPath: //div[2]/div/div/table/tbody/tr[1]/td[11]/div/div/div/a[3]
+[2020-12-20 04:36:30.786 +03:00] [DBG] Click on the By.XPath: //div/div[7]/div/div/div[3]/button[2]
+[2020-12-20 04:36:35.893 +03:00] [INF] Test tear down
+[2020-12-20 04:36:35.894 +03:00] [INF] Test set up
+[2020-12-20 04:36:39.930 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:36:48.787 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:36:48.884 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[5]/a
+[2020-12-20 04:36:49.350 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[5]/ul/li[1]/a
+[2020-12-20 04:36:52.058 +03:00] [DBG] Click on the By.XPath: //div/div/div[2]/div/form/table/tbody/tr[3]/td[13]/div/div/a[2]
+[2020-12-20 04:36:53.641 +03:00] [DBG] Click on the By.XPath: //div/div[2]/div/form/table/tbody/tr[3]/td[13]/div/div/div/a[2]
+[2020-12-20 04:36:54.284 +03:00] [DBG] Click on the By.XPath: //div/div[4]/div/div[2]/div/div/div[3]/button[2]
+[2020-12-20 04:37:00.505 +03:00] [INF] Test tear down
+[2020-12-20 04:37:00.513 +03:00] [INF] Test set up
+[2020-12-20 04:37:09.863 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:37:12.836 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:37:13.281 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-20 04:37:14.636 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/ul/li[2]/a
+[2020-12-20 04:37:21.867 +03:00] [DBG] Click on the By.XPath: //div/div[2]/div/form/table/tbody/tr[1]/td[6]/div/div/a[2]
+[2020-12-20 04:37:23.261 +03:00] [DBG] Click on the By.XPath: //div/div[2]/div/form/table/tbody/tr[1]/td[6]/div/div/div/a[1]
+[2020-12-20 04:37:23.972 +03:00] [DBG] Click on the By.XPath: //div[5]/div/div[2]/div/div/div[3]/button[2]
+[2020-12-20 04:37:35.888 +03:00] [INF] Test tear down
+[2020-12-20 04:37:35.904 +03:00] [INF] Test set up
+[2020-12-20 04:37:35.904 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/8-home-accessories
+[2020-12-20 04:37:40.974 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:37:42.648 +03:00] [DBG] Click on the By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[1]/div/span[3]/button[1]
+[2020-12-20 04:37:42.794 +03:00] [DBG] Click on the By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[1]/div/span[3]/button[2]
+[2020-12-20 04:37:42.992 +03:00] [DBG] Click on the By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button
+[2020-12-20 04:37:43.086 +03:00] [INF] Test tear down
+[2020-12-20 04:37:43.088 +03:00] [INF] Test set up
+[2020-12-20 04:37:50.539 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:37:53.651 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:37:54.037 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-20 04:37:54.857 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/ul/li[1]/a
+[2020-12-20 04:38:01.052 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:38:02.053 +03:00] [DBG] Click on the By.XPath: //div[2]/div/div/table/tbody/tr[2]/td[1]/div
+[2020-12-20 04:38:02.330 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:38:03.331 +03:00] [DBG] Click on the By.XPath: //div[2]/div/div/table/tbody/tr[3]/td[1]/div
+[2020-12-20 04:38:03.616 +03:00] [DBG] Click on the By.Id: product_bulk_menu
+[2020-12-20 04:38:03.875 +03:00] [DBG] Click on the By.XPath: //*[@id='catalog-actions']/div[1]/div/div[2]/div/div/a[2]
+[2020-12-20 04:38:04.170 +03:00] [INF] Test tear down
+[2020-12-20 04:38:04.183 +03:00] [INF] Test set up
+[2020-12-20 04:38:04.183 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:38:09.291 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:38:09.697 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-20 04:38:10.979 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/ul/li[1]/a
+[2020-12-20 04:38:17.510 +03:00] [DBG] Click on the By.XPath: //div/div[2]/div/form/div[2]/div/div/table/tbody/tr[1]/td[10]/a
+[2020-12-20 04:38:48.157 +03:00] [INF] Test tear down
+[2020-12-20 04:38:48.157 +03:00] [INF] Test set up
+[2020-12-20 04:38:48.165 +03:00] [INF] Profile update test starting...
+[2020-12-20 04:38:48.165 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/identity
+[2020-12-20 04:38:49.504 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:38:49.519 +03:00] [INF] Start updating user profile...
+[2020-12-20 04:38:49.519 +03:00] [DBG] Find element By.Name: email
+[2020-12-20 04:38:49.519 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:38:49.528 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:38:49.695 +03:00] [DBG] Find element By.Name: firstname
+[2020-12-20 04:38:49.695 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:38:49.699 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:38:49.832 +03:00] [DBG] Find element By.Name: lastname
+[2020-12-20 04:38:49.832 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:38:49.836 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:38:49.974 +03:00] [DBG] Previous data was cleaned
+[2020-12-20 04:38:49.974 +03:00] [DBG] Find element By.Name: email
+[2020-12-20 04:38:49.974 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:38:49.980 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:38:50.184 +03:00] [DBG] Find element By.Name: firstname
+[2020-12-20 04:38:50.185 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:38:50.190 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:38:50.375 +03:00] [DBG] Find element By.Name: lastname
+[2020-12-20 04:38:50.375 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:38:50.380 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:38:50.524 +03:00] [DBG] Find element By.Name: password
+[2020-12-20 04:38:50.525 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:38:50.529 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:38:50.692 +03:00] [DBG] Find element By.Name: new_password
+[2020-12-20 04:38:50.692 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:38:50.696 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:38:50.878 +03:00] [DBG] Click on the By.XPath: //*[@id='customer-form']/section/div[10]/div[1]/span/label
+[2020-12-20 04:38:51.002 +03:00] [DBG] Click on the By.XPath: //*[@id='customer-form']/footer/button
+[2020-12-20 04:38:53.130 +03:00] [INF] Profile update test finished
+[2020-12-20 04:38:53.131 +03:00] [INF] Test tear down
+[2020-12-20 04:38:53.131 +03:00] [INF] Test set up
+[2020-12-20 04:38:53.132 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:38:55.428 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:38:55.482 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-20 04:38:56.558 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/ul/li[2]/a
+[2020-12-20 04:39:03.287 +03:00] [DBG] Click on the By.XPath: //div/div[2]/div/form/table/tbody/tr[2]/td[5]/div/i
+[2020-12-20 04:39:04.237 +03:00] [DBG] Click on the By.XPath: //div/div[2]/div/form/table/tbody/tr[3]/td[5]/div/i
+[2020-12-20 04:39:05.188 +03:00] [INF] Test tear down
+[2020-12-20 04:39:05.218 +03:00] [INF] Test set up
+[2020-12-20 04:39:05.218 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/8-home-accessories
+[2020-12-20 04:39:15.662 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:39:15.676 +03:00] [DBG] Scroll to element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a
+[2020-12-20 04:39:15.676 +03:00] [DBG] Scroll to element By.Selene: (NSelene.SeleneDriver).Find(By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a)
+[2020-12-20 04:39:15.800 +03:00] [DBG] Scroll to XY (0,705)
+[2020-12-20 04:39:15.811 +03:00] [DBG] Hover over By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/a and click on the By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[2]/a
+[2020-12-20 04:39:16.165 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:39:17.268 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:39:20.133 +03:00] [DBG] Click on the By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button
+[2020-12-20 04:39:20.316 +03:00] [DBG] Thread sleep 300
+[2020-12-20 04:39:20.616 +03:00] [DBG] Click on the By.XPath: //div/div/div[2]/div/div[2]/div/div/button
+[2020-12-20 04:39:24.060 +03:00] [DBG] Click on the By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button
+[2020-12-20 04:39:24.169 +03:00] [INF] Test tear down
+[2020-12-20 04:39:24.171 +03:00] [INF] Test set up
+[2020-12-20 04:39:24.172 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/8-home-accessories
+[2020-12-20 04:39:25.589 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:39:25.607 +03:00] [DBG] Scroll to element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a
+[2020-12-20 04:39:25.608 +03:00] [DBG] Scroll to element By.Selene: (NSelene.SeleneDriver).Find(By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a)
+[2020-12-20 04:39:25.730 +03:00] [DBG] Scroll to XY (0,705)
+[2020-12-20 04:39:25.737 +03:00] [DBG] Hover over By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/a and click on the By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[2]/a
+[2020-12-20 04:39:26.075 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:39:27.208 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:39:28.187 +03:00] [DBG] Click on the By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button
+[2020-12-20 04:39:28.354 +03:00] [DBG] Thread sleep 300
+[2020-12-20 04:39:28.655 +03:00] [DBG] Click on the By.XPath: //div/div/div[2]/div/div[2]/div/div/button
+[2020-12-20 04:39:30.483 +03:00] [DBG] Scroll to element By.XPath: //*[@id='js-product-list']/div[1]/article[2]/div/div[1]/h2/a
+[2020-12-20 04:39:30.484 +03:00] [DBG] Scroll to element By.Selene: (NSelene.SeleneDriver).Find(By.XPath: //*[@id='js-product-list']/div[1]/article[2]/div/div[1]/h2/a)
+[2020-12-20 04:39:30.604 +03:00] [DBG] Scroll to XY (0,705)
+[2020-12-20 04:39:30.608 +03:00] [DBG] Hover over By.XPath: //*[@id='js-product-list']/div[1]/article[2]/div/a and click on the By.XPath: //*[@id='js-product-list']/div[1]/article[2]/div/div[2]/a
+[2020-12-20 04:39:30.987 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:39:32.099 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:39:33.156 +03:00] [DBG] Click on the By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button
+[2020-12-20 04:39:33.297 +03:00] [DBG] Thread sleep 300
+[2020-12-20 04:39:33.599 +03:00] [DBG] Click on the By.XPath: //div/div/div[2]/div/div[2]/div/div/button
+[2020-12-20 04:39:35.435 +03:00] [DBG] Scroll to element By.XPath: //*[@id='js-product-list']/div[1]/article[3]/div/div[1]/h2/a
+[2020-12-20 04:39:35.435 +03:00] [DBG] Scroll to element By.Selene: (NSelene.SeleneDriver).Find(By.XPath: //*[@id='js-product-list']/div[1]/article[3]/div/div[1]/h2/a)
+[2020-12-20 04:39:35.588 +03:00] [DBG] Scroll to XY (0,705)
+[2020-12-20 04:39:35.597 +03:00] [DBG] Hover over By.XPath: //*[@id='js-product-list']/div[1]/article[3]/div/a and click on the By.XPath: //*[@id='js-product-list']/div[1]/article[3]/div/div[2]/a
+[2020-12-20 04:39:35.982 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:39:37.085 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:39:38.231 +03:00] [DBG] Click on the By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button
+[2020-12-20 04:39:38.387 +03:00] [DBG] Thread sleep 300
+[2020-12-20 04:39:38.687 +03:00] [DBG] Click on the By.XPath: //div/div/div[2]/div/div[2]/div/div/button
+[2020-12-20 04:39:41.931 +03:00] [DBG] Click on the By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button
+[2020-12-20 04:39:42.053 +03:00] [INF] Test tear down
+[2020-12-20 04:39:42.067 +03:00] [INF] Test set up
+[2020-12-20 04:39:42.076 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:39:44.922 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:39:45.389 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-20 04:39:46.393 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/ul/li[2]/a
+[2020-12-20 04:39:53.326 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:39:54.327 +03:00] [DBG] Click on the By.XPath: //div[1]/div[1]/div/div/div/div/a[1]
+[2020-12-20 04:40:01.413 +03:00] [DBG] Find element By.Name: category[name][1]
+[2020-12-20 04:40:01.413 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:01.479 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:02.385 +03:00] [DBG] Find element By.Name: category[name][1]
+[2020-12-20 04:40:02.386 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:02.394 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:02.787 +03:00] [DBG] Find element By.Id: tinymce
+[2020-12-20 04:40:02.788 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:02.795 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:04.867 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:40:05.868 +03:00] [DBG] Click on the By.XPath: //*[@id='main-div']/div[2]/div[2]/div/div[2]/div/form/div/div[2]/button
+[2020-12-20 04:40:12.377 +03:00] [DBG] Thread sleep 5000
+[2020-12-20 04:40:17.378 +03:00] [INF] Test tear down
+[2020-12-20 04:40:17.388 +03:00] [INF] Test set up
+[2020-12-20 04:40:17.398 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:40:20.197 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:40:20.434 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[5]/a
+[2020-12-20 04:40:21.273 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[5]/ul/li[1]/a
+[2020-12-20 04:40:27.314 +03:00] [DBG] Click on the By.XPath: //div[1]/div/div/div/div/a[1]
+[2020-12-20 04:40:34.706 +03:00] [DBG] Find element By.Name: customer[first_name]
+[2020-12-20 04:40:34.707 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:34.828 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:35.315 +03:00] [DBG] Find element By.Name: customer[last_name]
+[2020-12-20 04:40:35.316 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:35.337 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:35.764 +03:00] [DBG] Find element By.Name: customer[email]
+[2020-12-20 04:40:35.764 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:35.772 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:35.945 +03:00] [DBG] Find element By.Name: customer[password]
+[2020-12-20 04:40:35.946 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:35.952 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:36.088 +03:00] [DBG] Find element By.Name: customer[first_name]
+[2020-12-20 04:40:36.088 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:36.093 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:36.314 +03:00] [DBG] Find element By.Name: customer[last_name]
+[2020-12-20 04:40:36.315 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:36.322 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:36.523 +03:00] [DBG] Find element By.Name: customer[email]
+[2020-12-20 04:40:36.524 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:36.529 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:36.841 +03:00] [DBG] Find element By.Name: customer[password]
+[2020-12-20 04:40:36.842 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:36.851 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:37.066 +03:00] [DBG] Find element By.XPath: //div[2]/div/div[2]/div/form/div/div[2]/button
+[2020-12-20 04:40:37.067 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:37.106 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:40:41.998 +03:00] [INF] Test tear down
+[2020-12-20 04:40:41.999 +03:00] [INF] Test set up
+[2020-12-20 04:40:44.595 +03:00] [INF] Profile update test starting...
+[2020-12-20 04:40:44.596 +03:00] [INF] Test tear down
+[2020-12-20 04:40:44.605 +03:00] [INF] Test set up
+[2020-12-20 04:40:51.636 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:40:54.347 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:40:54.617 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-20 04:40:55.612 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/ul/li[1]/a
+[2020-12-20 04:41:02.354 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:41:03.355 +03:00] [DBG] Click on the By.XPath: //div[2]/div/div/table/tbody/tr[2]/td[1]/div
+[2020-12-20 04:41:03.837 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:41:04.838 +03:00] [DBG] Click on the By.XPath: //div[2]/div/div/table/tbody/tr[3]/td[1]/div
+[2020-12-20 04:41:05.034 +03:00] [DBG] Click on the By.Id: product_bulk_menu
+[2020-12-20 04:41:05.266 +03:00] [DBG] Click on the By.XPath: //*[@id='catalog-actions']/div[1]/div/div[2]/div/div/a[4]
+[2020-12-20 04:41:05.550 +03:00] [DBG] Click on the By.XPath: //div/div[7]/div/div/div[3]/button[2]
+[2020-12-20 04:41:06.044 +03:00] [INF] Test tear down
+[2020-12-20 04:41:06.068 +03:00] [INF] Test set up
+[2020-12-20 04:41:14.481 +03:00] [INF] Profile update test starting...
+[2020-12-20 04:41:14.482 +03:00] [INF] Test tear down
+[2020-12-20 04:41:14.495 +03:00] [INF] Test set up
+[2020-12-20 04:41:19.777 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:41:22.012 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:41:22.558 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-20 04:41:28.698 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/ul/li[2]/a
+[2020-12-20 04:41:35.418 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:41:36.418 +03:00] [DBG] Click on the By.XPath: //div[2]/div/form/table/tbody/tr[1]/td[1]/div
+[2020-12-20 04:41:37.002 +03:00] [DBG] Click on the By.XPath: //div[5]/div/div[1]/div[2]/div/div/div[1]/div/div[1]/div/div/button
+[2020-12-20 04:41:37.467 +03:00] [DBG] Click on the By.XPath: //div/div[1]/div[2]/div/div/div[1]/div/div[1]/div/div/div/button[2]
+[2020-12-20 04:41:46.212 +03:00] [INF] Test tear down
+[2020-12-20 04:41:46.247 +03:00] [INF] Test set up
+[2020-12-20 04:41:46.250 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:41:52.205 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:41:52.534 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-20 04:41:53.750 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/ul/li[1]/a
+[2020-12-20 04:41:59.558 +03:00] [DBG] Click on the By.XPath: //div[2]/div/div/table/tbody/tr[1]/td[11]/div/div/button
+[2020-12-20 04:42:00.427 +03:00] [DBG] Click on the By.XPath: //div[2]/div/div/table/tbody/tr[1]/td[11]/div/div/div/a[2]
+[2020-12-20 04:42:04.275 +03:00] [INF] Test tear down
+[2020-12-20 04:42:04.275 +03:00] [INF] Test set up
+[2020-12-20 04:42:04.284 +03:00] [INF] Profile update test starting...
+[2020-12-20 04:42:04.285 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/my-account
+[2020-12-20 04:42:05.624 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:42:05.633 +03:00] [DBG] Click on the By.Id: history-link
+[2020-12-20 04:42:06.754 +03:00] [DBG] Thread sleep 500
+[2020-12-20 04:42:08.153 +03:00] [DBG] Click on the By.Id: order-slips-link
+[2020-12-20 04:42:09.231 +03:00] [DBG] Thread sleep 500
+[2020-12-20 04:42:10.737 +03:00] [DBG] Click on the By.Id: addresses-link
+[2020-12-20 04:42:11.774 +03:00] [DBG] Thread sleep 500
+[2020-12-20 04:42:13.191 +03:00] [DBG] Click on the By.Id: identity-link
+[2020-12-20 04:42:14.375 +03:00] [DBG] Thread sleep 500
+[2020-12-20 04:42:15.757 +03:00] [DBG] Click on the By.Id: psgdpr-link
+[2020-12-20 04:42:16.943 +03:00] [DBG] Thread sleep 500
+[2020-12-20 04:42:18.354 +03:00] [INF] Profile update test finished
+[2020-12-20 04:42:18.356 +03:00] [INF] Test tear down
+[2020-12-20 04:42:18.356 +03:00] [INF] Test set up
+[2020-12-20 04:42:18.366 +03:00] [INF] Profile update test starting...
+[2020-12-20 04:42:18.367 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/contact-us
+[2020-12-20 04:42:19.919 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:42:19.934 +03:00] [INF] Start updating user profile...
+[2020-12-20 04:42:19.934 +03:00] [DBG] Find element By.Name: from
+[2020-12-20 04:42:19.935 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:42:19.943 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:42:20.077 +03:00] [DBG] Find element By.Name: message
+[2020-12-20 04:42:20.077 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:42:20.081 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:42:20.204 +03:00] [DBG] Previous data was cleaned
+[2020-12-20 04:42:20.333 +03:00] [DBG] Find element By.Name: from
+[2020-12-20 04:42:20.334 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:42:20.342 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:42:20.690 +03:00] [DBG] Find element By.Name: message
+[2020-12-20 04:42:20.690 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:42:20.695 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:42:20.891 +03:00] [INF] User Bernhard created massage 'Small array Unbranded'
+[2020-12-20 04:42:20.892 +03:00] [DBG] Click on the By.Name: submitMessage
+[2020-12-20 04:42:22.216 +03:00] [INF] Profile update test finished
+[2020-12-20 04:42:22.217 +03:00] [INF] Test tear down
+[2020-12-20 04:42:22.232 +03:00] [INF] Test set up
+[2020-12-20 04:42:22.247 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:42:24.828 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:42:25.183 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[3]/a
+[2020-12-20 04:42:26.212 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[3]/ul/li[1]/a
+[2020-12-20 04:42:31.744 +03:00] [DBG] Click on the By.XPath: //div/div[2]/table/tbody/tr[2]/td[12]/div/a
+[2020-12-20 04:42:38.093 +03:00] [INF] Test tear down
+[2020-12-20 04:42:38.104 +03:00] [INF] Test set up
+[2020-12-20 04:42:38.108 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:42:41.238 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:42:41.790 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[5]/a
+[2020-12-20 04:42:47.814 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[5]/ul/li[1]/a
+[2020-12-20 04:42:55.282 +03:00] [DBG] Click on the By.XPath: //div/div/div[2]/div/form/table/tbody/tr[1]/td[13]/div/div/a[2]
+[2020-12-20 04:42:56.936 +03:00] [DBG] Click on the By.XPath: //div/div[2]/div/form/table/tbody/tr[1]/td[13]/div/div/div/a[1]
+[2020-12-20 04:43:01.488 +03:00] [INF] Test tear down
+[2020-12-20 04:43:01.499 +03:00] [INF] Test set up
+[2020-12-20 04:43:01.500 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:43:06.051 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:43:06.318 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[3]/a
+[2020-12-20 04:43:07.166 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[3]/ul/li[1]/a
+[2020-12-20 04:43:12.219 +03:00] [DBG] Click on the By.Id: bulk_action_menu_order
+[2020-12-20 04:43:13.220 +03:00] [DBG] Click on the By.XPath: //*[@id='form-order']/div/div[3]/div/div/ul/li[1]/a
+[2020-12-20 04:43:14.344 +03:00] [DBG] Click on the By.Id: bulk_action_menu_order
+[2020-12-20 04:43:14.709 +03:00] [DBG] Click on the By.XPath: //*[@id='form-order']/div/div[3]/div/div/ul/li[4]/a
+[2020-12-20 04:43:18.380 +03:00] [DBG] Select element By.Id: id_order_state by value 2
+[2020-12-20 04:43:18.381 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:43:19.604 +03:00] [DBG] Click on the By.XPath: //div/div[2]/div/form/div[2]/button[2]
+[2020-12-20 04:43:42.978 +03:00] [INF] Test tear down
+[2020-12-20 04:43:43.051 +03:00] [INF] Test set up
+[2020-12-20 04:43:43.052 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:43:49.164 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:43:49.405 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[3]/a
+[2020-12-20 04:43:50.470 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[3]/ul/li[1]/a
+[2020-12-20 04:43:58.565 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:43:59.565 +03:00] [DBG] Click on the By.XPath: //div/div[2]/table/tbody/tr[1]/td[1]/input
+[2020-12-20 04:43:59.729 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:44:00.730 +03:00] [DBG] Click on the By.XPath: //div/div[2]/table/tbody/tr[2]/td[1]/input
+[2020-12-20 04:44:00.849 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:44:01.850 +03:00] [DBG] Click on the By.XPath: //div/div[2]/table/tbody/tr[4]/td[1]/input
+[2020-12-20 04:44:01.982 +03:00] [DBG] Click on the By.Id: bulk_action_menu_order
+[2020-12-20 04:44:02.119 +03:00] [DBG] Click on the By.XPath: //*[@id='form-order']/div/div[3]/div/div/ul/li[4]/a
+[2020-12-20 04:44:04.131 +03:00] [DBG] Select element By.Id: id_order_state by value 4
+[2020-12-20 04:44:04.132 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:05.579 +03:00] [DBG] Click on the By.XPath: //div/div[2]/div/form/div[2]/button[2]
+[2020-12-20 04:44:13.967 +03:00] [INF] Test tear down
+[2020-12-20 04:44:13.999 +03:00] [INF] Test set up
+[2020-12-20 04:44:14.000 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/addresses
+[2020-12-20 04:44:18.219 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:44:18.279 +03:00] [DBG] Click on the By.XPath: //div/section/section/div[1]/article/div[2]/a[1]
+[2020-12-20 04:44:19.399 +03:00] [DBG] Find element By.Name: alias
+[2020-12-20 04:44:19.400 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:19.413 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:19.559 +03:00] [DBG] Find element By.Name: firstname
+[2020-12-20 04:44:19.560 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:19.564 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:19.705 +03:00] [DBG] Find element By.Name: lastname
+[2020-12-20 04:44:19.705 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:19.711 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:19.850 +03:00] [DBG] Find element By.Name: company
+[2020-12-20 04:44:19.850 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:19.855 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:19.989 +03:00] [DBG] Find element By.Name: address1
+[2020-12-20 04:44:19.990 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:19.994 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:20.131 +03:00] [DBG] Find element By.Name: address2
+[2020-12-20 04:44:20.132 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:20.138 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:20.268 +03:00] [DBG] Find element By.Name: postcode
+[2020-12-20 04:44:20.269 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:20.277 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:20.416 +03:00] [DBG] Find element By.Name: city
+[2020-12-20 04:44:20.417 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:20.423 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:20.658 +03:00] [DBG] Find element By.Name: phone
+[2020-12-20 04:44:20.659 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:20.664 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:20.801 +03:00] [DBG] Find element By.Name: firstname
+[2020-12-20 04:44:20.802 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:20.807 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:20.948 +03:00] [DBG] Find element By.Name: lastname
+[2020-12-20 04:44:20.948 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:20.953 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:21.124 +03:00] [DBG] Find element By.Name: company
+[2020-12-20 04:44:21.125 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:21.129 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:21.311 +03:00] [DBG] Find element By.Name: address1
+[2020-12-20 04:44:21.312 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:21.317 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:21.528 +03:00] [DBG] Find element By.Name: address2
+[2020-12-20 04:44:21.528 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:21.533 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:21.708 +03:00] [DBG] Find element By.Name: postcode
+[2020-12-20 04:44:21.709 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:21.713 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:21.868 +03:00] [DBG] Find element By.Name: city
+[2020-12-20 04:44:21.870 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:21.875 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:22.113 +03:00] [DBG] Find element By.Name: phone
+[2020-12-20 04:44:22.114 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:22.118 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:44:22.285 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:44:23.286 +03:00] [DBG] Click on the By.XPath: //*[@id='content']/div/div/form/footer/button
+[2020-12-20 04:44:25.016 +03:00] [INF] Test tear down
+[2020-12-20 04:44:25.016 +03:00] [INF] Test set up
+[2020-12-20 04:44:25.021 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/order-history
+[2020-12-20 04:44:26.101 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:44:26.115 +03:00] [DBG] Click on the By.XPath: //div/div/section/section/table/tbody/tr[1]/td[6]/a[2]
+[2020-12-20 04:44:27.933 +03:00] [INF] Test tear down
+[2020-12-20 04:44:27.941 +03:00] [INF] Test set up
+[2020-12-20 04:44:30.963 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:44:33.707 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:44:33.988 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[5]/a
+[2020-12-20 04:44:34.992 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[5]/ul/li[1]/a
+[2020-12-20 04:44:42.468 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:44:43.469 +03:00] [DBG] Click on the By.XPath: //div[1]/div[2]/div/div/div[2]/div/form/table/tbody/tr[2]/td[1]/div
+[2020-12-20 04:44:44.738 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:44:45.739 +03:00] [DBG] Click on the By.XPath: //div[1]/div[2]/div/div/div[2]/div/form/table/tbody/tr[3]/td[1]/div
+[2020-12-20 04:44:46.098 +03:00] [DBG] Click on the By.XPath: //*[@id='customer_grid']/div/div[1]/div/div[1]/div/div/button
+[2020-12-20 04:44:46.544 +03:00] [DBG] Click on the By.Id: customer_grid_bulk_action_disable_selection
+[2020-12-20 04:44:51.187 +03:00] [INF] Test tear down
+[2020-12-20 04:44:51.193 +03:00] [INF] Test set up
+[2020-12-20 04:44:51.194 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:44:57.701 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:44:57.958 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-20 04:45:04.374 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/ul/li[1]/a
+[2020-12-20 04:45:09.126 +03:00] [DBG] Click on the By.XPath: //div[2]/div/div/table/tbody/tr[1]/td[11]/div/div/button
+[2020-12-20 04:45:09.845 +03:00] [DBG] Click on the By.XPath: //div[2]/div/div/table/tbody/tr[1]/td[11]/div/div/div/a[1]
+[2020-12-20 04:45:10.462 +03:00] [INF] Test tear down
+[2020-12-20 04:45:10.476 +03:00] [INF] Test set up
+[2020-12-20 04:45:10.478 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/8-home-accessories
+[2020-12-20 04:45:13.122 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:45:14.394 +03:00] [DBG] Click on the By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[1]/div/span[3]/button[1]
+[2020-12-20 04:45:14.593 +03:00] [DBG] Click on the By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button
+[2020-12-20 04:45:14.687 +03:00] [INF] Test tear down
+[2020-12-20 04:45:14.687 +03:00] [INF] Test set up
+[2020-12-20 04:45:14.697 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/
+[2020-12-20 04:45:16.354 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:45:16.363 +03:00] [DBG] Click on the By.PartialLinkText: Prices drop
+[2020-12-20 04:45:18.829 +03:00] [DBG] Click on the By.PartialLinkText: New products
+[2020-12-20 04:45:21.040 +03:00] [DBG] Click on the By.PartialLinkText: Best sales
+[2020-12-20 04:45:23.374 +03:00] [DBG] Click on the By.PartialLinkText: Delivery
+[2020-12-20 04:45:25.534 +03:00] [DBG] Click on the By.PartialLinkText: Legal Notice
+[2020-12-20 04:45:27.622 +03:00] [DBG] Click on the By.PartialLinkText: Terms and conditions of use
+[2020-12-20 04:45:29.684 +03:00] [DBG] Click on the By.PartialLinkText: About us
+[2020-12-20 04:45:31.764 +03:00] [DBG] Click on the By.PartialLinkText: Secure payment
+[2020-12-20 04:45:33.913 +03:00] [DBG] Click on the By.PartialLinkText: Contact us
+[2020-12-20 04:45:35.782 +03:00] [DBG] Click on the By.PartialLinkText: Sitemap
+[2020-12-20 04:45:38.378 +03:00] [DBG] Click on the By.PartialLinkText: Stores
+[2020-12-20 04:45:40.704 +03:00] [DBG] Click on the By.PartialLinkText: Personal info
+[2020-12-20 04:45:42.897 +03:00] [DBG] Click on the By.PartialLinkText: Orders
+[2020-12-20 04:45:45.040 +03:00] [DBG] Click on the By.PartialLinkText: Credit slips
+[2020-12-20 04:45:47.105 +03:00] [DBG] Click on the By.PartialLinkText: Addresses
+[2020-12-20 04:45:49.267 +03:00] [INF] Test tear down
+[2020-12-20 04:45:49.268 +03:00] [INF] Test set up
+[2020-12-20 04:45:49.269 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:45:52.379 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:45:52.512 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[5]/a
+[2020-12-20 04:45:53.355 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[5]/ul/li[1]/a
+[2020-12-20 04:45:59.342 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:46:00.343 +03:00] [DBG] Click on the By.XPath: //div[1]/div[2]/div/div/div[2]/div/form/table/tbody/tr[2]/td[1]/div
+[2020-12-20 04:46:01.262 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:46:02.263 +03:00] [DBG] Click on the By.XPath: //div[1]/div[2]/div/div/div[2]/div/form/table/tbody/tr[3]/td[1]/div
+[2020-12-20 04:46:02.673 +03:00] [DBG] Click on the By.XPath: //*[@id='customer_grid']/div/div[1]/div/div[1]/div/div/button
+[2020-12-20 04:46:03.013 +03:00] [DBG] Click on the By.Id: customer_grid_bulk_action_enable_selection
+[2020-12-20 04:46:07.756 +03:00] [INF] Test tear down
+[2020-12-20 04:46:07.757 +03:00] [INF] Test set up
+[2020-12-20 04:46:07.759 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:46:14.449 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:46:14.965 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-20 04:46:21.225 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/ul/li[2]/a
+[2020-12-20 04:46:26.762 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:46:27.762 +03:00] [DBG] Click on the By.XPath: //div[2]/div/form/table/tbody/tr[1]/td[1]/div
+[2020-12-20 04:46:28.374 +03:00] [DBG] Click on the By.XPath: //div[5]/div/div[1]/div[2]/div/div/div[1]/div/div[1]/div/div/button
+[2020-12-20 04:46:29.010 +03:00] [DBG] Click on the By.XPath: //div/div[1]/div[2]/div/div/div[1]/div/div[1]/div/div/div/button[1]
+[2020-12-20 04:46:35.518 +03:00] [INF] Test tear down
+[2020-12-20 04:46:35.572 +03:00] [INF] Test set up
+[2020-12-20 04:46:35.574 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:46:41.049 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:46:41.082 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[5]/a
+[2020-12-20 04:46:53.236 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[5]/ul/li[1]/a
+[2020-12-20 04:46:59.967 +03:00] [DBG] Click on the By.XPath: /html/body/div[1]/div[2]/div[2]/div/div[4]/div/div[1]/div[2]/div/div/div[2]/div/form/table/tbody/tr[1]/td[13]/div/div/a[1]
+[2020-12-20 04:47:05.887 +03:00] [INF] Test tear down
+[2020-12-20 04:47:05.925 +03:00] [INF] Test set up
+[2020-12-20 04:47:05.928 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:47:09.667 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:47:10.208 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-20 04:47:11.117 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/ul/li[2]/a
+[2020-12-20 04:47:17.435 +03:00] [DBG] Click on the By.XPath: //div/div/div[2]/div/form/table/tbody/tr[1]/td[6]/div/div/a[1]
+[2020-12-20 04:47:24.522 +03:00] [INF] Test tear down
+[2020-12-20 04:47:24.547 +03:00] [INF] Test set up
+[2020-12-20 04:47:24.550 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:47:28.752 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:47:29.180 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-20 04:47:30.316 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/ul/li[1]/a
+[2020-12-20 04:47:35.895 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:47:36.895 +03:00] [DBG] Click on the By.XPath: //div[2]/div/div/table/tbody/tr[2]/td[1]/div
+[2020-12-20 04:47:37.202 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:47:38.203 +03:00] [DBG] Click on the By.XPath: //div[2]/div/div/table/tbody/tr[3]/td[1]/div
+[2020-12-20 04:47:38.490 +03:00] [DBG] Click on the By.Id: product_bulk_menu
+[2020-12-20 04:47:38.841 +03:00] [DBG] Click on the By.XPath: //*[@id='catalog-actions']/div[1]/div/div[2]/div/div/a[3]
+[2020-12-20 04:47:39.048 +03:00] [INF] Test tear down
+[2020-12-20 04:47:39.062 +03:00] [INF] Test set up
+[2020-12-20 04:47:39.072 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/order-history
+[2020-12-20 04:47:42.709 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:47:42.729 +03:00] [DBG] Click on the By.XPath: //div/div/section/section/table/tbody/tr[1]/td[6]/a[1]
+[2020-12-20 04:47:44.823 +03:00] [INF] Test tear down
+[2020-12-20 04:47:44.832 +03:00] [INF] Test set up
+[2020-12-20 04:47:44.847 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:47:47.051 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:47:47.107 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-20 04:47:48.248 +03:00] [DBG] Click on the By.XPath: /html/body/nav/ul/li[4]/ul/li[1]/a
+[2020-12-20 04:47:54.184 +03:00] [DBG] Click on the By.Id: page-header-desc-configuration-add
+[2020-12-20 04:48:04.364 +03:00] [DBG] Find element By.Name: form[step1][name][1]
+[2020-12-20 04:48:04.366 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:04.427 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:04.937 +03:00] [DBG] Find element By.Name: form[step1][qty_0_shortcut]
+[2020-12-20 04:48:04.938 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:04.944 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:05.156 +03:00] [DBG] Find element By.Name: form[step6][reference]
+[2020-12-20 04:48:05.158 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:05.168 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:05.646 +03:00] [DBG] Find element By.Name: form[step1][price_shortcut]
+[2020-12-20 04:48:05.647 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:05.664 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:05.836 +03:00] [DBG] Find element By.Name: form[step1][name][1]
+[2020-12-20 04:48:05.837 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:05.851 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:06.259 +03:00] [DBG] Find element By.Name: form[step1][qty_0_shortcut]
+[2020-12-20 04:48:06.261 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:06.270 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:06.694 +03:00] [DBG] Find element By.Name: form[step6][reference]
+[2020-12-20 04:48:06.695 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:06.707 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:07.216 +03:00] [DBG] Find element By.Name: form[step1][price_shortcut]
+[2020-12-20 04:48:07.217 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:07.243 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:07.728 +03:00] [DBG] Click on the By.CssSelector: #mce_31 > div
+[2020-12-20 04:48:08.020 +03:00] [DBG] Find element By.Id: tinymce
+[2020-12-20 04:48:08.021 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:08.028 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:11.823 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:48:12.824 +03:00] [DBG] Click on the By.XPath: //*[@id='form']/div[4]/div[2]/div[2]/button[1]
+[2020-12-20 04:48:12.994 +03:00] [DBG] Thread sleep 5000
+[2020-12-20 04:48:17.994 +03:00] [DBG] Scroll to XY (0,0)
+[2020-12-20 04:48:18.002 +03:00] [DBG] Click on the By.XPath: //div/div[2]/div/form/div[3]/div[1]/ul/li[3]
+[2020-12-20 04:48:18.245 +03:00] [DBG] Find element By.Name: form[step4][weight]
+[2020-12-20 04:48:18.246 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:18.258 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:18.426 +03:00] [DBG] Find element By.Name: form[step4][height]
+[2020-12-20 04:48:18.427 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:18.431 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:18.596 +03:00] [DBG] Find element By.Name: form[step4][depth]
+[2020-12-20 04:48:18.597 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:18.602 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:18.761 +03:00] [DBG] Find element By.Name: form[step4][width]
+[2020-12-20 04:48:18.763 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:18.767 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:18.902 +03:00] [DBG] Find element By.Name: form[step4][weight]
+[2020-12-20 04:48:18.904 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:18.909 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:19.145 +03:00] [DBG] Find element By.Name: form[step4][height]
+[2020-12-20 04:48:19.146 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:19.151 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:19.399 +03:00] [DBG] Find element By.Name: form[step4][depth]
+[2020-12-20 04:48:19.400 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:19.407 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:19.646 +03:00] [DBG] Find element By.Name: form[step4][width]
+[2020-12-20 04:48:19.648 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:19.656 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:19.922 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:48:20.923 +03:00] [DBG] Click on the By.XPath: //*[@id='form']/div[4]/div[2]/div[2]/button[1]
+[2020-12-20 04:48:21.079 +03:00] [INF] Test tear down
+[2020-12-20 04:48:21.088 +03:00] [INF] Test set up
+[2020-12-20 04:48:21.091 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/addresses
+[2020-12-20 04:48:24.392 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:48:24.412 +03:00] [DBG] Click on the By.PartialLinkText: Create new address
+[2020-12-20 04:48:25.540 +03:00] [DBG] Find element By.Name: alias
+[2020-12-20 04:48:25.541 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:25.549 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:25.674 +03:00] [DBG] Find element By.Name: firstname
+[2020-12-20 04:48:25.675 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:25.679 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:25.819 +03:00] [DBG] Find element By.Name: lastname
+[2020-12-20 04:48:25.821 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:25.826 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:25.960 +03:00] [DBG] Find element By.Name: company
+[2020-12-20 04:48:25.961 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:25.966 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.084 +03:00] [DBG] Find element By.Name: address1
+[2020-12-20 04:48:26.085 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.089 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.214 +03:00] [DBG] Find element By.Name: address2
+[2020-12-20 04:48:26.217 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.223 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.340 +03:00] [DBG] Find element By.Name: postcode
+[2020-12-20 04:48:26.341 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.345 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.466 +03:00] [DBG] Find element By.Name: city
+[2020-12-20 04:48:26.467 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.472 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.597 +03:00] [DBG] Find element By.Name: phone
+[2020-12-20 04:48:26.598 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.603 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.720 +03:00] [DBG] Find element By.Name: firstname
+[2020-12-20 04:48:26.721 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.725 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.883 +03:00] [DBG] Find element By.Name: lastname
+[2020-12-20 04:48:26.884 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.890 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.035 +03:00] [DBG] Find element By.Name: company
+[2020-12-20 04:48:27.036 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.041 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.233 +03:00] [DBG] Find element By.Name: address1
+[2020-12-20 04:48:27.234 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.239 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.432 +03:00] [DBG] Find element By.Name: address2
+[2020-12-20 04:48:27.434 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.439 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.641 +03:00] [DBG] Find element By.Name: postcode
+[2020-12-20 04:48:27.642 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.648 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.784 +03:00] [DBG] Find element By.Name: city
+[2020-12-20 04:48:27.785 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.791 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:28.030 +03:00] [DBG] Find element By.Name: phone
+[2020-12-20 04:48:28.031 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:28.035 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:28.220 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:48:29.220 +03:00] [DBG] Click on the By.XPath: //*[@id='content']/div/div/form/footer/button
+[2020-12-20 04:48:30.738 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/addresses
+[2020-12-20 04:48:31.631 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:48:31.644 +03:00] [DBG] Click on the By.XPath: //div/section/section/div[1]/article/div[2]/a[2]
+[2020-12-20 04:48:33.525 +03:00] [INF] Test tear down
+[2020-12-20 04:48:47.088 +03:00] [INF] One Time Tear Down

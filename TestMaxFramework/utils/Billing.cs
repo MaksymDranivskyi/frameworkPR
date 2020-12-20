@@ -39,8 +39,8 @@ namespace TestMaxFramework
                 .RuleFor(chk => chk.Street, f => f.Address.StreetAddress())
                 .RuleFor(chk => chk.City, f => f.Address.City())
                 .RuleFor(chk => chk.State, f => f.Address.State())
-                .RuleFor(chk => chk.Postcode, f => f.Address.ZipCode())
-                .RuleFor(chk => chk.Phone, f => f.Phone.PhoneNumber())
+                .RuleFor(chk => chk.Postcode, f => f.Random.ReplaceNumbers("#####"))
+                .RuleFor(chk => chk.Phone, f => f.Random.ReplaceNumbers("+380#########"))
                 .Populate(this);
 
             return this;

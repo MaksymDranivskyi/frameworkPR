@@ -1,0 +1,57 @@
+[2020-12-20 02:56:19.352 +03:00] [INF] One Time Setup finished
+[2020-12-20 02:56:19.484 +03:00] [INF] Konfiguracja zakończona
+[2020-12-20 02:56:19.501 +03:00] [DBG] Gets the timeout
+[2020-12-20 02:56:19.502 +03:00] [DBG] Gets the short timeout
+[2020-12-20 02:56:19.503 +03:00] [DBG] Gets the static timeout
+[2020-12-20 02:56:19.514 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-12-20 02:56:23.865 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 02:56:23.888 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:56:23.907 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-12-20 02:56:23.908 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:56:23.914 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:56:24.230 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-12-20 02:56:24.230 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:56:24.235 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:56:24.461 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-12-20 02:56:27.055 +03:00] [INF] User By.Name: email logined
+[2020-12-20 02:56:27.055 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 02:56:29.520 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 02:56:29.528 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-12-20 02:56:29.529 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:56:29.534 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:56:29.920 +03:00] [DBG] Wyszukiwanie elementu By.Name: passwd
+[2020-12-20 02:56:29.920 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:56:29.925 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:56:30.111 +03:00] [DBG] Kliknąć element By.Id: submit_login
+[2020-12-20 02:56:30.244 +03:00] [INF] User By.Name: email logined
+[2020-12-20 02:56:30.244 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:56:30.253 +03:00] [DBG] Thread sleep 5000
+[2020-12-20 02:56:35.407 +03:00] [INF] Test set up
+[2020-12-20 02:56:35.502 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:56:36.963 +03:00] [INF] Profile update test starting...
+[2020-12-20 02:56:36.963 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/8-home-accessories
+[2020-12-20 02:56:42.833 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 02:56:42.879 +03:00] [DBG] Przewija do widoku elementu By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a
+[2020-12-20 02:56:42.880 +03:00] [DBG] Przewija do widoku elementu By.Selene: (NSelene.SeleneDriver).Find(By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a)
+[2020-12-20 02:56:43.086 +03:00] [DBG] Przewija do pozycji XY (0,705)
+[2020-12-20 02:56:43.114 +03:00] [DBG] Najechać myszą na element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/a i kliknąć element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[2]/a
+[2020-12-20 02:56:43.534 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 02:56:44.649 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:56:45.930 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button
+[2020-12-20 02:56:46.145 +03:00] [DBG] Thread sleep 300
+[2020-12-20 02:56:46.446 +03:00] [DBG] Kliknąć element By.XPath: //div/div/div[2]/div/div[2]/div/div/button
+[2020-12-20 02:56:48.612 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/cart?action=show
+[2020-12-20 02:56:49.860 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 02:56:49.872 +03:00] [DBG] Thread sleep 300
+[2020-12-20 02:56:50.173 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='main']/div/div[2]/div[1]/div[2]/div/a
+[2020-12-20 02:56:51.842 +03:00] [DBG] Kliknąć element By.Name: confirm-addresses
+[2020-12-20 02:56:54.192 +03:00] [DBG] Kliknąć element By.Name: confirmDeliveryOption
+[2020-12-20 02:56:56.147 +03:00] [DBG] Thread sleep 2000
+[2020-12-20 02:56:58.149 +03:00] [DBG] Wyszukiwanie elementu By.XPath: //div[@id='payment-option-1-container']/span
+[2020-12-20 02:56:58.149 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:56:58.154 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:56:58.304 +03:00] [DBG] Thread sleep 2000
+[2020-12-20 02:57:00.304 +03:00] [DBG] Wybrać element z listy checkbox
+[2020-12-20 02:57:00.410 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='payment-confirmation']/div[1]/button
+[2020-12-20 02:57:08.979 +03:00] [INF] Profile update test finished
+[2020-12-20 02:57:08.983 +03:00] [INF] Test tear down

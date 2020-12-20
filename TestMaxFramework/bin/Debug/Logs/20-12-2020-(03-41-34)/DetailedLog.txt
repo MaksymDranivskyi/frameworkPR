@@ -1,0 +1,87 @@
+[2020-12-20 03:41:39.121 +03:00] [INF] One Time Setup finished
+[2020-12-20 03:41:39.197 +03:00] [INF] Konfiguracja zakończona
+[2020-12-20 03:41:39.203 +03:00] [DBG] Gets the timeout
+[2020-12-20 03:41:39.204 +03:00] [DBG] Gets the short timeout
+[2020-12-20 03:41:39.204 +03:00] [DBG] Gets the static timeout
+[2020-12-20 03:41:39.206 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-12-20 03:41:43.223 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 03:41:43.254 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:41:43.283 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-12-20 03:41:43.295 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:41:43.308 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:41:43.746 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-12-20 03:41:43.746 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:41:43.753 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:41:44.192 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-12-20 03:41:49.683 +03:00] [INF] User By.Name: email logined
+[2020-12-20 03:41:49.683 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 03:41:53.981 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 03:41:53.996 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-12-20 03:41:53.996 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:41:54.002 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:41:54.256 +03:00] [DBG] Wyszukiwanie elementu By.Name: passwd
+[2020-12-20 03:41:54.256 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:41:54.261 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:41:54.476 +03:00] [DBG] Kliknąć element By.Id: submit_login
+[2020-12-20 03:41:54.635 +03:00] [INF] User By.Name: email logined
+[2020-12-20 03:41:54.635 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:41:54.647 +03:00] [DBG] Thread sleep 5000
+[2020-12-20 03:41:59.679 +03:00] [INF] Test set up
+[2020-12-20 03:42:00.075 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/addresses
+[2020-12-20 03:42:16.364 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 03:42:16.390 +03:00] [DBG] Kliknąć element By.PartialLinkText: Create new address
+[2020-12-20 03:42:18.321 +03:00] [DBG] Wyszukiwanie elementu By.Name: alias
+[2020-12-20 03:42:18.321 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:18.330 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:18.477 +03:00] [DBG] Wyszukiwanie elementu By.Name: firstname
+[2020-12-20 03:42:18.477 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:18.484 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:18.642 +03:00] [DBG] Wyszukiwanie elementu By.Name: lastname
+[2020-12-20 03:42:18.642 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:18.647 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:18.783 +03:00] [DBG] Wyszukiwanie elementu By.Name: company
+[2020-12-20 03:42:18.783 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:18.788 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:18.914 +03:00] [DBG] Wyszukiwanie elementu By.Name: address1
+[2020-12-20 03:42:18.914 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:18.920 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:19.063 +03:00] [DBG] Wyszukiwanie elementu By.Name: address2
+[2020-12-20 03:42:19.063 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:19.069 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:19.222 +03:00] [DBG] Wyszukiwanie elementu By.Name: postcode
+[2020-12-20 03:42:19.222 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:19.226 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:19.391 +03:00] [DBG] Wyszukiwanie elementu By.Name: city
+[2020-12-20 03:42:19.392 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:19.396 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:19.553 +03:00] [DBG] Wyszukiwanie elementu By.Name: phone
+[2020-12-20 03:42:19.554 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:19.559 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:19.707 +03:00] [DBG] Wyszukiwanie elementu By.Name: firstname
+[2020-12-20 03:42:19.707 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:19.712 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:19.878 +03:00] [DBG] Wyszukiwanie elementu By.Name: lastname
+[2020-12-20 03:42:19.878 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:19.883 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:20.096 +03:00] [DBG] Wyszukiwanie elementu By.Name: company
+[2020-12-20 03:42:20.097 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:20.103 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:20.320 +03:00] [DBG] Wyszukiwanie elementu By.Name: address1
+[2020-12-20 03:42:20.320 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:20.327 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:20.601 +03:00] [DBG] Wyszukiwanie elementu By.Name: address2
+[2020-12-20 03:42:20.601 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:20.607 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:20.823 +03:00] [DBG] Wyszukiwanie elementu By.Name: postcode
+[2020-12-20 03:42:20.823 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:20.828 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:21.019 +03:00] [DBG] Wyszukiwanie elementu By.Name: city
+[2020-12-20 03:42:21.019 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:21.026 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:21.407 +03:00] [DBG] Wyszukiwanie elementu By.Name: phone
+[2020-12-20 03:42:21.407 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:21.413 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 03:42:21.648 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 03:42:22.649 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='content']/div/div/form/footer/button
+[2020-12-20 03:42:26.037 +03:00] [INF] Test tear down
+[2020-12-20 03:42:45.176 +03:00] [INF] One Time Tear Down

@@ -36,7 +36,8 @@ namespace TestMaxFramework.pages
             findElement(password).SendKeys(pwd);
             clickOnElement(loginBtn);
             Log.Information($"User {email} logined");
-
+            waitForPageToLoad();
+            sleepFor(5000);
         }
 
     }

@@ -1,0 +1,226 @@
+[2020-12-19 20:18:21.938 +03:00] [INF] One Time Setup finished
+[2020-12-19 20:18:21.974 +03:00] [INF] Konfiguracja zakończona
+[2020-12-19 20:18:21.979 +03:00] [DBG] Gets the timeout
+[2020-12-19 20:18:21.979 +03:00] [DBG] Gets the short timeout
+[2020-12-19 20:18:21.980 +03:00] [DBG] Gets the static timeout
+[2020-12-19 20:18:21.981 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-12-19 20:18:24.223 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:18:24.242 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:18:24.257 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-12-19 20:18:24.257 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:18:24.262 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:18:24.521 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-12-19 20:18:24.521 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:18:24.528 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:18:25.045 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-12-19 20:18:27.348 +03:00] [INF] User By.Name: email logined
+[2020-12-19 20:18:27.348 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-19 20:18:29.278 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:18:29.293 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-12-19 20:18:29.293 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:18:29.299 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:18:29.531 +03:00] [DBG] Wyszukiwanie elementu By.Name: passwd
+[2020-12-19 20:18:29.531 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:18:29.535 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:18:29.748 +03:00] [DBG] Kliknąć element By.Id: submit_login
+[2020-12-19 20:18:29.900 +03:00] [INF] User By.Name: email logined
+[2020-12-19 20:18:29.929 +03:00] [INF] Test set up
+[2020-12-19 20:18:30.385 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/addresses
+[2020-12-19 20:18:34.115 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:18:34.134 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:18:34.141 +03:00] [DBG] Kliknąć element By.PartialLinkText: Create new address
+[2020-12-19 20:19:04.702 +03:00] [INF] Test tear down
+[2020-12-19 20:19:04.707 +03:00] [INF] Test set up
+[2020-12-19 20:19:04.729 +03:00] [INF] Profile update test starting...
+[2020-12-19 20:19:04.729 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/8-home-accessories
+[2020-12-19 20:19:06.438 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:19:06.455 +03:00] [DBG] Przewija do widoku elementu By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a
+[2020-12-19 20:19:06.455 +03:00] [DBG] Przewija do widoku elementu By.Selene: (NSelene.SeleneDriver).Find(By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a)
+[2020-12-19 20:19:06.570 +03:00] [DBG] Przewija do pozycji XY (0,705)
+[2020-12-19 20:19:06.578 +03:00] [DBG] Najechać myszą na element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/a i kliknąć element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[2]/a
+[2020-12-19 20:19:06.944 +03:00] [DBG] Thread sleep 1000
+[2020-12-19 20:19:08.046 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:09.057 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button
+[2020-12-19 20:19:09.196 +03:00] [DBG] Thread sleep 300
+[2020-12-19 20:19:09.497 +03:00] [DBG] Kliknąć element By.XPath: //div/div/div[2]/div/div[2]/div/div/button
+[2020-12-19 20:19:11.127 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/cart?action=show
+[2020-12-19 20:19:12.216 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:19:12.226 +03:00] [DBG] Thread sleep 300
+[2020-12-19 20:19:12.528 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='main']/div/div[2]/div[1]/div[2]/div/a
+[2020-12-19 20:19:13.733 +03:00] [DBG] Kliknąć element By.Name: confirm-addresses
+[2020-12-19 20:19:15.545 +03:00] [DBG] Kliknąć element By.Name: confirmDeliveryOption
+[2020-12-19 20:19:17.447 +03:00] [DBG] Thread sleep 2000
+[2020-12-19 20:19:19.448 +03:00] [DBG] Wyszukiwanie elementu By.XPath: //div[@id='payment-option-1-container']/span
+[2020-12-19 20:19:19.448 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:19.458 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:19.643 +03:00] [DBG] Thread sleep 2000
+[2020-12-19 20:19:21.645 +03:00] [DBG] Wybrać element z listy checkbox
+[2020-12-19 20:19:21.749 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='payment-confirmation']/div[1]/button
+[2020-12-19 20:19:26.609 +03:00] [INF] Profile update test finished
+[2020-12-19 20:19:26.609 +03:00] [INF] Test tear down
+[2020-12-19 20:19:26.610 +03:00] [INF] Test set up
+[2020-12-19 20:19:26.627 +03:00] [INF] Profile update test starting...
+[2020-12-19 20:19:26.644 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/my-account
+[2020-12-19 20:19:27.511 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:19:27.525 +03:00] [DBG] Kliknąć element By.Id: history-link
+[2020-12-19 20:19:28.528 +03:00] [DBG] Thread sleep 500
+[2020-12-19 20:19:29.833 +03:00] [DBG] Kliknąć element By.Id: order-slips-link
+[2020-12-19 20:19:30.717 +03:00] [DBG] Thread sleep 500
+[2020-12-19 20:19:32.043 +03:00] [DBG] Kliknąć element By.Id: addresses-link
+[2020-12-19 20:19:32.942 +03:00] [DBG] Thread sleep 500
+[2020-12-19 20:19:34.237 +03:00] [DBG] Kliknąć element By.Id: identity-link
+[2020-12-19 20:19:35.186 +03:00] [DBG] Thread sleep 500
+[2020-12-19 20:19:36.467 +03:00] [DBG] Kliknąć element By.Id: psgdpr-link
+[2020-12-19 20:19:37.446 +03:00] [DBG] Thread sleep 500
+[2020-12-19 20:19:38.760 +03:00] [INF] Profile update test finished
+[2020-12-19 20:19:38.760 +03:00] [INF] Test tear down
+[2020-12-19 20:19:38.761 +03:00] [INF] Test set up
+[2020-12-19 20:19:38.765 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/addresses
+[2020-12-19 20:19:39.568 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:19:39.584 +03:00] [DBG] Kliknąć element By.XPath: //div/section/section/div[1]/article/div[2]/a[1]
+[2020-12-19 20:19:40.565 +03:00] [DBG] Wyszukiwanie elementu By.Name: alias
+[2020-12-19 20:19:40.565 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:40.575 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:40.714 +03:00] [DBG] Wyszukiwanie elementu By.Name: firstname
+[2020-12-19 20:19:40.714 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:40.718 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:40.872 +03:00] [DBG] Wyszukiwanie elementu By.Name: lastname
+[2020-12-19 20:19:40.872 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:40.878 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:41.006 +03:00] [DBG] Wyszukiwanie elementu By.Name: company
+[2020-12-19 20:19:41.006 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:41.011 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:41.128 +03:00] [DBG] Wyszukiwanie elementu By.Name: address1
+[2020-12-19 20:19:41.128 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:41.132 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:41.252 +03:00] [DBG] Wyszukiwanie elementu By.Name: address2
+[2020-12-19 20:19:41.253 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:41.258 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:41.376 +03:00] [DBG] Wyszukiwanie elementu By.Name: postcode
+[2020-12-19 20:19:41.376 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:41.380 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:41.510 +03:00] [DBG] Wyszukiwanie elementu By.Name: city
+[2020-12-19 20:19:41.510 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:41.515 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:41.653 +03:00] [DBG] Wyszukiwanie elementu By.Name: phone
+[2020-12-19 20:19:41.653 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:41.658 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:41.774 +03:00] [DBG] Wyszukiwanie elementu By.Name: firstname
+[2020-12-19 20:19:41.774 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:41.779 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:41.941 +03:00] [DBG] Wyszukiwanie elementu By.Name: lastname
+[2020-12-19 20:19:41.941 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:41.949 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:42.118 +03:00] [DBG] Wyszukiwanie elementu By.Name: company
+[2020-12-19 20:19:42.118 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:42.123 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:42.279 +03:00] [DBG] Wyszukiwanie elementu By.Name: address1
+[2020-12-19 20:19:42.279 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:42.284 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:42.459 +03:00] [DBG] Wyszukiwanie elementu By.Name: address2
+[2020-12-19 20:19:42.459 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:42.463 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:42.638 +03:00] [DBG] Wyszukiwanie elementu By.Name: postcode
+[2020-12-19 20:19:42.638 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:42.643 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:42.786 +03:00] [DBG] Wyszukiwanie elementu By.Name: city
+[2020-12-19 20:19:42.786 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:42.792 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:43.075 +03:00] [DBG] Wyszukiwanie elementu By.Name: phone
+[2020-12-19 20:19:43.075 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:43.081 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-19 20:19:43.292 +03:00] [DBG] Thread sleep 1000
+[2020-12-19 20:19:44.293 +03:00] [DBG] Kliknąć element By.XPath: //*[@id='content']/div/div/form/footer/button
+[2020-12-19 20:19:45.450 +03:00] [INF] Test tear down
+[2020-12-19 20:19:45.460 +03:00] [INF] Test set up
+[2020-12-19 20:19:45.490 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-19 20:19:48.929 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:19:49.174 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[5]/a
+[2020-12-19 20:19:49.609 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[5]/ul/li[1]/a
+[2020-12-19 20:19:55.672 +03:00] [DBG] Thread sleep 1000
+[2020-12-19 20:19:56.673 +03:00] [DBG] Kliknąć element By.XPath: //div[1]/div[2]/div/div/div[2]/div/form/table/tbody/tr[2]/td[1]/div
+[2020-12-19 20:19:57.207 +03:00] [DBG] Thread sleep 1000
+[2020-12-19 20:19:58.209 +03:00] [DBG] Kliknąć element By.XPath: //div[1]/div[2]/div/div/div[2]/div/form/table/tbody/tr[3]/td[1]/div
+[2020-12-19 20:19:58.539 +03:00] [DBG] Kliknąć element By.XPath: //div/div/div[1]/div/div[1]/div/div/button
+[2020-12-19 20:20:00.129 +03:00] [INF] Test tear down
+[2020-12-19 20:20:00.130 +03:00] [INF] Test set up
+[2020-12-19 20:20:00.145 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-19 20:20:02.515 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:20:02.536 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-19 20:20:10.426 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/ul/li[2]/a
+[2020-12-19 20:20:15.959 +03:00] [DBG] Thread sleep 1000
+[2020-12-19 20:20:16.960 +03:00] [DBG] Kliknąć element By.XPath: //div[2]/div/form/table/tbody/tr[1]/td[2]/div
+[2020-12-19 20:20:47.372 +03:00] [INF] Test tear down
+[2020-12-19 20:20:47.372 +03:00] [INF] Test set up
+[2020-12-19 20:20:47.373 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-19 20:20:49.850 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:20:50.216 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-19 20:20:50.883 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/ul/li[2]/a
+[2020-12-19 20:20:55.881 +03:00] [DBG] Kliknąć element By.XPath: //div/div/div[2]/div/form/table/tbody/tr[1]/td[7]/div/div/a[1]
+[2020-12-19 20:21:26.285 +03:00] [INF] Test tear down
+[2020-12-19 20:21:26.286 +03:00] [INF] Test set up
+[2020-12-19 20:21:26.286 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-19 20:21:28.541 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:21:28.919 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[5]/a
+[2020-12-19 20:21:29.601 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[5]/ul/li[1]/a
+[2020-12-19 20:21:34.571 +03:00] [DBG] Thread sleep 1000
+[2020-12-19 20:21:35.572 +03:00] [DBG] Kliknąć element By.XPath: //div[1]/div[2]/div/div/div[2]/div/form/table/tbody/tr[2]/td[1]/div
+[2020-12-19 20:21:36.469 +03:00] [DBG] Thread sleep 1000
+[2020-12-19 20:21:37.470 +03:00] [DBG] Kliknąć element By.XPath: //div[1]/div[2]/div/div/div[2]/div/form/table/tbody/tr[3]/td[1]/div
+[2020-12-19 20:21:37.653 +03:00] [DBG] Kliknąć element By.XPath: //div/div/div[1]/div/div[1]/div/div/button
+[2020-12-19 20:21:39.181 +03:00] [INF] Test tear down
+[2020-12-19 20:21:39.182 +03:00] [INF] Test set up
+[2020-12-19 20:21:39.183 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-19 20:21:41.881 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:21:42.408 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-19 20:21:48.037 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/ul/li[2]/a
+[2020-12-19 20:21:53.053 +03:00] [DBG] Thread sleep 1000
+[2020-12-19 20:21:54.054 +03:00] [DBG] Kliknąć element By.XPath: //div[2]/div/form/table/tbody/tr[1]/td[2]/div
+[2020-12-19 20:22:24.432 +03:00] [INF] Test tear down
+[2020-12-19 20:22:24.432 +03:00] [INF] Test set up
+[2020-12-19 20:22:24.433 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-19 20:22:27.226 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:22:27.561 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[5]/a
+[2020-12-19 20:22:28.432 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[5]/ul/li[1]/a
+[2020-12-19 20:22:33.311 +03:00] [DBG] Thread sleep 1000
+[2020-12-19 20:22:34.318 +03:00] [DBG] Kliknąć element By.XPath: //div[1]/div[2]/div/div/div[2]/div/form/table/tbody/tr[2]/td[1]/div
+[2020-12-19 20:22:35.037 +03:00] [DBG] Thread sleep 1000
+[2020-12-19 20:22:36.038 +03:00] [DBG] Kliknąć element By.XPath: //div[1]/div[2]/div/div/div[2]/div/form/table/tbody/tr[3]/td[1]/div
+[2020-12-19 20:22:36.246 +03:00] [DBG] Kliknąć element By.XPath: //div/div/div[1]/div/div[1]/div/div/button
+[2020-12-19 20:22:37.827 +03:00] [INF] Test tear down
+[2020-12-19 20:22:37.827 +03:00] [INF] Test set up
+[2020-12-19 20:22:37.828 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-19 20:22:40.382 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:22:40.739 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-19 20:22:41.451 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/ul/li[2]/a
+[2020-12-19 20:22:46.837 +03:00] [DBG] Thread sleep 1000
+[2020-12-19 20:22:47.838 +03:00] [DBG] Kliknąć element By.XPath: //div[2]/div/form/table/tbody/tr[2]/td[2]/div
+[2020-12-19 20:23:18.261 +03:00] [INF] Test tear down
+[2020-12-19 20:23:18.261 +03:00] [INF] Test set up
+[2020-12-19 20:23:18.262 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-19 20:23:20.495 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:23:20.922 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[5]/a
+[2020-12-19 20:23:21.530 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[5]/ul/li[1]/a
+[2020-12-19 20:23:26.077 +03:00] [DBG] Kliknąć element By.XPath: //div/div/div[2]/div/form/table/tbody/tr[3]/td[13]/div/div/a[2]
+[2020-12-19 20:23:26.505 +03:00] [DBG] Kliknąć element By.XPath: //div/div[2]/div/form/table/tbody/tr[1]/td[13]/div/div/div/a[2]
+[2020-12-19 20:23:30.889 +03:00] [INF] Test tear down
+[2020-12-19 20:23:30.889 +03:00] [INF] Test set up
+[2020-12-19 20:23:33.020 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-19 20:23:35.645 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:23:35.787 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-19 20:23:36.451 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/ul/li[2]/a
+[2020-12-19 20:23:41.342 +03:00] [DBG] Kliknąć element By.XPath: //div/div[2]/div/form/table/tbody/tr[1]/td[7]/div/div/a[2]
+[2020-12-19 20:24:11.752 +03:00] [INF] Test tear down
+[2020-12-19 20:24:11.753 +03:00] [INF] Test set up
+[2020-12-19 20:24:11.753 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-19 20:24:13.902 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:24:13.925 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/a
+[2020-12-19 20:24:14.651 +03:00] [DBG] Kliknąć element By.XPath: /html/body/nav/ul/li[4]/ul/li[2]/a
+[2020-12-19 20:24:19.819 +03:00] [DBG] Kliknąć element By.XPath: //div/div[2]/div/form/table/tbody/tr[2]/td[6]/div/i
+[2020-12-19 20:24:50.258 +03:00] [INF] Test tear down
+[2020-12-19 20:24:50.259 +03:00] [INF] Test set up
+[2020-12-19 20:24:50.259 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/addresses
+[2020-12-19 20:24:51.261 +03:00] [DBG] Check that the page is loaded
+[2020-12-19 20:24:51.276 +03:00] [DBG] Kliknąć element By.XPath: //div/section/section/div[1]/article/div[2]/a[2]
+[2020-12-19 20:24:52.704 +03:00] [INF] Test tear down
+[2020-12-19 20:25:03.957 +03:00] [INF] One Time Tear Down

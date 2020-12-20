@@ -1,0 +1,36 @@
+[2020-12-20 04:30:04.868 +03:00] [INF] One Time Setup finished
+[2020-12-20 04:30:04.940 +03:00] [INF] Setup completed successfully
+[2020-12-20 04:30:04.978 +03:00] [DBG] Gets the timeout
+[2020-12-20 04:30:05.053 +03:00] [DBG] Gets the short timeout
+[2020-12-20 04:30:05.054 +03:00] [DBG] Gets the static timeout
+[2020-12-20 04:30:05.056 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-12-20 04:30:08.767 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:30:08.787 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:30:08.814 +03:00] [DBG] Find element By.Name: email
+[2020-12-20 04:30:08.876 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:30:08.882 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:30:09.676 +03:00] [DBG] Find element By.Name: password
+[2020-12-20 04:30:09.677 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:30:09.682 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:30:09.951 +03:00] [DBG] Click on the By.Id: submit-login
+[2020-12-20 04:30:13.571 +03:00] [INF] User By.Name: email logined
+[2020-12-20 04:30:13.572 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:30:15.782 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:30:15.793 +03:00] [DBG] Find element By.Name: email
+[2020-12-20 04:30:15.793 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:30:15.799 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:30:16.079 +03:00] [DBG] Find element By.Name: passwd
+[2020-12-20 04:30:16.079 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:30:16.084 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:30:16.324 +03:00] [DBG] Click on the By.Id: submit_login
+[2020-12-20 04:30:16.530 +03:00] [INF] User By.Name: email logined
+[2020-12-20 04:30:16.531 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:30:16.543 +03:00] [DBG] Thread sleep 5000
+[2020-12-20 04:30:21.574 +03:00] [INF] Test set up
+[2020-12-20 04:30:21.657 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:30:29.553 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/8-home-accessories
+[2020-12-20 04:30:33.382 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:30:35.348 +03:00] [DBG] Click on the By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[1]/div/span[3]/button[1]
+[2020-12-20 04:30:35.555 +03:00] [DBG] Click on the By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button
+[2020-12-20 04:30:35.684 +03:00] [INF] Test tear down
+[2020-12-20 04:30:50.143 +03:00] [INF] One Time Tear Down

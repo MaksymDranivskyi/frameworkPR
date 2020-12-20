@@ -39,7 +39,7 @@ namespace TestMaxFramework.pages
             "arguments[0].dispatchEvent(evObj);} else if(document.createEventObject) { arguments[0].fireEvent('onmouseover');}",
         mouseOverScript2 = "var evObj = document.createEvent('MouseEvents'); " +
             "evObj.initMouseEvent(\"mouseover\",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null); arguments[0].dispatchEvent(evObj);",
-        clickScript = "arguments[0].click();",
+        ///clickScript = "arguments[0].click();",
         DragNdropScript = "var ball = document.getElementById('ball'); ball.style.position = 'absolute'; moveAt(e); ";
 
 
@@ -173,10 +173,10 @@ namespace TestMaxFramework.pages
 
         public static void clickOnElement(By element, params int[] timeout)
         {
-            Log.Debug($"Kliknąć element {element}");
+            Log.Debug($"Click on the {element}");
             try
             {
-                Report.test.Log(Status.Info, $"Kliknąć element <pre>{element}</pre>");
+                Report.test.Log(Status.Info, $"Click on the <pre>{element}</pre>");
             }
 
             catch (NullReferenceException)
@@ -190,7 +190,7 @@ namespace TestMaxFramework.pages
             }
             catch (Exception)
             {
-                throw new Exception("Błąd kliknięcia elementu");
+                throw new Exception("Error clicking item");
             }
 
         }
@@ -198,10 +198,10 @@ namespace TestMaxFramework.pages
 
         public static void hoverAndClick(By toHover, By toClick, params int[] timeout)
         {
-            Log.Debug($"Najechać myszą na element {toHover} i kliknąć element {toClick}");
+            Log.Debug($"Hover over {toHover} and click on the {toClick}");
             try
             {
-                Report.test.Log(Status.Info, $"Najechać myszą na element <pre>{toHover}</pre> i kliknąć element <pre>{toClick}</pre>");
+                Report.test.Log(Status.Info, $"Hover over <pre>{toHover}</pre> and click on the <pre>{toClick}</pre>");
             }
             catch (NullReferenceException)
             {
@@ -214,13 +214,10 @@ namespace TestMaxFramework.pages
                 sleepFor(1000);
                 S(toClick).Click();
 
-                //((IJavaScriptExecutor)GetWebDriver()).ExecuteScript(mouseOverScript, S(toHover));
-               // WaitUntilElementClickable(toClick,3000);
-                //((IJavaScriptExecutor)GetWebDriver()).ExecuteScript(clickScript, S(toClick));
             }
             catch (Exception)
             {
-
+                throw new Exception("Hover over and click on the element error");
             }
             waitForPageToLoad();
         }
@@ -229,10 +226,10 @@ namespace TestMaxFramework.pages
 
         public static By hover(By element, params int[] timeout)
         {
-            Log.Debug($"Najechać myszą na element {element}");
+            Log.Debug($"Hover over {element}");
             try
             {
-                Report.test.Log(Status.Info, $"Najechać myszą na element <pre>{element}</pre>");
+                Report.test.Log(Status.Info, $"Hover over <pre>{element}</pre>");
             }
             catch (NullReferenceException)
             {
@@ -246,7 +243,7 @@ namespace TestMaxFramework.pages
             }
             catch (Exception)
             {
-                throw new Exception("Błąd najechania");
+                throw new Exception("Hover error");
             }
             return element;
         }
@@ -270,7 +267,7 @@ namespace TestMaxFramework.pages
             }
             catch (Exception)
             {
-                throw new Exception("Błąd przenoszenia elementu");
+                throw new Exception("Drags and drop element error");
             }
             return element;
         }
@@ -278,7 +275,7 @@ namespace TestMaxFramework.pages
 
         public static void waitForPageToLoad()
         {
-            Log.Debug("Oczekiwanie na wczytanie strony");
+            Log.Debug("Wait for the page to load");
             bool pageIsLoaded = ExecuteScript("return document.readyState").Equals("complete");
 
             IWait<IWebDriver> wait = new WebDriverWait(GetWebDriver(), TimeSpan.FromSeconds(DEFAULT_TIMEOUT));
@@ -300,17 +297,17 @@ namespace TestMaxFramework.pages
 
         public static IWebElement findElementIgnoreException(By element, params int[] timeout)
         {
-            Log.Debug($"Wyszukiwanie elementu {element} ignorując exception");
+            Log.Debug($"Find element {element} ignore exception");
             try
             {
-                Report.test.Log(Status.Info, $"Wyszukiwanie elementu <pre>{element}</pre> ignorując exception");
+                Report.test.Log(Status.Info, $"Find element <pre>{element}</pre> , ignoring the exception");
             }
             catch (NullReferenceException)
             {
             }
             waitForPageToLoad();
             int timeoutForFindElement = timeout.Length < 1 ? DEFAULT_TIMEOUT : timeout[0];
-            waitForPageToLoad();
+           // waitForPageToLoad();
             try
             {
 
@@ -325,10 +322,10 @@ namespace TestMaxFramework.pages
 
         public static void clickOnElementIgnoreException(By element, params int[] timeout)
         {
-            Log.Debug($"Kliknąć element {element} ignorując exception");
+            Log.Debug($"Click on  the element {element}, ignoring the exception");
             try
             {
-                Report.test.Log(Status.Info, $"Kliknąć element <pre>{element}</pre> ignorując exception");
+                Report.test.Log(Status.Info, $"Click on  the element <pre>{element}</pre> , ignoring the exception");
             }
             catch (NullReferenceException)
             {
@@ -340,11 +337,12 @@ namespace TestMaxFramework.pages
                 (new WebDriverWait(GetWebDriver(), TimeSpan.FromSeconds(timeoutForFindElement)))
                        .Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(element));
 
-                S(element).Click();
+                findElementIgnoreException(element).Click();
             }
             catch (Exception)
             {
                 Log.Information("error");
+               // return null;
             }
 
         }
@@ -352,19 +350,26 @@ namespace TestMaxFramework.pages
 
         public static void selectByIndex(By element, int value, params int[] timeout)
         {
+            try
+            {
                 var passangersElement = GetDriver().FindElement(element);
-                var  passangersSelect = new SelectElement(passangersElement);
+                var passangersSelect = new SelectElement(passangersElement);
                 passangersSelect.SelectByIndex(value);
-            
+            }
 
+
+            catch (Exception)
+            {
+                Log.Information("Click on  the element error");
+            }
         }
 
         public static void selectByString(By element, string value, params int[] timeout)
         {
-            Log.Debug($"Wybrać element {element} według stringu {value}");
+            Log.Debug($"Select element {element} by value {value}");
             try
             {
-                Report.test.Log(Status.Info, $"Wybrać element <pre>{element}</pre> według stringu <pre>{value}</pre>");
+                Report.test.Log(Status.Info, $"Select element <pre>{element}</pre> by value <pre>{value}</pre>");
             }
             catch (NullReferenceException)
             {
@@ -381,7 +386,7 @@ namespace TestMaxFramework.pages
             }
             catch (Exception)
             {
-                Log.Information("Błąd wydoru elementu");
+                Log.Information("Selecting element error");
             }
         }
 
@@ -391,10 +396,10 @@ namespace TestMaxFramework.pages
         public static void selectByText(By element, string value, params int[] timeout)
         {
 
-            Log.Debug($"Wybrać element {element} według textu {value}");
+            Log.Debug($"Select element {element} by text {value}");
             try
             {
-                Report.test.Log(Status.Info, $"Wybrać element <pre>{element}</pre> według textu <pre>{value}</pre>");
+                Report.test.Log(Status.Info, $"Select element <pre>{element}</pre> by text <pre>{value}</pre>");
             }
             catch (NullReferenceException)
             {
@@ -411,7 +416,7 @@ namespace TestMaxFramework.pages
             }
             catch (Exception)
             {
-                Log.Information("Błąd wydoru elementu");
+                Log.Information("Error selecting element ");
             }
         }
 
@@ -424,10 +429,10 @@ namespace TestMaxFramework.pages
 
         public static SeleneElement findElement(By element, params int[] timeout)
         {
-            Log.Debug($"Wyszukiwanie elementu {element}");
+            Log.Debug($"Find element {element}");
             try
             {
-                Report.test.Log(Status.Info, $"Wyszukiwanie elementu <pre>{element}</pre>");
+                Report.test.Log(Status.Info, $"Find element <pre>{element}</pre>");
             }
             catch (NullReferenceException)
             {
@@ -443,7 +448,7 @@ namespace TestMaxFramework.pages
             }
             catch (Exception)
             {
-                throw new Exception("Błąd wyszukiwania elementu");
+                throw new Exception("Error finding element");
             }
         }
 
@@ -453,10 +458,10 @@ namespace TestMaxFramework.pages
 
         public void switchToFrame(By xpath)
         {
-            Log.Debug($"Przełączyć do framu {xpath}");
+            Log.Debug($"Switch to frame {xpath}");
             try
             {
-                Report.test.Log(Status.Info, $"Przełączyć do framu <pre>{xpath}</pre>");
+                Report.test.Log(Status.Info, $"Switch to frame <pre>{xpath}</pre>");
             }
             catch (NullReferenceException)
             {
@@ -468,10 +473,10 @@ namespace TestMaxFramework.pages
 
         public void switchToDefaultContent()
         {
-            Log.Debug("Przełączyć do defaultnego contentu");
+            Log.Debug("Switch to default content");
             try
             {
-                Report.test.Log(Status.Info, "Przełączyć do defaultnego contentu");
+                Report.test.Log(Status.Info, "Switch to default content");
             }
             catch (NullReferenceException)
             {
@@ -482,10 +487,10 @@ namespace TestMaxFramework.pages
 
         public void scrollTo(int xPosition = 0, int yPosition = 0)
         {
-            Log.Debug($"Przewija do pozycji XY ({xPosition},{yPosition})");
+            Log.Debug($"Scroll to XY ({xPosition},{yPosition})");
             try
             {
-                Report.test.Log(Status.Info, $"Przewijać do pozycji XY ({xPosition},{yPosition})");
+                Report.test.Log(Status.Info, $"Scroll to XY ({xPosition},{yPosition})");
             }
             catch (NullReferenceException)
             {
@@ -498,10 +503,10 @@ namespace TestMaxFramework.pages
 
         public SeleneElement scrollToView(By selector)
         {
-            Log.Debug($"Przewija do widoku elementu {selector}");
+            Log.Debug($"Scroll to element {selector}");
             try
             {
-                Report.test.Log(Status.Info, $"Przewijać do widoku elementu <pre>{selector}</pre>");
+                Report.test.Log(Status.Info, $"Scroll to element <pre>{selector}</pre>");
             }
             catch (NullReferenceException)
             {
@@ -514,10 +519,10 @@ namespace TestMaxFramework.pages
 
         public void scrollToView(IWebElement element)
         {
-            Log.Debug($"Przewija do widoku elementu {element}");
+            Log.Debug($"Scroll to element {element}");
             try
             {
-                Report.test.Log(Status.Info, $"Przewijać do widoku elementu <pre>{element}</pre>");
+                Report.test.Log(Status.Info, $"Scroll to element <pre>{element}</pre>");
             }
             catch (NullReferenceException)
             {
@@ -533,10 +538,10 @@ namespace TestMaxFramework.pages
 
         public static void checkElement(By element, params int[] timeout)
         {
-            Log.Debug("Wybrać element z listy checkbox");
+            Log.Debug($"Mark the element  {element}");
             try
             {
-                Report.test.Log(Status.Info, $"Zaznaczyć element <pre>{element}</pre> ");
+                Report.test.Log(Status.Info, $"Mark the element <pre>{element}</pre> ");
             }
             catch (NullReferenceException)
             {
@@ -551,7 +556,7 @@ namespace TestMaxFramework.pages
             }
             catch (Exception)
             {
-                Log.Information("Błąd zaznaczenia elementu");
+                Log.Information("Error marking the element");
             }
         }
 
@@ -559,7 +564,7 @@ namespace TestMaxFramework.pages
         {
             try
             {
-                Report.test.Log(Status.Info, $"Wybrać element <pre>{element}</pre> według pozycji <pre>{value}</pre>");
+                Report.test.Log(Status.Info, $"Select element <pre>{element}</pre> by position <pre>{value}</pre>");
             }
             catch (NullReferenceException)
             {
@@ -574,7 +579,7 @@ namespace TestMaxFramework.pages
             }
             catch (Exception)
             {
-                Log.Information("Błąd wyboru elementu");
+                Log.Information("Error selecting the element");
             }
             waitForPageToLoad();
         }
@@ -583,7 +588,7 @@ namespace TestMaxFramework.pages
         {
             try
             {
-                Report.test.Log(Status.Info, $"Wybrać element <pre>{element}</pre> według znaczenia <pre>{value}</pre>");
+                Report.test.Log(Status.Info, $"Select element <pre>{element}</pre> by YES/NO <pre>{value}</pre>");
             }
             catch (NullReferenceException)
             {
@@ -600,7 +605,7 @@ namespace TestMaxFramework.pages
             }
             catch (Exception)
             {
-                Log.Information("Błąd wyboru elementu");
+                Log.Information("Error selecting the element");
             }
             waitForPageToLoad();
 
@@ -608,44 +613,11 @@ namespace TestMaxFramework.pages
 
 
 
-        //public static void calendarDate(By element, string date)
-        //{
-        //    try
-        //    {
-        //        Report.test.Log(Status.Info, $"Okreśić datę <pre>{date}</pre> w kalendarzu <pre>{element}</pre>");
-        //    }
-        //    catch (NullReferenceException)
-        //    {
-        //    }
-        //    waitForPageToLoad();
-        //    try
-        //    {
-        //        sleepFor(100);
-        //        clickOnElement(element);
-
-        //        while (isElementPresentAndDisplay(By.XPath($"//td[@aria-label='{date}']")) == false)
-        //        {
-
-        //            S(By.CssSelector(".mat-calendar-previous-button")).Click();
-        //        }
-
-
-        //        S(By.CssSelector($"td[aria-label='{date}']")).Click();
-
-        //    }
-        //    catch (Exception)
-        //    {
-        //        Log.Information("Błąd określenia daty");
-        //    }
-        //}
-
-
-
         public static void typeAndSelect(By element, string value, params int[] timeout)
         {
             try
             {
-                Report.test.Log(Status.Info, $"Wybrać elemnt <pre>{element}</pre> według stringu <pre>{value}</pre>");
+                Report.test.Log(Status.Info, $"Select element <pre>{element}</pre>  by string <pre>{value}</pre>");
             }
             catch (NullReferenceException)
             {
@@ -663,47 +635,47 @@ namespace TestMaxFramework.pages
             }
             catch (Exception)
             {
-                Log.Information($"Wybrać elemnt <pre>{element}</pre> według stringu <pre>{value}</pre>");
+                Log.Information($"Select element <pre>{element}</pre> by string <pre>{value}</pre>");
             }
             waitForPageToLoad();
         }
 
 
-        public static void typeDecription(string language, By element, string value, params int[] timeout)
-        {
+        //public static void typeDecription(string language, By element, string value, params int[] timeout)
+        //{
 
-            int timeoutForFindElement = timeout.Length < 1 ? DEFAULT_TIMEOUT : timeout[0];
-            try
-            {
-                By PolTextSkill = By.XPath("//mat-tab-group/div/mat-tab-body[1]/div/app-rich-text-edit/quill-editor/div[2]/div[1]");
-                By EngTextSkill = By.XPath("//mat-tab-group/div/mat-tab-body[2]/div/app-rich-text-edit/quill-editor/div[2]/div[1]");
+        //    int timeoutForFindElement = timeout.Length < 1 ? DEFAULT_TIMEOUT : timeout[0];
+        //    try
+        //    {
+        //        By PolTextSkill = By.XPath("//mat-tab-group/div/mat-tab-body[1]/div/app-rich-text-edit/quill-editor/div[2]/div[1]");
+        //        By EngTextSkill = By.XPath("//mat-tab-group/div/mat-tab-body[2]/div/app-rich-text-edit/quill-editor/div[2]/div[1]");
 
 
-                WaitUntilElementClickable(element, 30);
-                clickOnElement(element, 30);
+        //        WaitUntilElementClickable(element, 30);
+        //        clickOnElement(element, 30);
 
-                if (language == "English")
-                {
-                    S(EngTextSkill).Set(value);
-                }
-                else
-                {
-                    S(PolTextSkill).Set(value);
-                }
-            }
-            catch (Exception)
-            {
-                Log.Information($"W polu <pre>{element}</pre> wpisać tekst <pre>{value}</pre> w języku {language}");
-            }
-            waitForPageToLoad();
-            try
-            {
-                Report.test.Log(Status.Info, $"W polu <pre>{element}</pre> wpisać tekst <pre>{value}</pre> w języku {language}");
-            }
-            catch (NullReferenceException)
-            {
-            }
-        }
+        //        if (language == "English")
+        //        {
+        //            S(EngTextSkill).Set(value);
+        //        }
+        //        else
+        //        {
+        //            S(PolTextSkill).Set(value);
+        //        }
+        //    }
+        //    catch (Exception)
+        //    {
+        //        Log.Information($"W polu <pre>{element}</pre> wpisać tekst <pre>{value}</pre> w języku {language}");
+        //    }
+        //    waitForPageToLoad();
+        //    try
+        //    {
+        //        Report.test.Log(Status.Info, $"W polu <pre>{element}</pre> wpisać tekst <pre>{value}</pre> w języku {language}");
+        //    }
+        //    catch (NullReferenceException)
+        //    {
+        //    }
+        //}
 
 
 
@@ -718,7 +690,7 @@ namespace TestMaxFramework.pages
             }
             catch (NoSuchElementException)
             {
-                Console.WriteLine("Element z locatorem: '" + elementLocator + "'nie został znaleziony.");
+                Console.WriteLine("Element: '" + elementLocator + "' not found");
                 throw;
             }
         }
@@ -731,7 +703,7 @@ namespace TestMaxFramework.pages
             }
             catch (NoSuchElementException)
             {
-                Console.WriteLine("Element z lokalizatorem: '" + elementLocator + "' nie został znaleziony.");
+                Console.WriteLine("Element: '" + elementLocator + "' not found");
                 throw;
             }
         }
@@ -748,7 +720,7 @@ namespace TestMaxFramework.pages
             }
             catch (NoSuchElementException)
             {
-                Console.WriteLine("Element z lokalizatorem: '" + elementLocator + "' nie został znaleziony.");
+                Console.WriteLine("Element: '" + elementLocator + "' not found");
                 throw;
             }
 

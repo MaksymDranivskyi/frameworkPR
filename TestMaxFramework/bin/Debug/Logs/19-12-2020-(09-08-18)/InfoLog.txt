@@ -1,0 +1,27 @@
+[2020-12-19 21:08:22.233 +03:00] [INF] One Time Setup finished
+[2020-12-19 21:08:22.272 +03:00] [INF] Konfiguracja zakończona
+[2020-12-19 21:08:28.383 +03:00] [INF] User By.Name: email logined
+[2020-12-19 21:08:30.893 +03:00] [INF] User By.Name: email logined
+[2020-12-19 21:08:30.931 +03:00] [INF] Test set up
+[2020-12-19 21:09:06.043 +03:00] [INF] Test tear down
+[2020-12-19 21:09:06.049 +03:00] [INF] Test set up
+[2020-12-19 21:09:20.061 +03:00] [INF] Test tear down
+[2020-12-19 21:09:20.061 +03:00] [INF] Test set up
+[2020-12-19 21:09:38.159 +03:00] [INF] Test tear down
+[2020-12-19 21:09:38.176 +03:00] [INF] Test set up
+[2020-12-19 21:10:20.361 +03:00] [INF] Test tear down
+[2020-12-19 21:10:20.361 +03:00] [INF] Test set up
+[2020-12-19 21:10:36.457 +03:00] [INF] Test tear down
+[2020-12-19 21:10:36.457 +03:00] [INF] Test set up
+[2020-12-19 21:10:54.523 +03:00] [INF] Test tear down
+[2020-12-19 21:10:54.552 +03:00] [INF] Test set up
+[2020-12-19 21:11:14.589 +03:00] [INF] Test tear down
+[2020-12-19 21:11:14.589 +03:00] [INF] Test set up
+[2020-12-19 21:11:37.629 +03:00] [INF] Test tear down
+[2020-12-19 21:11:37.670 +03:00] [INF] Test set up
+[2020-12-19 21:11:54.727 +03:00] [INF] Test tear down
+[2020-12-19 21:11:54.727 +03:00] [INF] Test set up
+[2020-12-19 21:12:19.216 +03:00] [INF] Test tear down
+[2020-12-19 21:12:19.249 +03:00] [INF] Test set up
+[2020-12-19 21:13:01.206 +03:00] [INF] Test tear down
+[2020-12-19 21:13:12.623 +03:00] [INF] One Time Tear Down

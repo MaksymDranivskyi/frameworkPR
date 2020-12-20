@@ -16,15 +16,39 @@ namespace TestMaxFramework
     class WPTestSuite : BaseTestPR
     {
         ApiFixture prestaApi = new ApiFixture();
-        
+
         [Test]
+        [Order(2)]
+        [Author("Maksym Dranivskyi")]
+        [Category("Contact form")]
+        public void ApiCreateCustomer()
+        {
+            prestaApi.CreateCustomer(1);
+//          prestaApi.CreateManufacturer();
+            Log.Information("Profile update test starting...");
+
+        }
+
+
+        [Test]
+        [Order(2)]
+        [Author("Maksym Dranivskyi")]
+        [Category("Contact form")]
+        public void ApiCreateCategory()
+        {
+            prestaApi.CreateCategory(4);
+
+            Log.Information("Profile update test starting...");
+        }
+
+            [Test]
         [Order(2)]
         [Author("Maksym Dranivskyi")]
         [Category("Contact form")]
         public void ContactMsgWP()
         {
-            prestaApi.CreateProduct();
-            prestaApi.CreateCategory();
+           // prestaApi.CreateProduct();
+           // prestaApi.CreateCategory();
             Log.Information("Profile update test starting...");
             ContactUsPR contactmsg = ContactUsPR.Instance;
             contactmsg.open();
@@ -140,8 +164,9 @@ namespace TestMaxFramework
         [Description("Add new address to your account")]
         public void CheckAddAddress()
         {
-            MyAddressesPR addrss = MyAddressesPR.Instance;
+            
             CreateAddressPR crtaddrs = CreateAddressPR.Instance;
+            MyAddressesPR addrss = MyAddressesPR.Instance;
             addrss.open();
             addrss.CreateNewAddress();
             crtaddrs.FillAddress();
@@ -173,6 +198,7 @@ namespace TestMaxFramework
         [Description("Add new address to your account")]
         public void CheckDeleteAddress()
         {
+            CheckAddAddress();
             MyAddressesPR addrss = MyAddressesPR.Instance;
             addrss.open();
             addrss.DeleteAddress(1);
@@ -337,6 +363,7 @@ namespace TestMaxFramework
 
         public void CheckDeleteProduct()
         {
+            prestaApi.CreateProduct(2);
             AdminProductPage product = AdminProductPage.Instance;
             AdminDashboard dash = AdminDashboard.Instance;
             dash.open();
@@ -369,6 +396,7 @@ namespace TestMaxFramework
         [Description("Delete several products")]
         public void CheckDeleteSeveralProducts()
         {
+            prestaApi.CreateProduct(3);
             AdminProductPage product = AdminProductPage.Instance;
             AdminDashboard dash = AdminDashboard.Instance;
             dash.open();
@@ -385,6 +413,7 @@ namespace TestMaxFramework
         [Description("Deactivate several products")]
         public void CheckDeactivateSeveralProducts()
         {
+            prestaApi.CreateProduct(3);
             AdminProductPage product = AdminProductPage.Instance;
             AdminDashboard dash = AdminDashboard.Instance;
             dash.open();
@@ -456,7 +485,7 @@ namespace TestMaxFramework
         public void CheckDeleteCategory()
         {
             // Preconditions
-            prestaApi.CreateCategory();
+            prestaApi.CreateCategory(4);
 
             // Steps
             AdminCategoryPage category = AdminCategoryPage.Instance;
@@ -474,6 +503,7 @@ namespace TestMaxFramework
         [Description("Delete several categories")]
         public void CheckDeleteSeveralCategories()
         {
+            prestaApi.CreateCategory(3);
             AdminCategoryPage category = AdminCategoryPage.Instance;
             AdminDashboard dash = AdminDashboard.Instance;
             dash.open();
@@ -506,6 +536,7 @@ namespace TestMaxFramework
         [Description("Delete several categories")]
         public void CheckDisableSeveralCategories()
         {
+            prestaApi.CreateCategory(3);
             AdminCategoryPage category = AdminCategoryPage.Instance;
             AdminDashboard dash = AdminDashboard.Instance;
             dash.open();
@@ -575,6 +606,7 @@ namespace TestMaxFramework
         [Description("Delete customer")]
         public void CheckDeleteCustomer()
         {
+            prestaApi.CreateCustomer(3);
             AdminCustomerPage castomer = AdminCustomerPage.Instance;
             AdminDashboard dash = AdminDashboard.Instance;
             dash.open();
@@ -590,7 +622,7 @@ namespace TestMaxFramework
         [Description("Delete  several customers")]
         public void CheckDeleteSeveralCustomers()
         {
-            
+            prestaApi.CreateCustomer(3);
             AdminCustomerPage customer = AdminCustomerPage.Instance;
             AdminDashboard dash = AdminDashboard.Instance;
             dash.open();
@@ -623,6 +655,7 @@ namespace TestMaxFramework
         [Description("Disable  several customers")]
         public void CheckDisableSeveralCustomers()
         {
+            prestaApi.CreateCustomer(3);
             AdminCustomerPage customer = AdminCustomerPage.Instance;
             AdminDashboard dash = AdminDashboard.Instance;
             dash.open();

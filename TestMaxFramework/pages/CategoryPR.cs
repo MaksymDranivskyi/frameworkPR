@@ -29,7 +29,7 @@ namespace TestMaxFramework.pages
         {
             pageURL = "8-home-accessories";
             pageTitle = "Home Accessories";
-
+            waitForPageToLoad();
         }
 
      

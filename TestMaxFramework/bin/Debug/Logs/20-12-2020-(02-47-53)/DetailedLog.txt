@@ -1,0 +1,27 @@
+[2020-12-20 02:47:57.446 +03:00] [INF] One Time Setup finished
+[2020-12-20 02:47:57.487 +03:00] [INF] Konfiguracja zakończona
+[2020-12-20 02:47:57.490 +03:00] [DBG] Gets the timeout
+[2020-12-20 02:47:57.490 +03:00] [DBG] Gets the short timeout
+[2020-12-20 02:47:57.490 +03:00] [DBG] Gets the static timeout
+[2020-12-20 02:47:57.492 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-12-20 02:48:01.669 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 02:48:01.699 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:48:01.721 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-12-20 02:48:01.721 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:48:01.728 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:48:02.021 +03:00] [DBG] Wyszukiwanie elementu By.Name: password
+[2020-12-20 02:48:02.021 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:48:02.029 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:48:02.231 +03:00] [DBG] Kliknąć element By.Id: submit-login
+[2020-12-20 02:48:04.763 +03:00] [INF] User By.Name: email logined
+[2020-12-20 02:48:04.763 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 02:48:06.777 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 02:48:06.787 +03:00] [DBG] Wyszukiwanie elementu By.Name: email
+[2020-12-20 02:48:06.788 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:48:06.792 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:48:06.993 +03:00] [DBG] Wyszukiwanie elementu By.Name: passwd
+[2020-12-20 02:48:06.993 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:48:06.997 +03:00] [DBG] Oczekiwanie na wczytanie strony
+[2020-12-20 02:48:07.197 +03:00] [DBG] Kliknąć element By.Id: submit_login
+[2020-12-20 02:48:07.394 +03:00] [INF] User By.Name: email logined
+[2020-12-20 02:48:13.338 +03:00] [INF] One Time Tear Down

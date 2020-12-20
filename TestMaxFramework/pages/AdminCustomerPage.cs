@@ -35,10 +35,15 @@ namespace TestMaxFramework.pages
 
         // SEARCH
 
-        By bulkActions = By.XPath("//div/div/div[1]/div/div[1]/div/div/button");
-        By enableSeletion = By.XPath("//div[2]/div/div/div[1]/div/div[1]/div/div/div/button[1]");
-        By disableSelection = By.XPath("//div[2]/div/div/div[1]/div/div[1]/div/div/div/button[2]");
-        By deleteSelection = By.XPath("//div[2]/div/div/div[1]/div/div[1]/div/div/div/button[3]");
+        By bulkActions = By.XPath("//*[@id='customer_grid']/div/div[1]/div/div[1]/div/div/button");
+        //By enableSeletion = By.XPath("//div[2]/div/div/div[1]/div/div[1]/div/div/div/button[1]");
+        //By disableSelection = By.XPath("//div[2]/div/div/div[1]/div/div[1]/div/div/div/button[2]");
+        //By deleteSelection = By.XPath("//div[2]/div/div/div[1]/div/div[1]/div/div/div/button[3]");
+
+        By enableSeletion = By.Id("customer_grid_bulk_action_enable_selection");
+        By disableSelection = By.Id("customer_grid_bulk_action_disable_selection");
+        By deleteSelection = By.Id("customer_grid_bulk_action_disable_selection");
+
         By deleteNow = By.XPath($"//div/div[4]/div/div[2]/div/div/div[3]/button[2]");
         By addCustomer = By.XPath("//div[1]/div/div/div/div/a[1]");
 
@@ -63,14 +68,14 @@ namespace TestMaxFramework.pages
         public void DeleteCustomer(int element)
         {
                 clickOnElement(By.XPath($"//div/div/div[2]/div/form/table/tbody/tr[{element}]/td[13]/div/div/a[2]"));
-                clickOnElement(By.XPath($"//div/div[2]/div/form/table/tbody/tr[1]/td[13]/div/div/div/a[2]"));
+                clickOnElement(By.XPath($"//div/div[2]/div/form/table/tbody/tr[{element}]/td[13]/div/div/div/a[2]"));
                 clickOnElement(deleteNow);
         }
 
         public void PreviewCastomer(int element)
         {
             clickOnElement(By.XPath($"//div/div/div[2]/div/form/table/tbody/tr[{element}]/td[13]/div/div/a[2]"));
-            clickOnElement(By.XPath($"//div/div[2]/div/form/table/tbody/tr[1]/td[13]/div/div/div/a[1]"));
+            clickOnElement(By.XPath($"//div/div[2]/div/form/table/tbody/tr[{element}]/td[13]/div/div/div/a[1]"));
         }
 
         public void SelectCustomers(int[] listId)

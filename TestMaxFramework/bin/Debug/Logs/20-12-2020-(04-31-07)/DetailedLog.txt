@@ -1,0 +1,58 @@
+[2020-12-20 04:31:11.546 +03:00] [INF] One Time Setup finished
+[2020-12-20 04:31:11.590 +03:00] [INF] Setup completed successfully
+[2020-12-20 04:31:11.592 +03:00] [DBG] Gets the timeout
+[2020-12-20 04:31:11.592 +03:00] [DBG] Gets the short timeout
+[2020-12-20 04:31:11.592 +03:00] [DBG] Gets the static timeout
+[2020-12-20 04:31:11.593 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/?controller=authentication&back=my-account
+[2020-12-20 04:31:16.182 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:31:16.212 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:31:16.232 +03:00] [DBG] Find element By.Name: email
+[2020-12-20 04:31:16.233 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:31:16.240 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:31:16.617 +03:00] [DBG] Find element By.Name: password
+[2020-12-20 04:31:16.618 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:31:16.634 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:31:16.872 +03:00] [DBG] Click on the By.Id: submit-login
+[2020-12-20 04:31:19.419 +03:00] [INF] User By.Name: email logined
+[2020-12-20 04:31:19.419 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/admin970a0n461/index.php
+[2020-12-20 04:31:22.712 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:31:22.722 +03:00] [DBG] Find element By.Name: email
+[2020-12-20 04:31:22.722 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:31:22.727 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:31:22.943 +03:00] [DBG] Find element By.Name: passwd
+[2020-12-20 04:31:22.943 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:31:22.949 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:31:23.153 +03:00] [DBG] Click on the By.Id: submit_login
+[2020-12-20 04:31:23.316 +03:00] [INF] User By.Name: email logined
+[2020-12-20 04:31:23.316 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:31:23.321 +03:00] [DBG] Thread sleep 5000
+[2020-12-20 04:31:28.472 +03:00] [INF] Test set up
+[2020-12-20 04:31:28.507 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:31:30.822 +03:00] [INF] Profile update test starting...
+[2020-12-20 04:31:30.823 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/8-home-accessories
+[2020-12-20 04:31:36.034 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:31:36.062 +03:00] [DBG] Scroll to element By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a
+[2020-12-20 04:31:36.064 +03:00] [DBG] Scroll to element By.Selene: (NSelene.SeleneDriver).Find(By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[1]/h2/a)
+[2020-12-20 04:31:36.261 +03:00] [DBG] Scroll to XY (0,705)
+[2020-12-20 04:31:36.277 +03:00] [DBG] Hover over By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/a and click on the By.XPath: //*[@id='js-product-list']/div[1]/article[1]/div/div[2]/a
+[2020-12-20 04:31:36.735 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:31:37.861 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:31:39.091 +03:00] [DBG] Click on the By.XPath: //*[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button
+[2020-12-20 04:31:39.256 +03:00] [DBG] Thread sleep 300
+[2020-12-20 04:31:39.556 +03:00] [DBG] Click on the By.XPath: //div/div/div[2]/div/div[2]/div/div/button
+[2020-12-20 04:31:41.571 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/cart?action=show
+[2020-12-20 04:31:43.013 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:31:43.022 +03:00] [DBG] Thread sleep 300
+[2020-12-20 04:31:43.322 +03:00] [DBG] Click on the By.XPath: //*[@id='main']/div/div[2]/div[1]/div[2]/div/a
+[2020-12-20 04:31:45.630 +03:00] [DBG] Click on the By.Name: confirm-addresses
+[2020-12-20 04:31:47.764 +03:00] [DBG] Click on the By.Name: confirmDeliveryOption
+[2020-12-20 04:31:50.117 +03:00] [DBG] Thread sleep 2000
+[2020-12-20 04:31:52.118 +03:00] [DBG] Find element By.XPath: //div[@id='payment-option-1-container']/span
+[2020-12-20 04:31:52.118 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:31:52.124 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:31:52.295 +03:00] [DBG] Thread sleep 2000
+[2020-12-20 04:31:54.296 +03:00] [DBG] Mark the element  By.Id: conditions_to_approve[terms-and-conditions]
+[2020-12-20 04:31:54.405 +03:00] [DBG] Click on the By.XPath: //*[@id='payment-confirmation']/div[1]/button
+[2020-12-20 04:32:08.581 +03:00] [INF] Profile update test finished
+[2020-12-20 04:32:08.585 +03:00] [INF] Test tear down
+[2020-12-20 04:32:23.275 +03:00] [INF] One Time Tear Down

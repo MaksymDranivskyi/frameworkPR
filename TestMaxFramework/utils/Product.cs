@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using TestMaxFramework.pages;
 using TestMaxFramework.utils;
 
@@ -20,6 +19,7 @@ namespace TestMaxFramework
         public string ProductSku { get; set; }
 
         public string SalePrice { get; set; }
+        public decimal Price { get; set; }
         public string Weight { get; set; }
         public string Length { get; set; }
         public string Width { get; set; }
@@ -39,6 +39,7 @@ namespace TestMaxFramework
                 .RuleFor(prd => prd.ProductSku, p => p.Commerce.Ean8())
                 .RuleFor(prd => prd.SalePrice, p => p.Commerce.Price())
                 .RuleFor(prd => prd.Qty, p => (p.Random.Int()).ToString())
+                .RuleFor(prd => prd.Price, p => (p.Random.Short(0, 1000) + p.Random.Decimal()))
                 .RuleFor(prd => prd.Weight, p => (p.Random.Short(0, 1000) + p.Random.Decimal()).ToString())
                 .RuleFor(prd => prd.Length, p => (p.Random.Short(0, 1000) + p.Random.Decimal()).ToString())
                 .RuleFor(prd => prd.Width, p => (p.Random.Short(0, 1000) + p.Random.Decimal()).ToString())

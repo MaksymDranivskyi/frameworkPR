@@ -1,0 +1,61 @@
+[2020-12-20 04:48:21.088 +03:00] [INF] Test set up
+[2020-12-20 04:48:21.091 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/addresses
+[2020-12-20 04:48:24.392 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:48:24.412 +03:00] [DBG] Click on the By.PartialLinkText: Create new address
+[2020-12-20 04:48:25.540 +03:00] [DBG] Find element By.Name: alias
+[2020-12-20 04:48:25.541 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:25.549 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:25.674 +03:00] [DBG] Find element By.Name: firstname
+[2020-12-20 04:48:25.675 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:25.679 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:25.819 +03:00] [DBG] Find element By.Name: lastname
+[2020-12-20 04:48:25.821 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:25.826 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:25.960 +03:00] [DBG] Find element By.Name: company
+[2020-12-20 04:48:25.961 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:25.966 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.084 +03:00] [DBG] Find element By.Name: address1
+[2020-12-20 04:48:26.085 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.089 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.214 +03:00] [DBG] Find element By.Name: address2
+[2020-12-20 04:48:26.217 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.223 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.340 +03:00] [DBG] Find element By.Name: postcode
+[2020-12-20 04:48:26.341 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.345 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.466 +03:00] [DBG] Find element By.Name: city
+[2020-12-20 04:48:26.467 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.472 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.597 +03:00] [DBG] Find element By.Name: phone
+[2020-12-20 04:48:26.598 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.603 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.720 +03:00] [DBG] Find element By.Name: firstname
+[2020-12-20 04:48:26.721 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.725 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.883 +03:00] [DBG] Find element By.Name: lastname
+[2020-12-20 04:48:26.884 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:26.890 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.035 +03:00] [DBG] Find element By.Name: company
+[2020-12-20 04:48:27.036 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.041 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.233 +03:00] [DBG] Find element By.Name: address1
+[2020-12-20 04:48:27.234 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.239 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.432 +03:00] [DBG] Find element By.Name: address2
+[2020-12-20 04:48:27.434 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.439 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.641 +03:00] [DBG] Find element By.Name: postcode
+[2020-12-20 04:48:27.642 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.648 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.784 +03:00] [DBG] Find element By.Name: city
+[2020-12-20 04:48:27.785 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:27.791 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:28.030 +03:00] [DBG] Find element By.Name: phone
+[2020-12-20 04:48:28.031 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:28.035 +03:00] [DBG] Wait for the page to load
+[2020-12-20 04:48:28.220 +03:00] [DBG] Thread sleep 1000
+[2020-12-20 04:48:29.220 +03:00] [DBG] Click on the By.XPath: //*[@id='content']/div/div/form/footer/button
+[2020-12-20 04:48:30.738 +03:00] [DBG] Open this instance http://localhost/prestashop_1.7.6.8/addresses
+[2020-12-20 04:48:31.631 +03:00] [DBG] Check that the page is loaded
+[2020-12-20 04:48:31.644 +03:00] [DBG] Click on the By.XPath: //div/section/section/div[1]/article/div[2]/a[2]
+[2020-12-20 04:48:33.525 +03:00] [INF] Test tear down

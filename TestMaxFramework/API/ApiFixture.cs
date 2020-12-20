@@ -29,56 +29,95 @@ namespace TestMaxFramework
         public void CreateManufacturer()
         {
             ManufacturerFactory ManufacturerFactory = new ManufacturerFactory(BaseUrl, Account, Password);
-            Bukimedia.PrestaSharp.Entities.manufacturer Manufacturer = ManufacturerFactory.Get(6);
-            Manufacturer.name = "Iron Maiden";
+            manufacturer Manufacturer = new manufacturer();
+            Manufacturer.name = "Max Iron Maiden";
             Manufacturer.active = 1;
             ManufacturerFactory.Add(Manufacturer);
+            
+        }
+
+        public void UpdateManufacturerById(int id)
+        {
+            ManufacturerFactory ManufacturerFactory = new ManufacturerFactory(BaseUrl, Account, Password);
+            manufacturer Manufacturer = ManufacturerFactory.Get(id);
+            Manufacturer.name = "Max Iron Maiden";
+            Manufacturer.active = 1;
             ManufacturerFactory.Update(Manufacturer);
+
+        }
+
+        public void DeleteManufacturerById(int id)
+        {
+            ManufacturerFactory ManufacturerFactory = new ManufacturerFactory(BaseUrl, Account, Password);
+            manufacturer Manufacturer = ManufacturerFactory.Get(id);
             ManufacturerFactory.Delete(Manufacturer);
         }
-        
-        public void CreateCategory()
-        {
-            Category categ = new Category().FillIn();
-            category category = new category();
-            category.AddName(new Bukimedia.PrestaSharp.Entities.AuxEntities.language { id = 1, Value = categ.CategoryName[0]});
-            //category.id_parent = 3; // This is the beginning category
-            category.AddLinkRewrite(new Bukimedia.PrestaSharp.Entities.AuxEntities.language { id = 1, Value = categ.CategoryName[0].Replace(" ","_").ToLowerInvariant() });
-            category.active = 1;
-            category.is_root_category = 0;
-            //category.id_shop_default = 1;
-            category.position = 1;
-            category.AddDescription(new Bukimedia.PrestaSharp.Entities.AuxEntities.language { id = 1, Value = categ.CategoryDescr});
-            //category.AddMetaDescription(new Bukimedia.PrestaSharp.Entities.AuxEntities.language { id = 1, Value = "test_lang1" });
-            //category.AddMetaKeywords(new Bukimedia.PrestaSharp.Entities.AuxEntities.language { id = 1, Value = "test_lang1" });
-            //category.AddMetaTitle(new Bukimedia.PrestaSharp.Entities.AuxEntities.language { id = 1, Value = "test_lang1" });
 
-            CategoryFactory Category = new CategoryFactory(BaseUrl, Account, Password);
-            Category.Add(category);
+        public void CreateCustomer(int number)
+        {
+            for (int i = 0; i < number; i++)
+            {
+                Profile profile = new Profile().FillIn();
+                customer customer = new customer();
+                customer.active = 1;
+                customer.firstname = profile.FirstName;
+                customer.lastname = profile.LastName;
+                customer.email = profile.Email;
+                customer.passwd = profile.Password;
+                customer.id_shop_group = 1;
+                customer.id_shop = 1;
+                CustomerFactory Customer = new CustomerFactory(BaseUrl, Account, Password);
+                Customer.Add(customer);
+            }
         }
 
-        public void CreateProduct()
+
+        public void CreateCategory(int number)
         {
-            Product prod = new Product().FillIn();
-            product  product = new product();
-            //product.id = 45;
-            //product.active = 1;
-           // product.reference = prod.ProductSku ;
-            product.name.Add(new Bukimedia.PrestaSharp.Entities.AuxEntities.language(1, prod.ProductName));
-            product.condition = "new"; //new, used, refurbished
-            product.AddLinkRewrite(new Bukimedia.PrestaSharp.Entities.AuxEntities.language( 1, prod.ProductSku));
-           // product.id_category_default = 9;
-            //product.price = 1541;
-            product.show_price = 1;
-            product.available_for_order = 1;
+            for (int i = 0; i < number; i ++)
+            {
+                Category categ = new Category().FillIn();
+                category category = new category();
+                category.name.Add(new Bukimedia.PrestaSharp.Entities.AuxEntities.language((long)1, categ.CategoryName[0]));
+                category.id_parent = 2;
+                category.link_rewrite.Add(new Bukimedia.PrestaSharp.Entities.AuxEntities.language((long)1, categ.CategoryName[0].Replace(" ", "-").ToLowerInvariant()));
+                category.active = 1;
+                category.is_root_category = 0;
+                category.active = 1;
+                category.description.Add(new Bukimedia.PrestaSharp.Entities.AuxEntities.language((long)1, categ.CategoryDescr));
+                category.id_shop_default = 1;
+                CategoryFactory Category = new CategoryFactory(BaseUrl, Account, Password);
+                Category.Add(category);
+            }
+        }
 
-            ProductFactory pf = new ProductFactory(BaseUrl, Account, Password);
-
-            pf.Add(product);
-            
-            string t = product.id.ToString();
-            //category.AddMetaTitle(new Bukimedia.PrestaSharp.Entities.AuxEntities.language { id = 1, Value = "test_lang1" });
-
+        public void CreateProduct(int number)
+        {
+            for (int i = 0; i < number; i++)
+            {
+                Product prod = new Product().FillIn();
+                var product = new Bukimedia.PrestaSharp.Entities.product();
+                product.active = 1;
+                product.reference = prod.ProductSku;
+                product.price = decimal.Round(prod.Price, 2);
+                product.show_price = 1;
+                product.available_for_order = 1;
+                product.condition = "new";
+                product.visibility = "both";
+                product.minimal_quantity = 1;
+                product.id_manufacturer = 6;
+                product.is_virtual = 0;
+                product.state = 1;
+                product.cache_default_attribute = 0;
+                product.id_category_default = 6;
+                product.id_tax_rules_group = 1;
+                product.redirect_type = "404";
+                product.name.Add(new Bukimedia.PrestaSharp.Entities.AuxEntities.language((long)1, prod.ProductName));
+                product.link_rewrite.Add(new Bukimedia.PrestaSharp.Entities.AuxEntities.language((long)1, prod.ProductSku));
+                product.description.Add(new Bukimedia.PrestaSharp.Entities.AuxEntities.language((long)1, "<p>" + prod.ProductDescr + "</p>")); product.description_short.Add(new Bukimedia.PrestaSharp.Entities.AuxEntities.language((long)1, "<p>" + prod.ProductDescr + "</p>"));
+                ProductFactory pf = new ProductFactory(BaseUrl, Account, Password);
+                product = pf.Add(product);
+            }
         }
 
 
